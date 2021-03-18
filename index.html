@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nossas Memórias</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <section>
+      <div class="carousel">
+        <div class="slide">
+          <img src="img/home-01.jpg" alt="Slide 1" />
+          <span
+            >Festinha no Torra - 2007 <br />Ana Paula Sirino | @_anaverso</span
+          >
+        </div>
+        <div class="slide">
+          <img src="img/home-02.jpg" alt="Slide 2" />
+          <span
+            >Quinquilharia lll - 2020 / Pintura sobre tela, 100x80cm <br />
+            Pedro Neves | @_mulungu
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script>
+      $('.carousel').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        respondTo: window,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        prevArrow: false,
+        nextArrow: false,
+      });
+    </script>
+  </body>
+</html>
