@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;400;500;600;700;800;900&display=swap');
 :root {
   --font-padrao: 'Fira Sans Extra Condensed', sans-serif;
-  --padding-padrao: 20px 150px;
+  --padding-padrao: 20px 0;
   --cor-verde: #3d604c;
 }
 * {
@@ -41,12 +41,15 @@ a.btn:hover {
   background-color: #fff;
   color: #000;
 }
+.flex-end {
+  align-items: flex-end;
+}
 
 /* página > início*/
-.sobre {
+.container {
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
   padding: var(--padding-padrao);
 }
 img.inicio {
