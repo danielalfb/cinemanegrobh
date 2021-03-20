@@ -15,32 +15,46 @@
       type="text/css"
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/semanadecinemanegro/css/styles.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./semanadecinemanegro/css/main.css"/>
   </head>
   <body>
     <section>
-      <div class="carousel">
-        <div class="slide">
-          <img src="img/home-01.jpg" alt="Slide 1" />
-          <span
-            >Festinha no Torra - 2007 <br />Ana Paula Sirino | @_anaverso</span
-          >
+      <div class="Modern-Slider">
+        <!-- Item -->
+        <div class="item">
+          <div class="img-fill">
+            <img src="./home-01.jpg" alt="">
+            <div class="info">
+              <div class="button-page">
+                <button type="button" onclick="location.href='../semanadecinemanegro/index.html'">Semana de Cinema Negro de Belo Horizonte</button>
+                <button type="button" onclick="location.href='../temporary pages/cndn/index.html'" >Cinema e Narrativas da Diáspora Negra</button>
+              </div>
+              <div class="text">
+                <p>Festinha no Torra - 2007</p>
+                <p>Ana Paula Sirino | @_anaverso</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="slide">
-          <img src="img/home-02.jpg" alt="Slide 2" />
-          <span
-            >Quinquilharia lll - 2020 / Pintura sobre tela, 100x80cm <br />
-            Pedro Neves | @_mulungu
-          </span>
+        <!-- // Item -->
+        <!-- Item -->
+        <div class="item">
+          <div class="img-fill">
+            <img src="./home-02.jpg" alt="">
+            <div class="info">
+              <div class="button-page">
+                <button type="button" onclick="location.href='../semanadecinemanegro/index.html'">Semana de Cinema Negro de Belo Horizonte</button>
+                <button type="button" onclick="location.href='../temporary pages/cndn/index.html'" >Cinema e Narrativas da Diáspora Negra</button>
+              </div>
+              <div class="text">
+                <p>Quinquilharia lll - 2020 / Pintura sobre tela, 100x80cm</p>
+                <p>Pedro Neves | @_mulungu</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- // Item -->
       </div>
     </section>
 
@@ -51,7 +65,7 @@
     ></script>
 
     <script>
-      $('.carousel').slick({
+      $(".Modern-Slider").slick({
         dots: false,
         infinite: true,
         speed: 500,
