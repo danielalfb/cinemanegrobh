@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="pt-BR" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Semana de Cinema Negro de Belo Horizonte</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-  </head>
-  <body>
-    <!--banner:-->
+<?php
+require_once __DIR__ . './function.php';
+getHeader();
+?>
+   <!--banner:-->
     <section>
       <div class="container flex-end">
         <img
@@ -48,5 +43,6 @@
         </div>
       </div>
     </section>
-  </body>
-</html>
+<?php
+getFooter();
+?>

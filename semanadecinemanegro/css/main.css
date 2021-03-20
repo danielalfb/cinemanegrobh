@@ -5,6 +5,7 @@
   --padding-padrao: 20px 0;
   --rmargin-padrao: 30px;
   --cor-verde: #3d604c;
+  --cor-cinza-menu: #5D5D5D;
   --cor-cinza-padrao: #e6e6e6;
   --cor-cinza: #ccc;
   --cor-cinza-escuro: #3b3b3b;
@@ -31,6 +32,126 @@ p {
   line-height: 1.3rem;
   -webkit-margin-after: 1em;
 }
+.banner-header {
+  display: flex;
+  background-color: #000;
+  color: white;
+  width: 100%;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-header p {
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+.social-media {
+  margin-right: 50px;
+}
+.social-media .fab {
+  margin-left: 10px;
+  color: white !important;
+}
+.container .logo-menu {
+  max-width: 250px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.header {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.container .logo-menu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+  width: 250px;
+}
+
+.container .logo-menu a img {
+  max-width: 100%;
+  max-height: 70px;
+  margin-left: 40px;
+}
+
+.container .navbar {
+  padding: 0 10px;
+}
+
+.container .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  margin-right: 200px;
+  padding: 0;
+}
+
+.container .navbar ul li a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  color: var(--cor-cinza-menu);
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.container .navbar ul li a.ativo {
+  color: #000;
+  font-weight: 700;
+}
+
+.container .navbar ul li a:hover {
+  color: #000;
+}
+
+.container .navbar ul .close {
+  display: none;
+  text-align: right;
+  padding: 10px;
+}
+
+.container .navbar ul .close span {
+  font-size: 40px;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-container input {
+  border:none;
+  border-bottom: 1px solid #000;
+  padding: 5px 10px;
+  outline: none;
+  position: absolute;
+  top: 70px;
+}
+.search-container button {
+  background-color: transparent;
+  border-style: none;
+  position: relative;
+  left: 175px;
+  bottom: 10px;
+}
+
 a.btn {
   width: 200px;
   padding: 5px 10px;
