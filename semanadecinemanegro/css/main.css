@@ -42,9 +42,17 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.subtitle {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.banner-header img {
+  height: 20px;
+  margin-right: 10px;
+}
 .banner-header p {
   margin-bottom: 0;
-  margin-left: 50px;
 }
 .social-media {
   margin-right: 50px;

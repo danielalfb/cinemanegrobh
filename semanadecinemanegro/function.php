@@ -14,7 +14,8 @@ function getHeader() { ?>
   <body>
   <!-- HEADER -->
   <div class="banner-header">
-    <p>Festival de Cinema Intercâmbio Cultural Brasil-África</p>
+    <div class="subtitle"><img src="./img/detalhe_topBar.svg"><p>Festival de Cinema Intercâmbio Cultural Brasil-África</p></div>
+    
     <div class="social-media">
      <a href="#"><em class="fab fa-instagram"></em></a>
      <a href="#"><em class="fab fa-facebook-f"></em></a>
