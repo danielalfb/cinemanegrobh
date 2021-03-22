@@ -267,6 +267,7 @@ div.postInfo {
 }
 .postInfo > h2 {
   font-size: 16px;
+  margin-bottom: 2rem;
 }
 .postInfo > h3 {
   font-size: 14px;
@@ -365,7 +366,7 @@ i.fa-external-link-alt {
 div.minCurr {
   width: 400px;
   background-color: var(--cor-verde);
-  padding: 50px 10px 10px 10px;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
   border-radius: 5px;
 }
 
