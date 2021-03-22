@@ -4,6 +4,7 @@
   --font-padrao: 'Fira Sans Extra Condensed', sans-serif;
   --padding-padrao: 20px 0;
   --rmargin-padrao: 30px;
+  --lmargin-padrao: 30px;
   --cor-verde: #3d604c;
   --cor-cinza-menu: #5d5d5d;
   --cor-cinza-padrao: #e6e6e6;
@@ -243,8 +244,7 @@ a.btn:hover {
   padding: var(--padding-padrao);
 }
 
-/* bloco: filmes */
-div.filmeBox {
+div.postBox {
   display: flex;
   align-items: center;
   padding: 10px;
@@ -256,33 +256,40 @@ div.filmeBox {
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
   transition: 0.3s;
 }
+
+div.postInfo {
+  width: 100%;
+}
+.postInfo > h1 {
+  font-size: 20px;
+}
+.postInfo > h2 {
+  font-size: 16px;
+}
+.postInfo > h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--cor-cinza-escuro);
+}
+.postInfo > p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-transform: none;
+}
+
+div.postImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bloco: filmes */
 div.filmeImg {
   width: 350px;
   height: 100%;
   border-radius: 5px;
   margin-right: var(--rmargin-padrao);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-div.filmeInfo {
-  width: 100%;
-}
-.filmeInfo > h1 {
-  font-size: 20px;
-}
-.filmeInfo > h2 {
-  font-size: 16px;
-}
-.filmeInfo > h3 {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--cor-cinza-escuro);
-}
-.filmeInfo > p {
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: none;
 }
 
 div.btn-filmes {
@@ -341,6 +348,42 @@ i.fa-chevron-down {
 }
 i.fa-external-link-alt {
   color: #fff;
+}
+
+/* bloco: oficinas */
+.minInfoImg {
+  width: 120px;
+  height: 120px;
+  margin-bottom: -50px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid var(--cor-verde);
+  backdrop-filter: blur(2px);
+}
+div.minCurr {
+  width: 400px;
+  background-color: var(--cor-verde);
+  padding: 50px 10px 10px 10px;
+  border-radius: 5px;
+  margin-left: var(--lmargin-padrao);
+}
+div.minInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.minCurr > p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: none;
+}
+.minCurr > p:first-child {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+.postInfo > p:last-child {
+  font-weight: 300;
 }
 
 /* página > início*/
