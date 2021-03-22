@@ -61,7 +61,7 @@ function getHeader() { ?>
 <!-- FOOTER -->
 <footer id="footer">
      <div class="logo-footer">
-        <a href="./inicio.html"><img src="./img/logo.svg" class="logo" alt="Logo Footer"/></a>
+        <a href="./inicio.html"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
       </div>
       <div class="nav-footer-left">
         <ul id="nav-footer-list">

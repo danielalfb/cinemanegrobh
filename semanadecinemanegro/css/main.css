@@ -221,8 +221,9 @@ a.btn {
   transition: 0.3s;
 }
 a.btn:hover {
-  background-color: #fff;
   color: #000;
+  background-color: var(--cor-cinza-padrao);
+  border-color: var(--cor-cinza-padrao);
 }
 .flex-end {
   align-items: flex-end;
