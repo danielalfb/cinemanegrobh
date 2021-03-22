@@ -34,7 +34,15 @@ function getHeader() { ?>
         <ul id="nav-list">
           <li><a class="ativo" href="#">Início</a></li>
           <li><a href="#">Programação</a></li>
-          <li><a href="#">Mostras</a></li>
+         <div class="dropdown">
+             <li><a href="#">Mostras <em class="fas fa-chevron-down"></em></a></li>
+             <div class="dropdown-content">
+                <li><a href="#">Mostra Principal</a></li>
+                <li><a href="#">Mostra Brasileira</a></li>
+                <li><a href="#">Mostra Paralela</a></li>
+                <li><a href="#">Mostra Homangem</a></li>
+             </div>
+         </div>
           <li><a href="#">Catálogo</a></li>
           <li><a href="#">Créditos</a></li>
           <div class="search-container">
