@@ -32,6 +32,7 @@ p {
   line-height: 1.3rem;
   -webkit-margin-after: 1em;
 }
+/*  HEADER   */
 .banner-header {
   display: flex;
   background-color: #000;
@@ -150,6 +151,30 @@ p {
   position: relative;
   left: 175px;
   bottom: 10px;
+}
+
+.conteudo {
+  display: none;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #000;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 a.btn {
@@ -356,4 +381,74 @@ justify-content: space-evenly;
 
 .Modern-Slider .item .info .text p {
   margin-bottom: 0 !important;
+}
+
+/* FOOTER  */ 
+#footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+}
+#footer .logo-footer {
+  margin: 0 50px;
+}
+
+#footer .logo-footer img {
+  width: 125px;
+  height: auto;
+}
+
+
+#footer .nav-footer-left, 
+#footer .nav-footer-dir {
+  padding: 0 50px;
+  border-right: 1px solid var(--cor-cinza-menu);
+}
+
+#footer .nav-footer-left ul, 
+#footer .nav-footer-dir ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer .nav-footer-left ul li a, 
+#footer .nav-footer-dir ul li a {
+  font-family: var(--font-padrao);
+  text-decoration: none;
+  color: var(--cor-cinza-menu);
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 35px;
+  cursor: pointer;
+  padding: 0 10px;
+  font-weight: 500;
+}
+#footer .text-footer {
+  height: 75%;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-padrao);
+  color: #fff;
+  border-right: 1px solid var(--cor-cinza-menu);
+}
+#footer .text-footer p {
+  padding: 0 150px;
+}
+#footer .social-media {
+  display: flex;
+  margin: 0 50px;
+}
+#footer .social-media .fab {
+  font-size: 30px;
 }
