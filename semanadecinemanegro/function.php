@@ -37,10 +37,11 @@ function getHeader() { ?>
          <div class="dropdown">
              <li><a href="#">Mostras <em class="fas fa-chevron-down"></em></a></li>
              <div class="dropdown-content">
-                <li><a href="#">Mostra Principal</a></li>
-                <li><a href="#">Mostra Brasileira</a></li>
-                <li><a href="#">Mostra Paralela</a></li>
-                <li><a href="#">Mostra Homangem</a></li>
+                <li><a href="#">Maria José Novais Oliveira - Nossa atriz</a></li>
+                <li><a href="#">Cinemas Africanos em revista: as origens do FESPACO</a></li>
+                <li><a href="#">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
+                <li><a href="#">Cinema, negritude e poesia: uma homenagem a Sarah Maldoror</a></li>
+                <li><a href="#">Cine-Escrituras Pretas</a></li>
              </div>
          </div>
           <li><a href="#">Catálogo</a></li>

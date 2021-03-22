@@ -5,7 +5,7 @@
   --padding-padrao: 20px 0;
   --rmargin-padrao: 30px;
   --cor-verde: #3d604c;
-  --cor-cinza-menu: #5D5D5D;
+  --cor-cinza-menu: #5d5d5d;
   --cor-cinza-padrao: #e6e6e6;
   --cor-cinza: #ccc;
   --cor-cinza-escuro: #3b3b3b;
@@ -61,7 +61,7 @@ p {
 .header {
   display: flex !important;
   justify-content: space-between !important;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
 }
 .container .logo-menu a {
   display: -webkit-box;
@@ -99,10 +99,10 @@ p {
 }
 
 .container .navbar ul li a {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: var(--font-padrao);
   text-decoration: none;
   color: var(--cor-cinza-menu);
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   display: block;
   height: 60px;
@@ -139,7 +139,7 @@ p {
   align-items: center;
 }
 .search-container input {
-  border:none;
+  border: none;
   border-bottom: 1px solid #000;
   padding: 5px 10px;
   outline: none;
@@ -158,7 +158,9 @@ p {
   display: none;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 35px;
   height: 5px;
   background-color: #000;
@@ -171,7 +173,9 @@ p {
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+  opacity: 0;
+}
 
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
@@ -187,12 +191,15 @@ p {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
   z-index: 1;
 }
 .container .navbar .dropdown .dropdown-content li a {
   height: 30px;
-  line-height: 35px;
+  line-height: 40px;
+  font-weight: 400;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #f0f0f0;
 }
 .container .navbar .dropdown:hover .dropdown-content {
   display: block;
@@ -329,7 +336,7 @@ i.fa-external-link-alt {
 
 /* página > início*/
 img.inicio {
-  width: 650px;
+  width: 550px;
   margin-right: var(--rmargin-padrao);
 }
 div.paragrafo-inicio {
@@ -343,7 +350,7 @@ div.btn-inicio {
 }
 
 /* ==== Main CSS === */
-.img-fill{
+.img-fill {
   display: block;
   overflow: hidden;
   position: relative;
@@ -358,20 +365,20 @@ div.btn-inicio {
 }
 
 .slick-slide {
-  float: left /* If RTL Make This Right */ ;
+  float: left /* If RTL Make This Right */;
   padding: 0;
 }
 
 .Modern-Slider .button-page {
-position: absolute;
-display: flex;
-width: 100%;
-height: 100%;
-top: 150px;
-justify-content: space-evenly;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 150px;
+  justify-content: space-evenly;
 }
 .Modern-Slider .button-page button {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 20px;
@@ -383,20 +390,20 @@ justify-content: space-evenly;
   height: 70px;
   cursor: pointer;
 }
-.Modern-Slider .item .img-fill .info{
-  position:absolute;
-  width:100%;
-  height:100%;
-  top:0px;
-  color:white;
+.Modern-Slider .item .img-fill .info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  color: white;
   display: flex;
   align-items: flex-end;
   margin-left: 15px;
   margin-top: -30px;
 }
 
-.Modern-Slider .item .info .text{
-  display:inline-block !important;
+.Modern-Slider .item .info .text {
+  display: inline-block !important;
   width: 100%;
 }
 
@@ -404,7 +411,7 @@ justify-content: space-evenly;
   margin-bottom: 0 !important;
 }
 
-/* FOOTER  */ 
+/* FOOTER  */
 #footer {
   display: flex;
   align-items: center;
@@ -423,14 +430,13 @@ justify-content: space-evenly;
   height: auto;
 }
 
-
-#footer .nav-footer-left, 
+#footer .nav-footer-left,
 #footer .nav-footer-dir {
   padding: 0 50px;
   border-right: 1px solid var(--cor-cinza-menu);
 }
 
-#footer .nav-footer-left ul, 
+#footer .nav-footer-left ul,
 #footer .nav-footer-dir ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,7 +448,7 @@ justify-content: space-evenly;
   padding: 0;
 }
 
-#footer .nav-footer-left ul li a, 
+#footer .nav-footer-left ul li a,
 #footer .nav-footer-dir ul li a {
   font-family: var(--font-padrao);
   text-decoration: none;
@@ -464,7 +470,7 @@ justify-content: space-evenly;
   border-right: 1px solid var(--cor-cinza-menu);
 }
 #footer .text-footer p {
-  padding: 0 150px;
+  padding: 0 80px;
 }
 #footer .social-media {
   display: flex;
