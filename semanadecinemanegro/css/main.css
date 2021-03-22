@@ -3,8 +3,8 @@
 :root {
   --font-padrao: 'Fira Sans Extra Condensed', sans-serif;
   --padding-padrao: 20px 0;
-  --rmargin-padrao: 30px;
-  --lmargin-padrao: 30px;
+  --rmargin-padrao: 3rem;
+  --lmargin-padrao: 3rem;
   --cor-verde: #3d604c;
   --cor-cinza-menu: #5d5d5d;
   --cor-cinza-padrao: #e6e6e6;
@@ -237,6 +237,7 @@ a.btn:hover {
 .flex-end {
   align-items: flex-end;
 }
+
 .container {
   width: 100%;
   display: flex;
@@ -247,8 +248,8 @@ a.btn:hover {
 div.postBox {
   display: flex;
   align-items: center;
-  padding: 10px;
   width: 80%;
+  padding: 1rem;
   border-radius: 10px;
   font-weight: 600;
   text-transform: uppercase;
@@ -259,6 +260,7 @@ div.postBox {
 
 div.postInfo {
   width: 100%;
+  margin-right: var(--rmargin-padrao);
 }
 .postInfo > h1 {
   font-size: 20px;
@@ -365,8 +367,8 @@ div.minCurr {
   background-color: var(--cor-verde);
   padding: 50px 10px 10px 10px;
   border-radius: 5px;
-  margin-left: var(--lmargin-padrao);
 }
+
 div.minInfo {
   display: flex;
   flex-direction: column;
