@@ -1,6 +1,44 @@
-@media screen and (max-width:650px) {
-    .conteudo {
-        display: inline-block;
-        cursor: pointer;
-      }
+@media screen and (max-width: 650px) {
+  .conteudo {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .container,
+  .collapsible,
+  .content,
+  a.btn,
+  .postInfo .info {
+    width: 100%;
+  }
+
+  .container {
+    justify-content: center;
+    margin: 2em auto;
+  }
+  div.postBox {
+    flex-direction: column;
+    padding: 0.6em;
+  }
+  div.filmeImg {
+    height: 200px;
+    margin-bottom: 0.6em;
+  }
+  div.filmeImg,
+  div.postInfo {
+    width: 100%;
+    margin-right: 0;
+  }
+  .postInfo > h2 {
+    margin-bottom: 0;
+  }
+  .postInfo .info {
+    margin-bottom: 0.6em;
+  }
+  div.btn-filmes {
+    flex-direction: column;
+  }
+  a.btn {
+    padding: 5px 0;
+  }
 }
