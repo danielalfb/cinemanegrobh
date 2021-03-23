@@ -7,6 +7,7 @@
   --lmargin-padrao: 3rem;
   --cor-verde: #3d604c;
   --cor-salmao: #e56161;
+  --cor-laranja: #ff8c1a;
   --cor-cinza-menu: #5d5d5d;
   --cor-cinza-claro: #f3f3f3;
   --cor-cinza-padrao: #e6e6e6;
@@ -395,16 +396,17 @@ div.minInfo {
 
 /* bloco: banner-title */
 .mainBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   background-color: var(--cor-cinza-claro);
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 40px;
 }
 
 .mainInfo > .title {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   padding-bottom: 50px;
   text-transform: uppercase;
   font-size: 26px;
@@ -412,7 +414,7 @@ div.minInfo {
 }
 
 .title > svg {
-  height: 24px;
+  height: 26px;
   margin-right: 10px;
 }
 
@@ -422,7 +424,8 @@ div.minInfo {
 }
 
 .mainIllus > img {
-  height: 550px;
+  max-width: 550px;
+  max-height: 550px;
   margin: 10px 40px 0 0;
 }
 
