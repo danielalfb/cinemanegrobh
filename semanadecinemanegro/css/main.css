@@ -6,7 +6,9 @@
   --rmargin-padrao: 3rem;
   --lmargin-padrao: 3rem;
   --cor-verde: #3d604c;
+  --cor-salmao: #e56161;
   --cor-cinza-menu: #5d5d5d;
+  --cor-cinza-claro: #f3f3f3;
   --cor-cinza-padrao: #e6e6e6;
   --cor-cinza: #ccc;
   --cor-cinza-escuro: #3b3b3b;
@@ -248,7 +250,7 @@ a.btn:hover {
 div.postBox {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 90%;
   padding: 1rem;
   border-radius: 10px;
   font-weight: 600;
@@ -360,12 +362,12 @@ i.fa-external-link-alt {
   margin-bottom: -50px;
   position: relative;
   border-radius: 50%;
-  border: 5px solid var(--cor-verde);
+  border: 5px solid var(--cor-salmao);
   backdrop-filter: blur(2px);
 }
 div.minCurr {
   width: 400px;
-  background-color: var(--cor-verde);
+  background-color: var(--cor-salmao);
   padding: 4rem 1.5rem 1.5rem 1.5rem;
   border-radius: 5px;
 }
@@ -387,6 +389,41 @@ div.minInfo {
 }
 .postInfo > p:last-child {
   font-weight: 300;
+}
+
+/* bloco: debates */
+
+/* bloco: banner-title */
+.mainBanner {
+  width: 100%;
+  background-color: var(--cor-cinza-claro);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.mainInfo > .title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.title > svg {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.mainInfo {
+  width: 600px;
+  padding: var(--lmargin-padrao);
+}
+
+.mainIllus > img {
+  height: 550px;
+  margin: 10px 40px 0 0;
 }
 
 /* página > início*/
