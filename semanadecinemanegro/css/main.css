@@ -8,6 +8,10 @@
   --cor-verde: #3d604c;
   --cor-salmao: #e56161;
   --cor-laranja: #ff8c1a;
+  --cor-laranjao: #f15a24;
+  --cor-rosinha: #ffb9b6;
+  --cor-marrom: #522319;
+  --cor-azul: #0566c6;
   --cor-cinza-menu: #5d5d5d;
   --cor-cinza-claro: #f3f3f3;
   --cor-cinza-padrao: #e6e6e6;
@@ -414,7 +418,7 @@ div.minInfo {
 }
 
 .title > svg {
-  height: 26px;
+  width: 70px;
   margin-right: 10px;
 }
 
