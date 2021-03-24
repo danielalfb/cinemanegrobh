@@ -499,7 +499,6 @@ div.debateInfo {
   background-color: var(--cor-cinza-claro);
   margin-bottom: 40px;
 }
-
 .mainInfo > .title {
   display: flex;
   align-items: baseline;
@@ -508,22 +507,18 @@ div.debateInfo {
   font-size: 24px;
   font-weight: 600;
 }
-
 .mainInfo > .creditos {
   padding-bottom: 0;
 }
-
 .title > svg {
   width: 50px;
   margin-right: 10px;
 }
-
 .mainInfo {
   width: 600px;
   max-width: 100%;
   padding: var(--lmargin-padrao);
 }
-
 .mainIllus > img {
   max-width: 550px;
   max-height: 550px;
@@ -543,10 +538,10 @@ div.debateInfo {
   padding: 0 2em 3em 2em;
 }
 .teamSing > h1 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .teamSing > h2 {
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 500;
 }
 
