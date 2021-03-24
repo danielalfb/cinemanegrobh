@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
-:root {
-  --font-principal: 'Fira Sans';
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500&display=swap');
 
 * {
   margin: 0;
@@ -9,40 +6,70 @@
 }
 
 body {
-  font-family: var(--font-principal), sans-serif;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
-.carousel {
-  width: 100%;
-  max-height: 100%;
-  top: 0;
-  margin: 0 auto;
-}
-.carousel img {
-  width: 100%;
-  height: 100%;
-}
-
-.slide {
+/* ==== Main CSS === */
+.img-fill {
+  display: block;
+  overflow: hidden;
   position: relative;
 }
 
-.slide span {
+.img-fill img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  max-width: none;
+}
+
+.slick-slide {
+  float: left /* If RTL Make This Right */;
+  padding: 0;
+}
+
+.Modern-Slider .button-page {
   position: absolute;
-  width: 350px;
-  top: 50px;
-  margin-left: 190px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 150px;
+  justify-content: space-evenly;
+}
+.Modern-Slider .button-page button {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  width: 360px;
+  height: 70px;
   padding: 10px;
-
-  font-size: 1vw;
-  font-weight: 300;
-  line-height: 1.5em;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0, 0.8);
   border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.Modern-Slider .item .img-fill .info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 15px;
+  margin-top: -30px;
+}
 
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+.Modern-Slider .item .info .text {
+  display: inline-block !important;
+  width: 100%;
+}
+
+.Modern-Slider .item .info .text p {
+  margin-bottom: 0 !important;
 }

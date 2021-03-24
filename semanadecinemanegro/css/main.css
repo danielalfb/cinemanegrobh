@@ -542,67 +542,7 @@ div.btn-inicio {
   margin-top: 60px;
 }
 
-/* ==== Main CSS === */
-.img-fill {
-  display: block;
-  overflow: hidden;
-  position: relative;
-}
 
-.img-fill img {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  display: flex;
-  max-width: none;
-}
-
-.slick-slide {
-  float: left /* If RTL Make This Right */;
-  padding: 0;
-}
-
-.Modern-Slider .button-page {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  top: 150px;
-  justify-content: space-evenly;
-}
-.Modern-Slider .button-page button {
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  color: white;
-  font-size: 20px;
-  letter-spacing: 2px;
-  background-color: transparent;
-  border-style: none;
-  line-height: 1.3;
-  width: 350px;
-  height: 70px;
-  cursor: pointer;
-}
-.Modern-Slider .item .img-fill .info {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  color: white;
-  display: flex;
-  align-items: flex-end;
-  margin-left: 15px;
-  margin-top: -30px;
-}
-
-.Modern-Slider .item .info .text {
-  display: inline-block !important;
-  width: 100%;
-}
-
-.Modern-Slider .item .info .text p {
-  margin-bottom: 0 !important;
-}
 
 /* FOOTER  */
 #footer {
