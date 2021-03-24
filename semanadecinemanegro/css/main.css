@@ -530,6 +530,26 @@ div.debateInfo {
   margin: 10px 40px 0 0;
 }
 
+/*bloco: creditos*/
+
+.teamContainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.teamContainer > .teamSing {
+  width: 200px;
+  padding: 0 2em 3em 2em;
+}
+.teamSing > h1 {
+  font-size: 1.5em;
+}
+.teamSing > h2 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
 /* página > início*/
 img.inicio {
   width: 550px;
@@ -544,7 +564,6 @@ div.btn-inicio {
   justify-content: space-between;
   margin-top: 60px;
 }
-
 /* FOOTER  */
 #footer {
   display: flex;

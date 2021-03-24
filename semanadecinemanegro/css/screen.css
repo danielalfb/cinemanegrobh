@@ -30,13 +30,13 @@
   .collapsible,
   .content,
   a.btn,
-  .postInfo .info {
+  .postInfo .info,
+  .teamContainer > .teamSing {
     width: 100%;
   }
-
   .container {
     justify-content: center;
-    margin: 2em auto;
+    margin: 1em auto;
   }
   div.postBox {
     flex-direction: column;
