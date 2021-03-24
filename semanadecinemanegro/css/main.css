@@ -6,9 +6,9 @@
   --rmargin-padrao: 3rem;
   --lmargin-padrao: 3rem;
   --cor-verde: #3d604c;
-  --cor-salmao: #e56161;
+  --cor-salmao: #ff6161;
   --cor-laranja: #ff8c1a;
-  --cor-laranjao: #f15a24;
+  --cor-laranjao: #ff5a19;
   --cor-rosinha: #ffb9b6;
   --cor-marrom: #522319;
   --cor-azul: #0566c6;
@@ -514,7 +514,7 @@ div.debateInfo {
 }
 
 .title > svg {
-  width: 70px;
+  width: 50px;
   margin-right: 10px;
 }
 
@@ -525,8 +525,7 @@ div.debateInfo {
 }
 
 .mainIllus > img {
-  width: 550px;
-  max-width: 100%;
+  max-width: 550px;
   max-height: 550px;
   margin: 10px 40px 0 0;
 }

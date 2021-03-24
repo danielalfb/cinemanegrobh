@@ -3,7 +3,29 @@
     display: inline-block;
     cursor: pointer;
   }
-
+  .mainBanner {
+    justify-content: center !important;
+  }
+  .mainIllus,
+  .dowloadContainer {
+    margin: 0 0 1em 0;
+  }
+  .mainIllus > img {
+    max-width: 100%;
+    margin: 0;
+  }
+  .mainInfo {
+    padding: 20px;
+  }
+  .mainInfo > .title {
+    font-size: 20px;
+  }
+  .title > svg {
+    display: none;
+  }
+  .title > svg.notHidden {
+    display: flex;
+  }
   .container,
   .collapsible,
   .content,
@@ -40,5 +62,14 @@
   }
   a.btn {
     padding: 5px 0;
+  }
+  div.minCurr {
+    width: 86%;
+  }
+  .debateBox {
+    margin: 1em;
+  }
+  .debateInfo > ul li .debateImg {
+    margin-right: 0.5em;
   }
 }
