@@ -223,6 +223,42 @@ p {
   display: block;
 }
 
+/* bloco: banner-title */
+.mainBanner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--cor-cinza-claro);
+  margin-bottom: 40px;
+}
+.mainInfo > .title {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.mainInfo > .creditos {
+  padding-bottom: 0;
+}
+.title > svg {
+  width: 50px;
+  margin-right: 10px;
+}
+.mainInfo {
+  width: 600px;
+  max-width: 100%;
+  padding: var(--lmargin-padrao);
+}
+.mainIllus > img {
+  max-width: 550px;
+  max-height: 550px;
+  margin: 10px 40px 0 0;
+}
+
 a.btn {
   width: 200px;
   padding: 5px 10px;
@@ -254,7 +290,7 @@ a.btn:hover {
   padding: var(--padding-padrao);
 }
 
-.containerFilme {
+.containerColumn {
   flex-direction: column;
   align-items: center;
 }
@@ -493,42 +529,6 @@ div.debateInfo {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
-}
-
-/* bloco: banner-title */
-.mainBanner {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  background-color: var(--cor-cinza-claro);
-  margin-bottom: 40px;
-}
-.mainInfo > .title {
-  display: flex;
-  align-items: baseline;
-  padding-bottom: 50px;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 600;
-}
-.mainInfo > .creditos {
-  padding-bottom: 0;
-}
-.title > svg {
-  width: 50px;
-  margin-right: 10px;
-}
-.mainInfo {
-  width: 600px;
-  max-width: 100%;
-  padding: var(--lmargin-padrao);
-}
-.mainIllus > img {
-  max-width: 550px;
-  max-height: 550px;
-  margin: 10px 40px 0 0;
 }
 
 /*bloco: creditos*/
