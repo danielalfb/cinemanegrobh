@@ -3,7 +3,7 @@
 :root {
   --font-padrao: 'Fira Sans Extra Condensed', sans-serif;
   --padding-padrao: 20px 0;
-  --rmargin-padrao: 3rem;
+  --rmargin-padrao: 2rem;
   --lmargin-padrao: 3rem;
   --cor-verde: #3d604c;
   --cor-salmao: #ff6161;
@@ -254,6 +254,11 @@ a.btn:hover {
   padding: var(--padding-padrao);
 }
 
+.containerFilme {
+  flex-direction: column;
+  align-items: center;
+}
+
 div.postBox {
   display: flex;
   align-items: center;
@@ -262,6 +267,7 @@ div.postBox {
   border-radius: 10px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
   transition: 0.3s;
@@ -276,7 +282,7 @@ div.postInfo {
 }
 .postInfo > h2 {
   font-size: 16px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .postInfo > h3 {
   font-size: 14px;
@@ -297,8 +303,8 @@ div.postImg {
 }
 
 /* bloco: filmes */
-div.filmeImg {
-  width: 350px;
+.postBox > div.filmeImg {
+  width: 400px;
   height: 100%;
   border-radius: 5px;
   margin-right: var(--rmargin-padrao);
