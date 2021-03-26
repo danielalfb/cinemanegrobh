@@ -340,7 +340,7 @@ div.postImg {
 
 /* bloco: filmes */
 .postBox > div.filmeImg {
-  width: 400px;
+  width: 600px;
   height: 250px; /*TENTAR FAZER COM QUE FIQUE 100%*/
   border-radius: 5px;
   margin-right: var(--rmargin-padrao);
