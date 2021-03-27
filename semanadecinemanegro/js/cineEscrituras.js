@@ -11,7 +11,7 @@ var sessaoEspecial = [
       'Geralda está trabalhando em seu quiosque à beira de uma praia no Recôncavo da  Bahia, ela recebe um telefonema do hospital dizendo que seu pai pode morrer a qualquer momento.  Ela avisa suas irmãs Rose, Bel e Vilmar. O encontro promovido pela espera da morte se torna um  momento de desabafo e reconhecimentos das quatro irmãs que não se reúnem desde a morte da  mãe, há 15 anos.',
     sinopseEng:
       'Geralda is working at her stand by the beach in Reconcavo da Bahia; she receives a call from the hospital saying that her father might die at any moment. She gives the news to her sisters: Rose, Bel, and Vilmar. The reunion caused by the wait for death becomes a moment for getting things off their chests and acknowledgements for the four sisters who are meeting for the first time since the death of their mother, 15 years ago. ',
-    img: 'CEP_ATÉ O FIM.png',
+    img: 'CEP_ATEOFIM.png',
     imgDir: 'maybe',
     link: '/',
   },
@@ -170,7 +170,7 @@ var sessaoAfetos = [
     sinopseEng:
       'Through images of a personal archive and reflections on the ambivalences that sometimes become attached to relationships full of love, “To the Planets Edge Mama’s Breath Sent Us” shows passages of affection between two lesbians and their mothers.',
     img:
-      'CEP_ABEIRADOPLANETAMAINHASOPROUAGENTE_BRUNABARROS.jpg\r\n\r\n\r\n\r\n',
+      'CEP_ABEIRADOPLANETAMAINHASOPROUAGENTE.png',
     imgDir: 'maybe',
     link: '/',
   },
@@ -184,7 +184,7 @@ var sessaoAfetos = [
       'Três jovens negros da favela de Heliópolis saem em busca de refúgio na vida noturna LGBT+ do centro da cidade de São Paulo.',
     sinopseEng:
       'Three young blacks from the Heliópolis suburb go out seeking refuge in the LGBT+ nightlife of downtown São Paulo. ',
-    img: 'CEP_BONDE_ASAPHLUCCAS.png',
+    img: 'CEP_BONDE.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -200,7 +200,7 @@ var sessaoAfetos = [
       'CANDOMBE DO AÇUDE - o passado contado pelo canto - é uma série de três documentários sobre o quilombo do Açude. O primeiro episódio - PANDEMIA - ISOLAMENTO OU RESPIRO - retrata sobre como foi o ritual do Candombe durante a pandemia no ano de 2020 e mostra como a nova geração vivenciou e sentiu a manifestação de suas tradições, pela primeira vez em 20 anos sem a influência de visitantes.',
     sinopseEng:
       '“CANDOMBE DO AÇUDE: the past told through singing” is a series of three documentaries on quilombo do Açude. The first episode “PANDEMIC – ISOLATION OR RELIEF” presents how the Candombe ritual took place during the 2020 pandemic and shows how the new generation experienced and felt the manifestation of their traditions, which, for the first time in 20 years, were practiced without the influence of visitors. ',
-    img: 'CEP_CANDOMBEDOACUDE_DANILOCANDOMBE.jpeg',
+    img: 'CEP_CAMDOMBEDOACUDE.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -214,7 +214,7 @@ var sessaoAfetos = [
       'Toumani Kouyaté, junto a outros mais de 40 cidadãos malineses que moravam fora, foi convocado por seu avô a retornar com urgência ao Mali, para ouvi-lo contar uma última história. Sentindo a morte se aproximar, ele precisava passar segredos da nação para a linhagem de Djélis mais jovens. A cultura oral, capaz de protegê-los de guerras e crises, é também um componente social e político importante que pedia continuidade. Nesta aventura real, descobrimos um universo nunca antes visto pelo mundo.',
     sinopseEng:
       'Toumani Kouyaté, alongside  other 40 Malian citizens who lived abroad, was summoned back by his grandfather to urgently return to Mali in order to hear him tell a final story. Feeling the death getting closer, his grandfather needed to pass on the secrets of the nation to the younger lineage of Djélis. The oral culture, capable of protecting them from wars and crisis, is also an important social and political element that needed to be maintained. In this real adventure, we find out about a universe never seen before by the world.',
-    img: 'CEP_ENTRENOSUMSEGREDO_BREATRIZSEIGNER.jpg',
+    img: 'CEP_ENTRENOSUMSEGREDO.png',
     imgDir: 'maybe',
     link: '/',
   },
@@ -228,7 +228,7 @@ var sessaoAfetos = [
       'O documentário: Filhas de Lavadeira apresenta histórias de Mulheres Negras que graças ao trabalho árduo de suas mães puderam ir para escola e refazer os caminhos trilhados pelas suas antecessoras. Suas memórias, alegrias e tristezas, dores e poesias se fazem presente como possibilidades de um novo destino. Transformando o duro trabalho das lavadeiras em um espetáculo de vida e plenitude.',
     sinopseEng:
       'The documentary: Filhas de Lavadeira presents stories of Black Women who, thanks to the hard work of their mothers, were able to go to school and retrace the paths trailed by their ancestors. Their memories, joys and sorrows, pains and poetries become present as possibilities of a new fate turning the hard work of lavadeiras [washerwomen] into a spectacle of life and fullness.',
-    img: 'CEP_FILHASDELAVADEIRA_EDILEUZAPENHADESOUZA.jpeg',
+    img: 'CEP_FILHASDELAVADEIRA.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -242,7 +242,7 @@ var sessaoAfetos = [
       'Em Salvador (Brasil), todo ano acontece a grande e tradicional festa para Senhor do Bonfim, onde fiéis, turistas e foliões, peregrinam até a famosa igreja para amarrar fitas e fazer pedidos. Dois irmãos, Pedro e Gabriel, ouvem desde cedo as histórias e rezas de sua avó ao Senhor do Bonfim e decidem fugir no dia da lavagem, se aventurar entre a multidão, para tentar pedir por uma bola de futebol, já que cresceram sem uma figura paterna. Lá confrontam as narrativas de sua avó, com a lavagem atual, trazendo questões sobre religiosidade, sincretismo, manifestação popular, e importância da família.\r\n',
     sinopseEng:
       'In Salvador (Brazil), the magnificent and traditional celebration in honor of Senhor do Bonfim takes place every year. Devotees, tourists, and revelers go on a pilgrimage to this famous church to tie their ribbons and make wishes. Two brothers, Pedro and Gabriel, since an early age, heard the stories and prayers of their grandmother to Senhor do Bonfim. They decided to run away on the day of the washing of the stairways of Bonfim, venturing into the crowd, in an attempt to make a wish for a soccer ball, since they grew up without a father figure. When they arrive at the church, they have to confront their grandmother’s narrative against the current stairways washing, raising questions on religiousness, syncretism, popular demonstration, and the importance of family.',
-    img: 'CEP_5FITAS_HERALDODEDEUSVILMAMARTINS.jpeg',
+    img: 'CEP_5FITAS.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -254,7 +254,7 @@ var sessaoAfetos = [
       '<li>direção director Maick Hannder</li><li>roteiro script Maick Hannder</li><li>produção production Jacon Dias, Bruno Greco</li><li>fotografia cinematography Maick Hannder</li><li>montagem editing Maick Hannder</li> <li>arte e figurino art and costume design Dayane Tropicaos</li><li>som sound Maick Hannder, Pedro Mancini, Yara Tôrres</li><li>trilha sonora original original soundtrack </li><li>elenco principal main cast Arthur Diniz, João Victor</li><li>empresa produtora production company Ponta de Anzol Filmes</li><li>contato contact producao@pontadeanzol.com.br</li><li>Classificação Indicativa 16 anos</li>',
     sinopsePt: 'Vi um rapaz atravessando a rua hoje.',
     sinopseEng: ' I saw a young man crossing the street today.',
-    img: 'CEP_LOOPING_MAICKHANNDER.jpg',
+    img: 'CEP_LOOPING.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -268,7 +268,7 @@ var sessaoAfetos = [
       'Tereza, nascida na pandemia do Coronavírus  em 2020, é cuidada por seus pais Rimenna e Gabriel.',
     sinopseEng:
       'Tereza is born during the 2020 Coronavirus pandemic; she is taken care of by her parents Rimenna and Gabriel.',
-    img: 'CEP_MOVIMENTO_GABRIELMARTINS.jpg',
+    img: 'CEP_MOVIMENTO.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -280,7 +280,7 @@ var sessaoAfetos = [
       '<li>direção director Safira Moreira</li><li>produção production Safira Moreira</li><li>fotografia cinematography Safira Moreira</li><li>montagem editing Safira Moreira</li><li>som sound Safira Moreira, Rose Juam </li><li>trilha sonora original original soundtrack Lucas Carvalho </li><li>contato contact safiramoreira1@gmail.com</li><li>Classificação Indicativa Livre</li>',
     sinopsePt: 'Um rio e seus afluentes.',
     sinopseEng: 'A river and its tributaries.',
-    img: 'CEP_NASCENTE_SAFIRAMOREIRA.heic',
+    img: 'CEP_NASCENTE.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -294,7 +294,7 @@ var sessaoAfetos = [
       'Luan Manzo tem seis anos e é bisneto da matriarca Mametu Muiande do Quilombo Manzo N’gunzo  Kaiango, um dos quilombos reconhecidos pela cidade de Belo Horizonte. Fundado em 1970 por um  preto velho, pai Benedito, Manzo é palácio de rei, governado por uma rainha. Ali germinam sementes  e crianças, num processo educativo - a afrobetização - que afirma a organização, o coletivo, a  ancestralidade e a circularidade do povo negro. As crianças no quilombo crescem sabendo-se  respeitadas, e por isso Luan percorre aqui o espaço sagrado, descrevendo-o a nós com segurança, conhecimento, rigor e frescor infantil. É ele quem, com um celular em mãos, propõe este filme.',
     sinopseEng:
       'Luan Manzo is six years-old and he is the great-grandson of Mametu Muiande matriarch of the Quilombo Manzo N’gunzo Kaiango, one of the most renowned quilombos across the city of Belo Horizonte. Established in 1970 by a Preto Velho, father Benedito, the Manzo quilombo is a king’s palace, governed by a queen. There, seeds and children are sprouted in an educational process – the afroliteracy – that affirms the organization, the collective, the ancestry, and the circularity of the black people. The children in the quilombo grow up knowing that they are respected; therefore, here Luan moves along the sacred space, describing it to us with safety, knowledge, rigor, and infantile eyes. It is he who, with a cellphone in hands, offers us this film.',
-    img: 'CEP_OLHOSDEERE_LUANMANZO.jpg',
+    img: 'CEP_OLHOSDEERE.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -308,7 +308,7 @@ var sessaoAfetos = [
       'Luz e Denise cresceram em meio às adversidades de ser LGBT no extremo sul da cidade de São Paulo. Entre o vogue e as poesias, do louvor ao acesso à cidade. Os sonhos e incertezas da juventude inundam suas existências.',
     sinopseEng:
       'Luz and Denise grew up amongst the hardships of being LGBT at the extreme south of the city of São Paulo. Between the vogue and the poetries, from praises to the access to the city,  the dreams and uncertainties of youth flood their existence.',
-    img: 'CEP_PERIFERICU_NAYMENDLjpg',
+    img: 'CEP_PERIFERICU.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -322,7 +322,7 @@ var sessaoAfetos = [
       'Val e suas duas filhas vivem numa casa de 16 metros quadrados. Certa madrugada, mãe e filhas são subitamente acordadas com palmas e alguém chamando por Val no portão. A voz é de Neném Preto, amigo de Val e dono do mercadinho.',
     sinopseEng:
       'Val and her two daughters live  in a 170 square feet house. Early one morning, mother and daughters are rudely awakened by somebody clapping and calling Val at the front gate. The voice belongs to Neném Preto, Val’s friend and owner of the local grocery store. ',
-    img: 'CEP_RA_ANAFLAVIACAVALCANTIJULIAZAKI.jpg',
+    img: 'CEP_RA.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -338,7 +338,7 @@ var sessaoGritos = [
       'Um grupo de jovens amigos encontram na música a resistência frente ao mercado de trabalho e as adversidades sociais.',
     sinopseEng:
       'A group of young friends find in music the strength to resist in face of the job market and the social adversities.',
-    img: 'CEP_23MINUTOS_RODRIGOBEETZ.jpeg',
+    img: 'CEP_23MINUTOS.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -352,7 +352,7 @@ var sessaoGritos = [
       'As ruas estão desertas, eles fogem buscando a paz, mas a paz é nossa inimiga.',
     sinopseEng:
       'Streets are deserted, they run away in search of peace, but peace is our enemy.',
-    img: 'CEP_CALMARIA_CATAPRETA.jpeg',
+    img: 'CEP_CALMARIA.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -366,7 +366,7 @@ var sessaoGritos = [
       'A partir de uma análise inédita de iconografia histórica e relatos orais de sua própria família, a artista visual Aline Motta traz à tona hipóteses possíveis sobre as origens de sua tataravó. Há indícios de que ela tenha nascido por volta de 1855 em uma fazenda de café em Vassouras, zona rural do Rio de Janeiro, considerado o epicentro do escravismo brasileiro no século XIX.',
     sinopseEng:
       'Departing from an unprecedented historical and iconographic analysis and oral reports from her own family, the visual artist Aline Motta puts forward possible hypotheses on the origins of her great-great grandmother. There is evidence that she was born around 1855 in a coffee farm in Vassouras, in the rural zone of Rio de Janeiro, which is considered the epicenter of Brazilian slavery in the 19th century.',
-    img: 'CEP_FILHANATURAL_ALINEMOTTA.jpg',
+    img: 'CEP_FILHANATURAL.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -380,7 +380,7 @@ var sessaoGritos = [
       'A intervenção visa uma caminhada simbólica até à exaustão. A intervenção propõe o aquecimento pré-liminar que antecede um combate de titãs num ringue de boxe. A intervenção consiste no movimento do performer intuindo a queda repentina quando afetado por perfurações por balas de armas semiautomáticas.\r\n \r\nAs pessoas negras no Brasil ainda representam mais de metade da população do país. Entre 2005 e 2015 o número de pessoas negras assassinadas aumentou 18% e isso nos tornou também a maior parte das vítimas de homicídio, tendo correspondido a 71% do total de corpos registrados. - in Fórum Brasileiro de Segurança Pública (2017).\r\n',
     sinopseEng:
       'The intervention is a symbolic walk to exhaustion. The intervention proposes the pre-liminary warm-up that precedes a fight of titans in a boxing ring. The intervention consists of the movement of the performer sensing the sudden fall when affected by perforations by bullets of semi-automatic weapons.\r\n \r\nBlack people in Brazil are still more than half of the population of the country. Between 2005 and 2015 the number of black people murdered increased by 18% and this also made us the majority of homicide victims, accounting for 71% of all registered bodies. - in Brazilian Forum of Public Security (2017).\r\n',
-    img: 'CEP_INTERVECAOJAH_DANIELSANTOS.jpeg',
+    img: 'CEP_INTERVENCAOJAH.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -394,7 +394,7 @@ var sessaoGritos = [
       'Fui contemplada num programa de redução de danos da burguesia: um final de semana num casarão que meu avô já trabalhou! Depois de anos só cortando dobrado... a bicha preta quer virar artista de cinema. Será que eu estraguei seu filme?',
     sinopseEng:
       'I was awarded with a program of damage reduction of the bourgeoisie: a weekend in a mansion that my grandfather had worked before! After several years of hard work … the black queer here wants to become a film artist. Did I mess up your film?',
-    img: 'CEP_MORDEASSOPRA_STANLEYALBANO.png',
+    img: 'CEP_MORDEASSOPRA.png',
     imgDir: 'maybe',
     link: '/',
   },
@@ -408,7 +408,7 @@ var sessaoGritos = [
       'Jesus recebe uma chuva de benção após ser batizado nas águas sagradas da piscina mil litros. Com isso ele recebe suficiente força para combater o mal. A justiça divina, no entanto, falha, e o herói acaba morto no colo da senhora, sua mãe.',
     sinopseEng:
       'Jesus receives a shower of blessings after being baptised in the sacred waters of an inflatable swimming pool. With the blessings, He has sufficient strength to fight evil. The divine justice, however, fails and our hero ends up dead in the arms of our lady, His mother.',
-    img: 'CEP_PIETA_ASTALAVISTAS.png',
+    img: 'CEP_PIETA.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -422,7 +422,7 @@ var sessaoGritos = [
       'Rebu é um documentário em primeira pessoa que se propõe a investigar dentro da minha vivência sapatão as diversas performances de masculinidade, levando em conta meus três últimos relacionamentos e também entrevistas com o homem com o qual eu cresci, meu pai. O filme pretende abordar com descontração, temáticas como o talento paquerador, flexibilidade com a verdade, relacionamento abusivo, irresponsabilidade afetiva, reprodução de machismo, impulsividade e romance. Temas que permeiam a vida dos dois personagens, mesmo que separados por um recorte geracional, cultural e de gênero.',
     sinopseEng:
       'Rebu is a first-person documentary that aims to look into my lesbian life experience and the various masculinity performances, taking into account my last three relationships as well as interviews with the man with whom I grew up, my father. The film intends to approach, in a casual way, themes such as the flirting talent, truth flexibility, abusive relationships, affective irresponsibility, sexism reproduction, impulsiveness, and romance. Themes that permeate the life of both characters, even if they are separate by different generational, cultural, and gender cutouts.',
-    img: 'CEP_REBU_MAYARASANTANA.jpeg',
+    img: 'CEP_REBU.png',
     imgDir: 'maybe',
     link: '/',
   },
@@ -434,7 +434,7 @@ var sessaoGritos = [
       '<li>direção director Lucas H. Rossi dos Santos</li><li>roteiro script Fermino Neto, Antonio Molina Burnes</li><li>produção production Lucas H. Rossi dos Santos, Fabiane Zanol, Maria Aparecida Rossi, Edna Gramasco</li><li> montagem editing Lucas H. Rossi dos Santos</li><li>som sound Pedro Salles Santiago</li><li>elenco principal main cast Tim Mais, Nina Simone, Victoria Santa Cruz, Fela Kuti</li><li>empresa produtora production company Baraúna, Coletivo Preto, Quarentena Voadora</li><li>contato contact  arapuafilmes@gmail.com</li><li>Classificação Indicativa 14 anos</li>',
     sinopsePt: 'Um ensaio perto sobre trens, praias e ocupação de espaço.',
     sinopseEng: 'A black essay on trains, beaches, and space occupation.',
-    img: 'CEP_SERFELIZNOVAO_LUCASHROSSIDOSSANTOS.jpg',
+    img: 'CEP_SERFELIZNOVAO.jpeg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -448,7 +448,7 @@ var sessaoGritos = [
       'Pois o limite das linguagens usadas para descrever nossas transfigurações, é a palavra. A palavra Travesti é um limite, um convite e um lembrete. E minha escuridão pré-existe à raça e ao gênero. A comunidade é, ao mesmo tempo, veneno e mel. Eu sou bantu. Eu sou a mensageira que anuncia a transmutação que nomeamos de Travesti.',
     sinopseEng:
       'For the limit of languages used to describe our transfigurations is… the word. The word Travesti is a limitation, an invitation, and a reminder. And my darkness pre-exists race and gender. The community is, at the same time, poisonous and sweet. I am bantu. I am the messenger that announces the transmutation that we name Travesti.',
-    img: 'CEP_SERFELIZNOVAO_LUCASHROSSIDOSSANTOS.jpg',
+    img: 'CEP_UMANOITESEMLUA.jpg',
     imgDir: 'maybe',
     link: '/',
   },
@@ -462,57 +462,138 @@ var sessaoGritos = [
       'Luan trabalha como bikeboy de aplicativo e enfrenta dilemas e preconceitos na sua jornada diária de entregas em uma cidade grande. Sem hesitar, sonha com um futuro melhor.',
     sinopseEng:
       'Luan works delivering food on a bicycle while having to face dilemmas and discrimination on his  journey in a big city. Without hesitating he dreams of a better future.',
-    img: 'CEP_VOCETEMOLHOSTRISTES_DIOGOLEITE.png',
-    imgDir: 'maybe',
-    link: '/',
-  },
-];
-var boxContent = [
-  {
-    tituloPt: 'ATÉ O FIM',
-    tituloEng: ' ',
-    localDuracao: 'BAHIA, 2020, 93’',
-    fichaTecnica:
-      '<li>direção director Ary Rosa, Glenda Nicácio</li><li>roteiro script Ary Rosa</li> <li>fotografia cinematography Augusto Bortolini, Poliana Costa, Thacle de Souza</li><li>arte e figurino art and costume design Glenda Nicácio</li><li>som sound Napoleão Cunha</li><li>elenco principal main cast Maíra Azevedo, Arlete Dias, Wal Diaz, Jenny Muler</li><li>empresa produtora production company Rosza Filmes Produções</li><li>contato contact roszafilmesproducoes@gmail.com</li><li>Classificação Indicativa 14 anos</li>',
-    sinopsePt:
-      'Geralda está trabalhando em seu quiosque à beira de uma praia no Recôncavo da  Bahia, ela recebe um telefonema do hospital dizendo que seu pai pode morrer a qualquer momento.  Ela avisa suas irmãs Rose, Bel e Vilmar. O encontro promovido pela espera da morte se torna um  momento de desabafo e reconhecimentos das quatro irmãs que não se reúnem desde a morte da  mãe, há 15 anos.',
-    sinopseEng:
-      'Geralda is working at her stand by the beach in Reconcavo da Bahia; she receives a call from the hospital saying that her father might die at any moment. She gives the news to her sisters: Rose, Bel, and Vilmar. The reunion caused by the wait for death becomes a moment for getting things off their chests and acknowledgements for the four sisters who are meeting for the first time since the death of their mother, 15 years ago. ',
-    img: 'CEP_ATEOFIM.png',
+    img: 'CEP_VOCETEMOLHOSTRISTES.png',
     imgDir: 'maybe',
     link: '/',
   },
 ];
 
-function createData() {
-  for (let i = 0; i < boxContent.length; i++) {
+function createDataSession1() {
+  var sesTitle = document.createElement('a');
+  sesTitle.className = 'sessionTitle';
+  sesTitle.innerHTML = 'SESSÃO ESPECIAL</a> <em class="fas fa-chevron-down"></em>';
+  container.appendChild(sesTitle);
+  for (let i = 0; i < sessaoEspecial.length; i++) {
     var postBox = document.createElement('div');
-    var sesTitle = document.createElement('h1');
-    sesTitle.className = 'sessionTitle';
-    sesTitle.innerHTML = 'SESSÃO ESPECIAL';
     postBox.className = 'postBox';
     postBox.innerHTML =
       '<div class="postImg filmeImg" style="background-image: url(&#39;' +
       src +
-      boxContent[i].img +
+     sessaoEspecial[i].img +
       '&#39;)"> </div>' +
       '<div class="postInfo"><h1>' +
-      boxContent[i].tituloPt +
+     sessaoEspecial[i].tituloPt +
       '</h1><h2>' +
-      boxContent[i].tituloEng +
+     sessaoEspecial[i].tituloEng +
       '</h2><h3>' +
-      boxContent[i].localDuracao +
+     sessaoEspecial[i].localDuracao +
       '</h3><p>' +
-      boxContent[i].sinopsePt +
+     sessaoEspecial[i].sinopsePt +
       '</p><p>' +
-      boxContent[i].sinopseEng +
+     sessaoEspecial[i].sinopseEng +
       '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
-      boxContent[i].fichaTecnica +
+     sessaoEspecial[i].fichaTecnica +
       '</ul></div></div><a href="' +
-      boxContent[i].link +
+      sessaoEspecial[i].link +
       '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
-    container.appendChild(sesTitle);
     container.appendChild(postBox);
   }
 }
-createData();
+function createDataSession2() {
+  var sesTitle = document.createElement('a');
+  sesTitle.className = 'sessionTitle';
+  sesTitle.innerHTML = 'VIVÊNCIAS AFRO-DIASPÓRICAS</a> <em class="fas fa-chevron-down"></em>';
+  container.appendChild(sesTitle);
+  for (let i = 0; i < sessaoVivencias.length; i++) {
+    var postBox = document.createElement('div');
+    postBox.className = 'postBox';
+    postBox.innerHTML =
+      '<div class="postImg filmeImg" style="background-image: url(&#39;' +
+      src +
+     sessaoVivencias[i].img +
+      '&#39;)"> </div>' +
+      '<div class="postInfo"><h1>' +
+     sessaoVivencias[i].tituloPt +
+      '</h1><h2>' +
+     sessaoVivencias[i].tituloEng +
+      '</h2><h3>' +
+     sessaoVivencias[i].localDuracao +
+      '</h3><p>' +
+     sessaoVivencias[i].sinopsePt +
+      '</p><p>' +
+     sessaoVivencias[i].sinopseEng +
+      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
+     sessaoVivencias[i].fichaTecnica +
+      '</ul></div></div><a href="' +
+      sessaoVivencias[i].link +
+      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
+    container.appendChild(postBox);
+  }
+}
+function createDataSession3() {
+  var sesTitle = document.createElement('a');
+  sesTitle.className = 'sessionTitle';
+  sesTitle.innerHTML = 'AFETOS E PARTILHAS</a> <em class="fas fa-chevron-down"></em>';
+  container.appendChild(sesTitle);
+  for (let i = 0; i < sessaoAfetos.length; i++) {
+    var postBox = document.createElement('div');
+    postBox.className = 'postBox';
+    postBox.innerHTML =
+      '<div class="postImg filmeImg" style="background-image: url(&#39;' +
+      src +
+     sessaoAfetos[i].img +
+      '&#39;)"> </div>' +
+      '<div class="postInfo"><h1>' +
+     sessaoAfetos[i].tituloPt +
+      '</h1><h2>' +
+     sessaoAfetos[i].tituloEng +
+      '</h2><h3>' +
+     sessaoAfetos[i].localDuracao +
+      '</h3><p>' +
+     sessaoAfetos[i].sinopsePt +
+      '</p><p>' +
+     sessaoAfetos[i].sinopseEng +
+      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
+     sessaoAfetos[i].fichaTecnica +
+      '</ul></div></div><a href="' +
+      sessaoAfetos[i].link +
+      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
+    container.appendChild(postBox);
+  }
+}
+function createDataSession4() {
+  var sesTitle = document.createElement('a');
+  sesTitle.className = 'sessionTitle';
+  sesTitle.innerHTML = 'GRITOS E FABULAÇÕES DE CURA</a> <em class="fas fa-chevron-down"></em>';
+  container.appendChild(sesTitle);
+  for (let i = 0; i < sessaoGritos.length; i++) {
+    var postBox = document.createElement('div');
+    postBox.className = 'postBox';
+    postBox.innerHTML =
+      '<div class="postImg filmeImg" style="background-image: url(&#39;' +
+      src +
+     sessaoGritos[i].img +
+      '&#39;)"> </div>' +
+      '<div class="postInfo"><h1>' +
+     sessaoGritos[i].tituloPt +
+      '</h1><h2>' +
+     sessaoGritos[i].tituloEng +
+      '</h2><h3>' +
+     sessaoGritos[i].localDuracao +
+      '</h3><p>' +
+     sessaoGritos[i].sinopsePt +
+      '</p><p>' +
+     sessaoGritos[i].sinopseEng +
+      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
+     sessaoGritos[i].fichaTecnica +
+      '</ul></div></div><a href="' +
+      sessaoGritos[i].link +
+      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
+    container.appendChild(postBox);
+  }
+}
+
+createDataSession1();
+createDataSession2();
+createDataSession3();
+createDataSession4();
