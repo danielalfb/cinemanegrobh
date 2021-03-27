@@ -310,10 +310,17 @@ a.btn:hover {
   align-items: center;
 }
 
+a.sessionTitle {
+  display: flex;
+  width: 91%;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
 .sessionTitle {
   display: flex;
   justify-content: start;
-  padding-bottom: 2rem;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 600;
@@ -331,6 +338,9 @@ div.postBox {
 
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
   transition: 0.3s;
+}
+div.hidden {
+  display: none;
 }
 
 div.postInfo {

@@ -108,6 +108,7 @@ function getFooter() { ?>
     </div>      
   </footer>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </html>
 <?php }
 
@@ -158,4 +159,5 @@ function getFooterOpen() { ?>
       <div class="clearfix"></div>
     </div>      
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <?php }
