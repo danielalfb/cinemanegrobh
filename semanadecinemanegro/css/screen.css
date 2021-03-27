@@ -84,3 +84,9 @@
     width: 40%;
   }
 }
+
+@media screen and (min-width: 2560px) {
+  .footer-distributed .footer-left {
+    width: 26%;
+  }
+}
