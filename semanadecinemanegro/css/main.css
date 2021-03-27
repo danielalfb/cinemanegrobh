@@ -242,7 +242,6 @@ p {
   justify-content: space-between;
   width: 100%;
   background-color: var(--cor-cinza-claro);
-  margin-bottom: 40px;
 }
 .mainInfo {
   width: 700px;
@@ -302,7 +301,8 @@ a.btn:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: var(--padding-padrao);
+  padding: var(--padding-padrao);  
+   margin-top: 40px; 
 }
 
 .containerColumn {
@@ -668,7 +668,7 @@ margin-left: 20px;
   clear: both;
 }
 .patrocinio {
-  background-color: var(--cor-cinza-claro);
+  background-color: var(--cor-cinza-padrao);
   width: 100%;
   height: 30%;
   display: flex;
