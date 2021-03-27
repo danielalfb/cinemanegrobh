@@ -62,12 +62,11 @@ function getHeader() { ?>
 function getFooter() { ?>
   <!-- FOOTER -->
   <div class="patrocinio"><img src="./img/regua-patrocinioCentralizada.svg" alt=""></div>
-  <footer id="footer">
-      <div class="logo-footer">
-          <a href="./inicio.php"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
-        </div>
-        <div class="contain">
-        <div class="col abertura">
+  <footer class="footer-distributed">
+
+<div class="footer-left">
+  <a href="./inicio.php"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
+  <div>
           <ul>
             <li><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
             <li><a href="./mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
@@ -75,38 +74,38 @@ function getFooter() { ?>
             <li><a href="./mostra_homenagem.php">Cinema, negritude e poesia: uma homenagem a Sarah Maldoror</a></li>
             <li><a href="./cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
         </ul>
-        </div>
-        <div class="col">
-          <ul>
+    </div>
+</div>
+
+<div class="footer-center">
+      <ul>
             <li><a href="./oficinas.php">Oficinas</a></li>
             <li><a href="./debates.php">Debates</a></li>
             <li><a href="./programacao.php">Programação</a></li>
             <li><a href="./catalogo.php">Catálogo</a></li>
             <li><a href="./creditos.php">Créditos</a></li>
           </ul>
-        </div>
-        <div class="col description">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-              amet diam sit amet quam mattis maximus. Proin congue justo vitae
-              diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-              tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-              imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-              eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-              gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-              blandit finibus.
-        </p>
-        </div>
-      <div class="social-media col">
-        <ul>
-          <li><a href="#"><em class="fab fa-instagram" title="Abrir Instagram"></em></a></li>
-          <li><a href="#"><em class="fab fa-facebook-f" title="Abrir Facebook"></em></a></li>
-          <li><a href="#"><em class="fab fa-youtube" title="Abrir Youtube"></em></a></li>
-        </ul>
-      </div>
-      <div class="clearfix"></div>
-    </div>      
-  </footer>
+</div>
+<div class="footer-right">
+  <p class="footer-about">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
+      amet diam sit amet quam mattis maximus. Proin congue justo vitae
+      diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
+      tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
+      imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
+      eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
+      gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
+      blandit finibus.
+
+</p>
+</div>
+<div class="border"></div>
+<div class="footer-icons">
+    <a href="#"><em class="fab fa-instagram"></em></a>
+    <a href="#"><em class="fab fa-facebook-f"></em></a>
+    <a href="#"><em class="fab fa-youtube"></em></a>
+  </div>
+</footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </html>
@@ -114,12 +113,11 @@ function getFooter() { ?>
 
 function getFooterOpen() { ?>
 <div class="patrocinio"><img src="./img/regua-patrocinioCentralizada.svg" alt=""></div>
-<footer id="footer">
-     <div class="logo-footer">
-        <a href="./inicio.php"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
-      </div>
-      <div class="contain">
-      <div class="col abertura">
+<footer class="footer-distributed">
+
+<div class="footer-left">
+  <a href="./inicio.php"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
+  <div>
           <ul>
             <li><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
             <li><a href="./mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
@@ -127,37 +125,37 @@ function getFooterOpen() { ?>
             <li><a href="./mostra_homenagem.php">Cinema, negritude e poesia: uma homenagem a Sarah Maldoror</a></li>
             <li><a href="./cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
         </ul>
-        </div>
-        <div class="col">
-          <ul>
+    </div>
+</div>
+
+<div class="footer-center">
+      <ul>
             <li><a href="./oficinas.php">Oficinas</a></li>
             <li><a href="./debates.php">Debates</a></li>
             <li><a href="./programacao.php">Programação</a></li>
             <li><a href="./catalogo.php">Catálogo</a></li>
             <li><a href="./creditos.php">Créditos</a></li>
           </ul>
-        </div>
-        <div class="col description">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-              amet diam sit amet quam mattis maximus. Proin congue justo vitae
-              diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-              tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-              imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-              eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-              gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-              blandit finibus.
-        </p>
-        </div>
-      <div class="social-media col">
-        <ul>
-          <li><a href="#"><em class="fab fa-instagram" title="Abrir Instagram"></em></a></li>
-          <li><a href="#"><em class="fab fa-facebook-f" title="Abrir Facebook"></em></a></li>
-          <li><a href="#"><em class="fab fa-youtube" title="Abrir Youtube"></em></a></li>
-        </ul>
-      </div>
-      <div class="clearfix"></div>
-    </div>      
-  </footer>
+</div>
+<div class="footer-right">
+  <p class="footer-about">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
+      amet diam sit amet quam mattis maximus. Proin congue justo vitae
+      diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
+      tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
+      imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
+      eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
+      gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
+      blandit finibus.
+
+</p>
+</div>
+<div class="border"></div>
+<div class="footer-icons">
+    <a href="#"><em class="fab fa-instagram"></em></a>
+    <a href="#"><em class="fab fa-facebook-f"></em></a>
+    <a href="#"><em class="fab fa-youtube"></em></a>
+  </div>
+</footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <?php }
