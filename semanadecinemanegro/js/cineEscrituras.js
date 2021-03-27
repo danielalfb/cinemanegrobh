@@ -506,7 +506,7 @@ function createDataSession2() {
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoVivencias.length; i++) {
     var postBox = document.createElement('div');
-    postBox.className = 'postBox';
+    postBox.className = 'postBox hidden';
     postBox.innerHTML =
       '<div class="postImg filmeImg" style="background-image: url(&#39;' +
       src +
@@ -537,7 +537,7 @@ function createDataSession3() {
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoAfetos.length; i++) {
     var postBox = document.createElement('div');
-    postBox.className = 'postBox';
+    postBox.className = 'postBox hidden';
     postBox.innerHTML =
       '<div class="postImg filmeImg" style="background-image: url(&#39;' +
       src +
@@ -568,7 +568,7 @@ function createDataSession4() {
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoGritos.length; i++) {
     var postBox = document.createElement('div');
-    postBox.className = 'postBox';
+    postBox.className = 'postBox hidden';
     postBox.innerHTML =
       '<div class="postImg filmeImg" style="background-image: url(&#39;' +
       src +
@@ -592,8 +592,14 @@ function createDataSession4() {
     container.appendChild(postBox);
   }
 }
-
 createDataSession1();
 createDataSession2();
 createDataSession3();
 createDataSession4();
+
+$('.hidden').hide();
+$(document).ready(function () {
+  $(".sessionTitle").click(function(){
+    $(this).nextAll('.postBox').slice(0, 12).toggle();
+  });
+});
