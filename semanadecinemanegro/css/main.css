@@ -597,17 +597,17 @@ div.btn-inicio .btn {
   margin-left: 20px;
 }
 /* FOOTER  */
-footer{
-	position: relative;
-	bottom: 0;
+footer {
+  position: relative;
+  bottom: 0;
 }
 
-.footer-distributed{
-	background-color: #000;
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	padding: 60px 0;
+.footer-distributed {
+  background-color: #000;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 60px 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -628,80 +628,80 @@ footer{
 
 /* Footer left */
 
-.footer-distributed .footer-left{
-	width: 35%;
+.footer-distributed .footer-left {
+  width: 35%;
   display: flex;
   border-right: 1px solid #fff;
 }
 
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
 }
 
 /* The company logo */
 
-.footer-distributed .footer-left img{
-	width: 50%;
+.footer-distributed .footer-left img {
+  width: 50%;
 }
 
 /* Footer links */
 
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
 }
 
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Footer Center */
 
-.footer-distributed .footer-center{
-	width: 10%;
+.footer-distributed .footer-center {
+  width: 10%;
   border-right: 1px solid #fff;
   display: flex;
 }
 
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-	vertical-align: middle;
-	margin:0;
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
 }
 
 /* Footer Right */
-.footer-distributed .footer-right{
-	width: 30%;
+.footer-distributed .footer-right {
+  width: 30%;
   display: flex;
 }
 
-.footer-distributed .footer-about{
-	line-height: 20px;
-	color:  #fff;
-	font-size: 13px;
+.footer-distributed .footer-about {
+  line-height: 20px;
+  color: #fff;
+  font-size: 13px;
   font-family: var(--font-padrao);
-	font-weight: normal;
+  font-weight: normal;
 }
-.footer-distributed .footer-icons{
-	margin-top: 25px;
+.footer-distributed .footer-icons {
+  margin-top: 25px;
   display: flex;
 }
 
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
 }
 .border {
   border-left: 1px solid #fff;
@@ -712,6 +712,7 @@ footer{
   height: 30%;
   display: flex;
   align-items: center;
+  padding: 20px 0;
 }
 .patrocinio img {
   width: 100%;
