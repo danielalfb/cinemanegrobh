@@ -80,6 +80,9 @@
 /* You can remove below code if you don't want Footer to be responsive */
 
 @media screen and (max-width: 1440px) {
+  .mainInfo {
+    width: 650px;
+  }
   .footer-distributed .footer-left {
     width: 40%;
   }
