@@ -1,6 +1,6 @@
 var container = document.querySelector('.container');
 var src = './img/filmes/';
-var donaZeze = [
+var boxContent = [
   {
     tituloPt: 'ALZHEIMER',
     tituloEng: '',
@@ -43,29 +43,29 @@ var donaZeze = [
 ];
 
 function createData() {
-  for (i = 0; i < donaZeze.length; i++) {
+  for (i = 0; i < boxContent.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox';
     postBox.innerHTML =
       '<div class="postImg filmeImg" style="background-image: url(&#39;' +
       src +
-      donaZeze[i].img +
+      boxContent[i].img +
       '&#39;)"> </div>' +
       '<div class="postInfo"><h1>' +
-      donaZeze[i].tituloPt +
+      boxContent[i].tituloPt +
       '</h1><h2>' +
-      donaZeze[i].tituloEng +
+      boxContent[i].tituloEng +
       '</h2><h3>' +
-      donaZeze[i].localDuracao +
+      boxContent[i].localDuracao +
       '</h3><p>' +
-      donaZeze[i].sinopsePt +
+      boxContent[i].sinopsePt +
       '</p><p>' +
-      donaZeze[i].sinopseEng +
-      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-chevron-down"></i></button><div class="content"> <ul>' +
-      donaZeze[i].fichaTecnica +
+      boxContent[i].sinopseEng +
+      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
+      boxContent[i].fichaTecnica +
       '</ul></div></div><a href="' +
-      donaZeze[i].link +
-      '" class="btn" target="_blank">Assista o filme </a></div></div></div></div>';
+      boxContent[i].link +
+      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
     container.appendChild(postBox);
   }
 }

@@ -260,6 +260,10 @@ p {
 }
 
 a.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
   width: 200px;
   padding: 5px 10px;
   color: #fff;
@@ -311,7 +315,6 @@ div.postBox {
 
 div.postInfo {
   width: 100%;
-  margin-right: var(--rmargin-padrao);
 }
 .postInfo > h1 {
   font-size: 20px;
@@ -354,11 +357,14 @@ div.btn-filmes {
 }
 .collapsible,
 .content {
-  width: 500px;
+  width: 600px;
   border-radius: 5px;
 }
 .collapsible {
   font-family: var(--font-padrao);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #000;
   font-weight: 400;
   font-size: 18px;
@@ -395,13 +401,8 @@ div.btn-filmes {
   font-weight: 400;
 }
 i.fas {
-  font-size: 20px;
-}
-i.fa-chevron-down {
-  color: #000;
-}
-i.fa-external-link-alt {
-  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 /* bloco: oficinas */
