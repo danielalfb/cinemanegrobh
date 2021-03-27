@@ -233,6 +233,11 @@ p {
   background-color: var(--cor-cinza-claro);
   margin-bottom: 40px;
 }
+.mainInfo {
+  width: 700px;
+  max-width: 100%;
+  padding: var(--lmargin-padrao);
+}
 .mainInfo > .title {
   display: flex;
   align-items: baseline;
@@ -247,11 +252,6 @@ p {
 .title > svg {
   width: 50px;
   margin-right: 10px;
-}
-.mainInfo {
-  width: 600px;
-  max-width: 100%;
-  padding: var(--lmargin-padrao);
 }
 .mainIllus > img {
   max-width: 550px;
