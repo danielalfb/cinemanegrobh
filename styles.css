@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500&display=swap');
-
+:root {
+  --cor-cinza-claro: #f3f3f3;
+  --cor-cinza-padrao: #e6e6e6;
+}
 * {
   margin: 0;
   padding: 0;
@@ -41,17 +44,25 @@ body {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  color: white;
-  font-size: 20px;
+  color: #000;
+  font-size: 1em;
   letter-spacing: 2px;
   line-height: 1.3;
-  width: 360px;
-  height: 70px;
-  padding: 10px;
-  background-color: rgb(0, 0, 0, 0.8);
+  width: 320px;
+  height: 60px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  transition: 0.3s;
+
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
+}
+.Modern-Slider .button-page button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
 }
 .Modern-Slider .item .img-fill .info {
   position: absolute;
