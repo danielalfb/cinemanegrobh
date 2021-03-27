@@ -36,13 +36,13 @@ getHeader();
             euismod.
           </p>
           <div class="btn-inicio">
-            <a href="/" class="btn">Link da plataforma</a>
-            <a href="/" class="btn">Programação</a>
-            <a href="/" class="btn">Catálogo</a>
+            <a href="/" class="btn" title="Link da plataforma">Link da plataforma</a>
+            <a href="/" class="btn" title="Programação">Programação</a>
+            <a href="/" class="btn" title="Catálogo">Catálogo</a>
           </div>
         </div>
       </div>
     </section>
 <?php
-getFooter();
+  getFooter();
 ?>

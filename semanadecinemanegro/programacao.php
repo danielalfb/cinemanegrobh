@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="pt-BR" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Mostra "Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano"
-    </title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/screen.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
-    />
-  </head>
-  <body>
+<?php
+require_once __DIR__ . './function.php';
+getHeader();
+?>
     <section>
       <div class="mainBanner">
         <div class="mainInfo">
@@ -29,6 +17,7 @@
               viewBox="0 0 124.5 58.9"
               style="enable-background: new 0 0 124.5 58.9"
               xml:space="preserve"
+              class="notHidden"
             >
               <title>Setas detalhe posicionadas antes do título</title>
 
@@ -42,9 +31,7 @@
                 d="M39.9,29.4L11.1,58.2L0,47.6l18.4-18.2L0,11.2L11.1,0.6L39.9,29.4z M91.3,10.4l-18.7,19l18.7,18.9L80.2,58.9  L62.1,40.2L44,58.9L32.9,48.3l18.7-18.9l-18.7-19L44,0l18.1,18.7L80.2,0L91.3,10.4z M124.5,11.2l-18.4,18.2l18.4,18.2l-11.2,10.6  L84.5,29.4l28.8-28.8L124.5,11.2z"
               />
             </svg>
-            <h1>Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</br><span 
-              style="font-size: 24px; color:var(--cor-cinza-escuro);"
-                >Surreal16 Collective, A New Look at Nigerian Cinema</span></h1>
+            <h1>Programação</h1>
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
@@ -56,6 +43,8 @@
             gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
             blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
             turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
+          </p>
+          <p>
             Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
             rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
             vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
@@ -67,13 +56,13 @@
             dictum erat at massa eleifend euismod.
           </p>
         </div>
-        <div class="mainIllus"><img src="img/surreal16.png" alt="" /></div>
+        <div class="mainIllus dowloadContainer">
+          <div class="pdfCover"></div>
+          <p>Confira a programação completa do Festival.</p>
+          <a href="/" class="btn">DOWNLOAD PDF</a>
+        </div>
       </div>
     </section>
-    <section>
-      <div class="container containerColumn"></div>
-    </section>
-    <script src="js/surreal16.js"></script>
-    <script src="js/collapse.js"></script>
-  </body>
-</html>
+<?php
+getFooter();
+?>

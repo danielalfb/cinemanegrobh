@@ -72,4 +72,11 @@
   .debateInfo > ul li .debateImg {
     margin-right: 0.5em;
   }
+  /* FOOTER   */
+  #footer .col {
+    width: 50%;
+  }
+  #footer .col ul li a {
+    font-size: 13px;
+  }
 }

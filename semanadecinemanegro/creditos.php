@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="pt-BR" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Créditos</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/screen.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
-    />
-  </head>
-  <body>
+<?php
+require_once __DIR__ . './function.php';
+getHeader();
+?>
     <section>
       <div class="mainBanner">
         <div class="mainInfo">
@@ -55,5 +45,6 @@
         </div>
       </div>
     </section>
-  </body>
-</html>
+<?php
+  getFooter();
+?>

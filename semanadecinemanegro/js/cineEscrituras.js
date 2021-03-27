@@ -18,7 +18,7 @@ var boxContent = [
 ];
 
 function createData() {
-  for (i = 0; i < boxContent.length; i++) {
+  for (let i = 0; i < boxContent.length; i++) {
     var postBox = document.createElement('div');
     var sesTitle = document.createElement('h1');
     sesTitle.className = 'sessionTitle';
