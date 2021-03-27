@@ -36,7 +36,7 @@ function getHeader() { ?>
             <li><a class="ativo" href="./inicio.php">Início</a></li>
             <li><a href="./programacao.php">Programação</a></li>
            <div class="dropdown">
-               <li><a href="#">Mostras <em class="fas fa-chevron-down"></em></a></li>
+               <li><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
                   <li><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
                   <li><a href="./mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
