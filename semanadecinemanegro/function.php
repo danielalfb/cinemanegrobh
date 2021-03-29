@@ -45,6 +45,14 @@ function getHeader() { ?>
                   <li><a href="./cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
                </div>
            </div>
+           <div class="dropdown">
+               <li><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
+               <div class="dropdown-content">
+                  <li><a href="./oficinas.php">Oficinas</a></li>
+                  <li><a href="./debates.php">Debates</a></li>
+                  
+               </div>
+           </div>
             <li><a href="./catalogo.php">Catálogo</a></li>
             <li><a href="./creditos.php">Créditos</a></li>
             <div class="search-container">

@@ -260,7 +260,7 @@ p {
   padding-bottom: 0;
 }
 .title > svg {
-  width: 50px;
+  width: 20px !important;
   margin-right: 10px;
 }
 .mainIllus > img {
@@ -358,7 +358,7 @@ div.postInfo {
 .postInfo > p {
   font-size: 14px;
   font-weight: 400;
-  margin-top: 10px;
+  margin: 10px 15px 0 0;
   text-transform: none;
 }
 
@@ -437,7 +437,6 @@ i.fas {
   width: 120px;
   height: 120px;
   margin-bottom: -50px;
-  position: relative;
   border-radius: 50%;
   border: 5px solid var(--cor-salmao);
   backdrop-filter: blur(2px);
