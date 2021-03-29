@@ -74,7 +74,7 @@ var sessaoVivencias = [
     link: '/',
   },
   {
-    tituloPt: 'JAÍZA ',
+    tituloPt: 'JAÍZA',
     tituloEng: ' ',
     localDuracao: 'MINAS GERAIS, 2019, 23’',
     fichaTecnica:
@@ -110,13 +110,13 @@ var sessaoVivencias = [
     sinopsePt:
       'O corpo re-existe e insiste, pois nunca é um envoltório fechado, mas sim canal de passagem e transe entre as mais diversas dimensões espirituais (Obatala Film). Filme-devoção, filme-oferenda. Filmado na mítica Ile-Ife, cidade sagrada do povo Yoruba e fundada pelos próprios Orixás, este filme procura afirmar de modo sensorial a vertigem de entrar em relação com Obatala, orixá criador do mundo, da luz. Transe de faíscas de luz, de corpos em conexão espiritual.',
     sinopseEng:
-      'The body re-exists and insists because it’s never a closed wrap, but a channel of passage and trance between the most diverse spiritual dimensions. Film-devotion, film-offering. Filmed at the mythic Ile-Ife, sacred city to Yoruba people and founded by the Orishas, this movie seeks to affirm in a sensorial way the vertigo of relating to Obatala, orisha  that is the creator of the world and light. Trance of sparks of light, of bodies in spiritual connection.',
+      'The body re-exists and insists because it’s never a closed wrap, but a channel of passage and trance between the most diverse spiritual dimensions. Film-devotion, film-offering. Filmed at the mythic Ile-Ife, sacred city to Yoruba people and founded by the Orishas, this movie seeks to affirm in a sensorial way the vertigo of relating to Obatala, orisha that is the creator of the world and light. Trance of sparks of light, of bodies in spiritual connection.',
     img: 'CEP_OBATALAFILM.png',
     imgDir: 'maybe',
     link: '/',
   },
   {
-    tituloPt: 'PATTAKI ',
+    tituloPt: 'PATTAKI',
     tituloEng: ' ',
     localDuracao: 'SERGIPE, 2019, 21’',
     fichaTecnica:
@@ -130,7 +130,7 @@ var sessaoVivencias = [
     link: '/',
   },
   {
-    tituloPt: 'RAÍZES ',
+    tituloPt: 'RAÍZES',
     tituloEng: 'ROOTS',
     localDuracao: 'SÃO PAULO, 2020, 72’',
     fichaTecnica:
@@ -150,9 +150,9 @@ var sessaoVivencias = [
     fichaTecnica:
       '<li>direção director Lia Letícia</li><li>roteiro script Lia Letícia</li><li>produção production Clarice Hoffmann</li><li>fotografia cinematography Francisco Baccaro</li><li>montagem editing André Sampaio</li><li>som sound Nicolau Domingues</li><li>trilha sonora original original soundtrack Claudio N</li><li>elenco principal main cast Thinya Fulni-ô (Maria Pastora)</li><li>empresa produtora production company Cinecão</li><li>contato contact lia.leticia@gmail.com </li><li>Classificação Indicativa Livre</li>',
     sinopsePt:
-      'Minha primeira viagem ao Velho Mundo. Minha fantasia aventureira pós colonial.\r\n[Um discurso muda uma imagem?]\r\n',
+      'Minha primeira viagem ao Velho Mundo. Minha fantasia aventureira pós colonial. \r\n[Um discurso muda uma imagem?] \r\n',
     sinopseEng:
-      'My first trip to the Old World. My post-colonial adventurous fantasy.\r\n[A discourse changes an image?]\r\n',
+      'My first trip to the Old World. My post-colonial adventurous fantasy. \r\n[A discourse changes an image?] \r\n',
     img: 'CEP_THINYA.jpg',
     imgDir: 'maybe',
     link: '/',
@@ -169,8 +169,7 @@ var sessaoAfetos = [
       'Através de imagens de arquivo pessoal e reflexões sobre as ambivalências que às vezes se imprimem em relações cheias de amor, "à beira do planeta mainha soprou a gente" apresenta recortes de afeto entre duas sapatonas e suas mães.',
     sinopseEng:
       'Through images of a personal archive and reflections on the ambivalences that sometimes become attached to relationships full of love, “To the Planets Edge Mama’s Breath Sent Us” shows passages of affection between two lesbians and their mothers.',
-    img:
-      'CEP_ABEIRADOPLANETAMAINHASOPROUAGENTE.png',
+    img: 'CEP_ABEIRADOPLANETAMAINHASOPROUAGENTE.png',
     imgDir: 'maybe',
     link: '/',
   },
@@ -183,7 +182,7 @@ var sessaoAfetos = [
     sinopsePt:
       'Três jovens negros da favela de Heliópolis saem em busca de refúgio na vida noturna LGBT+ do centro da cidade de São Paulo.',
     sinopseEng:
-      'Three young blacks from the Heliópolis suburb go out seeking refuge in the LGBT+ nightlife of downtown São Paulo. ',
+      'Three young blacks from the Heliópolis suburb go out seeking refuge in the LGBT+ nightlife of downtown São Paulo.',
     img: 'CEP_BONDE.jpg',
     imgDir: 'maybe',
     link: '/',
@@ -199,7 +198,7 @@ var sessaoAfetos = [
     sinopsePt:
       'CANDOMBE DO AÇUDE - o passado contado pelo canto - é uma série de três documentários sobre o quilombo do Açude. O primeiro episódio - PANDEMIA - ISOLAMENTO OU RESPIRO - retrata sobre como foi o ritual do Candombe durante a pandemia no ano de 2020 e mostra como a nova geração vivenciou e sentiu a manifestação de suas tradições, pela primeira vez em 20 anos sem a influência de visitantes.',
     sinopseEng:
-      '“CANDOMBE DO AÇUDE: the past told through singing” is a series of three documentaries on quilombo do Açude. The first episode “PANDEMIC – ISOLATION OR RELIEF” presents how the Candombe ritual took place during the 2020 pandemic and shows how the new generation experienced and felt the manifestation of their traditions, which, for the first time in 20 years, were practiced without the influence of visitors. ',
+      '“CANDOMBE DO AÇUDE: the past told through singing” is a series of three documentaries on quilombo do Açude. The first episode “PANDEMIC – ISOLATION OR RELIEF” presents how the Candombe ritual took place during the 2020 pandemic and shows how the new generation experienced and felt the manifestation of their traditions, which, for the first time in 20 years, were practiced without the influence of visitors.',
     img: 'CEP_CAMDOMBEDOACUDE.jpg',
     imgDir: 'maybe',
     link: '/',
@@ -213,7 +212,7 @@ var sessaoAfetos = [
     sinopsePt:
       'Toumani Kouyaté, junto a outros mais de 40 cidadãos malineses que moravam fora, foi convocado por seu avô a retornar com urgência ao Mali, para ouvi-lo contar uma última história. Sentindo a morte se aproximar, ele precisava passar segredos da nação para a linhagem de Djélis mais jovens. A cultura oral, capaz de protegê-los de guerras e crises, é também um componente social e político importante que pedia continuidade. Nesta aventura real, descobrimos um universo nunca antes visto pelo mundo.',
     sinopseEng:
-      'Toumani Kouyaté, alongside  other 40 Malian citizens who lived abroad, was summoned back by his grandfather to urgently return to Mali in order to hear him tell a final story. Feeling the death getting closer, his grandfather needed to pass on the secrets of the nation to the younger lineage of Djélis. The oral culture, capable of protecting them from wars and crisis, is also an important social and political element that needed to be maintained. In this real adventure, we find out about a universe never seen before by the world.',
+      'Toumani Kouyaté, alongside other 40 Malian citizens who lived abroad, was summoned back by his grandfather to urgently return to Mali in order to hear him tell a final story. Feeling the death getting closer, his grandfather needed to pass on the secrets of the nation to the younger lineage of Djélis. The oral culture, capable of protecting them from wars and crisis, is also an important social and political element that needed to be maintained. In this real adventure, we find out about a universe never seen before by the world.',
     img: 'CEP_ENTRENOSUMSEGREDO.png',
     imgDir: 'maybe',
     link: '/',
@@ -239,7 +238,7 @@ var sessaoAfetos = [
     fichaTecnica:
       '<li>direção director Heraldo de Deus, Vilma Martins</li><li>roteiro script  Heraldo de Deus, Vilma Martins </li><li>produção production Sujeito Filmes; Saturnema Filmes, Bico Produções, Girapomba Produções, Milena Anjos</li><li>fotografia cinematography Ariel Ferreira</li><li>montagem editing Ana do Carmo </li><li>arte e figurino art and costume design: Adriele Regine </li><li>som sound: Marise Urbano</li><li>trilha sonora original original soundtrack Emillie Lapa, Elinaldo Nascimento</li><li>elenco principal main cast Adili Pita, João Pedro Costa, Matias Santana, Rejane Maya, Clara Paixão, Wesley Guimarães, Sérgio Laurentino</li><li>empresa produtora production company Coletivo Sujeito Filmes</li><li>contato contact vilmacarlams@gmail.com</li><li>Classificação Indicativa Livre</li>',
     sinopsePt:
-      'Em Salvador (Brasil), todo ano acontece a grande e tradicional festa para Senhor do Bonfim, onde fiéis, turistas e foliões, peregrinam até a famosa igreja para amarrar fitas e fazer pedidos. Dois irmãos, Pedro e Gabriel, ouvem desde cedo as histórias e rezas de sua avó ao Senhor do Bonfim e decidem fugir no dia da lavagem, se aventurar entre a multidão, para tentar pedir por uma bola de futebol, já que cresceram sem uma figura paterna. Lá confrontam as narrativas de sua avó, com a lavagem atual, trazendo questões sobre religiosidade, sincretismo, manifestação popular, e importância da família.\r\n',
+      'Em Salvador (Brasil), todo ano acontece a grande e tradicional festa para Senhor do Bonfim, onde fiéis, turistas e foliões, peregrinam até a famosa igreja para amarrar fitas e fazer pedidos. Dois irmãos, Pedro e Gabriel, ouvem desde cedo as histórias e rezas de sua avó ao Senhor do Bonfim e decidem fugir no dia da lavagem, se aventurar entre a multidão, para tentar pedir por uma bola de futebol, já que cresceram sem uma figura paterna. Lá confrontam as narrativas de sua avó, com a lavagem atual, trazendo questões sobre religiosidade, sincretismo, manifestação popular, e importância da família.',
     sinopseEng:
       'In Salvador (Brazil), the magnificent and traditional celebration in honor of Senhor do Bonfim takes place every year. Devotees, tourists, and revelers go on a pilgrimage to this famous church to tie their ribbons and make wishes. Two brothers, Pedro and Gabriel, since an early age, heard the stories and prayers of their grandmother to Senhor do Bonfim. They decided to run away on the day of the washing of the stairways of Bonfim, venturing into the crowd, in an attempt to make a wish for a soccer ball, since they grew up without a father figure. When they arrive at the church, they have to confront their grandmother’s narrative against the current stairways washing, raising questions on religiousness, syncretism, popular demonstration, and the importance of family.',
     img: 'CEP_5FITAS.jpg',
@@ -253,7 +252,7 @@ var sessaoAfetos = [
     fichaTecnica:
       '<li>direção director Maick Hannder</li><li>roteiro script Maick Hannder</li><li>produção production Jacon Dias, Bruno Greco</li><li>fotografia cinematography Maick Hannder</li><li>montagem editing Maick Hannder</li> <li>arte e figurino art and costume design Dayane Tropicaos</li><li>som sound Maick Hannder, Pedro Mancini, Yara Tôrres</li><li>trilha sonora original original soundtrack </li><li>elenco principal main cast Arthur Diniz, João Victor</li><li>empresa produtora production company Ponta de Anzol Filmes</li><li>contato contact producao@pontadeanzol.com.br</li><li>Classificação Indicativa 16 anos</li>',
     sinopsePt: 'Vi um rapaz atravessando a rua hoje.',
-    sinopseEng: ' I saw a young man crossing the street today.',
+    sinopseEng: 'I saw a young man crossing the street today.',
     img: 'CEP_LOOPING.jpg',
     imgDir: 'maybe',
     link: '/',
@@ -265,7 +264,7 @@ var sessaoAfetos = [
     fichaTecnica:
       '<li>direção director Gabriel Martins</li><li>roteiro script Gabriel Martins </li><li>produção production Gabriel Martins, Sesc Convida</li><li>fotografia cinematography Gabriel Martins </li><li>montagem editing Gabriel Martins </li><li>som sound Gabriel Martins </li><li>trilha sonora original original soundtrack Gabriel Martins </li><li>elenco principal main cast Gabriel Martins, Rimenna Procópio, Tereza Procópio Martins, Victor  Furtado</li><li>empresa produtora production company Sesc Convida</li><li>contato contact  gabriel@filmesdeplastico.com.br</li><li>Classificação Indicativa Livre</li>',
     sinopsePt:
-      'Tereza, nascida na pandemia do Coronavírus  em 2020, é cuidada por seus pais Rimenna e Gabriel.',
+      'Tereza, nascida na pandemia do Coronavírus em 2020, é cuidada por seus pais Rimenna e Gabriel.',
     sinopseEng:
       'Tereza is born during the 2020 Coronavirus pandemic; she is taken care of by her parents Rimenna and Gabriel.',
     img: 'CEP_MOVIMENTO.jpg',
@@ -285,13 +284,13 @@ var sessaoAfetos = [
     link: '/',
   },
   {
-    tituloPt: 'OLHOS DE ERÊ ',
+    tituloPt: 'OLHOS DE ERÊ',
     tituloEng: 'EYES OF ERÊ ',
     localDuracao: 'MINAS GERAIS, 2020, 11’ ',
     fichaTecnica:
       "<li>direção director Luan Manzo</li><li>roteiro script Luan Manzo</li><li>produção production - Makota Kidoiale (Cassia Cristina da Silva), Manzo N’zungo Kaiango, Bruno Vasconcelos</li><li>fotografia cinematography Luan Manzo </li><li>montagem editing Luan Manzo</li><li>som sound Luan Manzo </li><li>empresa produtora production company Quilombo Manzo N'gunzo Kaiango - Edukação de Kilombu, Guanambi Audiovisões</li><li>contato contact edukakilombu@gmail.com </li><li>Classificação Indicativa Livre</li>",
     sinopsePt:
-      'Luan Manzo tem seis anos e é bisneto da matriarca Mametu Muiande do Quilombo Manzo N’gunzo  Kaiango, um dos quilombos reconhecidos pela cidade de Belo Horizonte. Fundado em 1970 por um  preto velho, pai Benedito, Manzo é palácio de rei, governado por uma rainha. Ali germinam sementes  e crianças, num processo educativo - a afrobetização - que afirma a organização, o coletivo, a  ancestralidade e a circularidade do povo negro. As crianças no quilombo crescem sabendo-se  respeitadas, e por isso Luan percorre aqui o espaço sagrado, descrevendo-o a nós com segurança, conhecimento, rigor e frescor infantil. É ele quem, com um celular em mãos, propõe este filme.',
+      'Luan Manzo tem seis anos e é bisneto da matriarca Mametu Muiande do Quilombo Manzo N’gunzo Kaiango, um dos quilombos reconhecidos pela cidade de Belo Horizonte. Fundado em 1970 por um preto velho, pai Benedito, Manzo é palácio de rei, governado por uma rainha. Ali germinam sementes e crianças, num processo educativo - a afrobetização - que afirma a organização, o coletivo, a ancestralidade e a circularidade do povo negro. As crianças no quilombo crescem sabendo-se respeitadas, e por isso Luan percorre aqui o espaço sagrado, descrevendo-o a nós com segurança, conhecimento, rigor e frescor infantil. É ele quem, com um celular em mãos, propõe este filme.',
     sinopseEng:
       'Luan Manzo is six years-old and he is the great-grandson of Mametu Muiande matriarch of the Quilombo Manzo N’gunzo Kaiango, one of the most renowned quilombos across the city of Belo Horizonte. Established in 1970 by a Preto Velho, father Benedito, the Manzo quilombo is a king’s palace, governed by a queen. There, seeds and children are sprouted in an educational process – the afroliteracy – that affirms the organization, the collective, the ancestry, and the circularity of the black people. The children in the quilombo grow up knowing that they are respected; therefore, here Luan moves along the sacred space, describing it to us with safety, knowledge, rigor, and infantile eyes. It is he who, with a cellphone in hands, offers us this film.',
     img: 'CEP_OLHOSDEERE.jpg',
@@ -307,7 +306,7 @@ var sessaoAfetos = [
     sinopsePt:
       'Luz e Denise cresceram em meio às adversidades de ser LGBT no extremo sul da cidade de São Paulo. Entre o vogue e as poesias, do louvor ao acesso à cidade. Os sonhos e incertezas da juventude inundam suas existências.',
     sinopseEng:
-      'Luz and Denise grew up amongst the hardships of being LGBT at the extreme south of the city of São Paulo. Between the vogue and the poetries, from praises to the access to the city,  the dreams and uncertainties of youth flood their existence.',
+      'Luz and Denise grew up amongst the hardships of being LGBT at the extreme south of the city of São Paulo. Between the vogue and the poetries, from praises to the access to the city, the dreams and uncertainties of youth flood their existence.',
     img: 'CEP_PERIFERICU.jpg',
     imgDir: 'maybe',
     link: '/',
@@ -321,7 +320,7 @@ var sessaoAfetos = [
     sinopsePt:
       'Val e suas duas filhas vivem numa casa de 16 metros quadrados. Certa madrugada, mãe e filhas são subitamente acordadas com palmas e alguém chamando por Val no portão. A voz é de Neném Preto, amigo de Val e dono do mercadinho.',
     sinopseEng:
-      'Val and her two daughters live  in a 170 square feet house. Early one morning, mother and daughters are rudely awakened by somebody clapping and calling Val at the front gate. The voice belongs to Neném Preto, Val’s friend and owner of the local grocery store. ',
+      'Val and her two daughters live in a 170 square feet house. Early one morning, mother and daughters are rudely awakened by somebody clapping and calling Val at the front gate. The voice belongs to Neném Preto, Val’s friend and owner of the local grocery store.',
     img: 'CEP_RA.jpg',
     imgDir: 'maybe',
     link: '/',
@@ -343,7 +342,7 @@ var sessaoGritos = [
     link: '/',
   },
   {
-    tituloPt: 'CALMARIA ',
+    tituloPt: 'CALMARIA',
     tituloEng: 'SERENITY',
     localDuracao: 'MINAS GERAIS, 2020, 24’',
     fichaTecnica:
@@ -377,9 +376,9 @@ var sessaoGritos = [
     fichaTecnica:
       '<li>direção director Daniel Santos</li><li>roteiro script Welket Bungué</li><li>fotografia cinematography Kristin Bethge</li><li>montagem editing Daniel Santos</li><li>trilha sonora original original soundtrack Walter Reis</li><li>performance performers Welket Bungué, Walter Reis, Daniel Santos, Jessica Senra, Kristin Bethge</li><li>contato contact danielgnu1@gmail.com</li><li>Classificação Indicativa 12 anos</li>',
     sinopsePt:
-      'A intervenção visa uma caminhada simbólica até à exaustão. A intervenção propõe o aquecimento pré-liminar que antecede um combate de titãs num ringue de boxe. A intervenção consiste no movimento do performer intuindo a queda repentina quando afetado por perfurações por balas de armas semiautomáticas.\r\n \r\nAs pessoas negras no Brasil ainda representam mais de metade da população do país. Entre 2005 e 2015 o número de pessoas negras assassinadas aumentou 18% e isso nos tornou também a maior parte das vítimas de homicídio, tendo correspondido a 71% do total de corpos registrados. - in Fórum Brasileiro de Segurança Pública (2017).\r\n',
+      'A intervenção visa uma caminhada simbólica até à exaustão. A intervenção propõe o aquecimento pré-liminar que antecede um combate de titãs num ringue de boxe. A intervenção consiste no movimento do performer intuindo a queda repentina quando afetado por perfurações por balas de armas semiautomáticas. \r\n\r\nAs pessoas negras no Brasil ainda representam mais de metade da população do país. Entre 2005 e 2015 o número de pessoas negras assassinadas aumentou 18% e isso nos tornou também a maior parte das vítimas de homicídio, tendo correspondido a 71% do total de corpos registrados. - in Fórum Brasileiro de Segurança Pública (2017).',
     sinopseEng:
-      'The intervention is a symbolic walk to exhaustion. The intervention proposes the pre-liminary warm-up that precedes a fight of titans in a boxing ring. The intervention consists of the movement of the performer sensing the sudden fall when affected by perforations by bullets of semi-automatic weapons.\r\n \r\nBlack people in Brazil are still more than half of the population of the country. Between 2005 and 2015 the number of black people murdered increased by 18% and this also made us the majority of homicide victims, accounting for 71% of all registered bodies. - in Brazilian Forum of Public Security (2017).\r\n',
+      'The intervention is a symbolic walk to exhaustion. The intervention proposes the pre-liminary warm-up that precedes a fight of titans in a boxing ring. The intervention consists of the movement of the performer sensing the sudden fall when affected by perforations by bullets of semi-automatic weapons. \r\n\r\nBlack people in Brazil are still more than half of the population of the country. Between 2005 and 2015 the number of black people murdered increased by 18% and this also made us the majority of homicide victims, accounting for 71% of all registered bodies. - in Brazilian Forum of Public Security (2017).',
     img: 'CEP_INTERVENCAOJAH.jpg',
     imgDir: 'maybe',
     link: '/',
@@ -414,7 +413,7 @@ var sessaoGritos = [
   },
   {
     tituloPt: 'REBU',
-    tituloEng: ' ',
+    tituloEng: '   ',
     localDuracao: 'PERNAMBUCO, 2020, 21’',
     fichaTecnica:
       '<li>direção director Mayara Santana</li><li>produção production Mayara Santana</li><li>fotografia cinematography Mayara Santana</li><li>montagem editing Roberta Cardoso</li><li>contato contact  mayara.santana.mas@gmail.com</li><li>Classificação Indicativa 16 anos</li>',
@@ -439,9 +438,9 @@ var sessaoGritos = [
     link: '/',
   },
   {
-    tituloPt: 'UMA NOITE SEM LUA ',
-    tituloEng: 'A NIGHT WITHOUT MOON ',
-    localDuracao: 'ESPÍRITO SANTO, SÃO PAULO/BRASIL, BERLIM, 2020,  27’',
+    tituloPt: 'UMA NOITE SEM LUA',
+    tituloEng: 'A NIGHT WITHOUT MOON',
+    localDuracao: 'ESPÍRITO SANTO, SÃO PAULO/BRASIL, BERLIM, 2020, 27\'30"',
     fichaTecnica:
       '<li>direção director Castiel Vitorino Brasileiro</li><li>roteiro script Castiel Vitorino Brasileiro</li><li>produção production Castiel Vitorino Brasileiro</li><li>animação animation Castiel Vitorino Brasileiro</li><li>fotografia cinematography Castiel Vitorino Brasileiro</li><li>montagem editing Castiel Vitorino Brasileiro</li><li>arte e figurino art and costume design Castiel Vitorino Brasileiro</li><li>som sound PODESERDESLIGADO</li><li>elenco principal main cast Castiel Vitorino Brasileiro</li><li>contato contact  castielvitorinob@gmail.com</li><li>Classificação Indicativa 14 anos</li>',
     sinopsePt:
@@ -461,7 +460,7 @@ var sessaoGritos = [
     sinopsePt:
       'Luan trabalha como bikeboy de aplicativo e enfrenta dilemas e preconceitos na sua jornada diária de entregas em uma cidade grande. Sem hesitar, sonha com um futuro melhor.',
     sinopseEng:
-      'Luan works delivering food on a bicycle while having to face dilemmas and discrimination on his  journey in a big city. Without hesitating he dreams of a better future.',
+      'Luan works delivering food on a bicycle while having to face dilemmas and discrimination on his journey in a big city. Without hesitating he dreams of a better future.',
     img: 'CEP_VOCETEMOLHOSTRISTES.png',
     imgDir: 'maybe',
     link: '/',
@@ -471,124 +470,76 @@ var sessaoGritos = [
 function createDataSession1() {
   var sesTitle = document.createElement('a');
   sesTitle.className = 'sessionTitle';
-  sesTitle.innerHTML = 'SESSÃO ESPECIAL</a> <em class="fas fa-chevron-down"></em>';
+  sesTitle.innerHTML =
+    'SESSÃO ESPECIAL</a> <em class="fas fa-chevron-down"></em>';
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoEspecial.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox';
-    postBox.innerHTML =
-      '<div class="postImg filmeImg" style="background-image: url(&#39;' +
-      src +
-     sessaoEspecial[i].img +
-      '&#39;)"> </div>' +
-      '<div class="postInfo"><h1>' +
-     sessaoEspecial[i].tituloPt +
-      '</h1><h2>' +
-     sessaoEspecial[i].tituloEng +
-      '</h2><h3>' +
-     sessaoEspecial[i].localDuracao +
-      '</h3><p>' +
-     sessaoEspecial[i].sinopsePt +
-      '</p><p>' +
-     sessaoEspecial[i].sinopseEng +
-      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
-     sessaoEspecial[i].fichaTecnica +
-      '</ul></div></div><a href="' +
-      sessaoEspecial[i].link +
-      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
+    postBox.innerHTML = `
+    <div class="postImg filmeImg" style="background-image: url('${src}${sessaoEspecial[i].img}')"></div>
+    <div class="postInfo"><h1>${sessaoEspecial[i].tituloPt}</h1><h2>${sessaoEspecial[i].tituloEng}</h2><h3>${sessaoEspecial[i].localDuracao}</h3>
+    <p>${sessaoEspecial[i].sinopsePt}</p><p>${sessaoEspecial[i].sinopseEng}</p>
+    <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+    <div class="content"><ul>${sessaoEspecial[i].fichaTecnica}</ul></div></div>
+    <a href="${sessaoEspecial[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
     container.appendChild(postBox);
   }
 }
 function createDataSession2() {
   var sesTitle = document.createElement('a');
   sesTitle.className = 'sessionTitle';
-  sesTitle.innerHTML = 'VIVÊNCIAS AFRO-DIASPÓRICAS</a> <em class="fas fa-chevron-down"></em>';
+  sesTitle.innerHTML =
+    'VIVÊNCIAS AFRO-DIASPÓRICAS</a> <em class="fas fa-chevron-down"></em>';
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoVivencias.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox hidden';
-    postBox.innerHTML =
-      '<div class="postImg filmeImg" style="background-image: url(&#39;' +
-      src +
-     sessaoVivencias[i].img +
-      '&#39;)"> </div>' +
-      '<div class="postInfo"><h1>' +
-     sessaoVivencias[i].tituloPt +
-      '</h1><h2>' +
-     sessaoVivencias[i].tituloEng +
-      '</h2><h3>' +
-     sessaoVivencias[i].localDuracao +
-      '</h3><p>' +
-     sessaoVivencias[i].sinopsePt +
-      '</p><p>' +
-     sessaoVivencias[i].sinopseEng +
-      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
-     sessaoVivencias[i].fichaTecnica +
-      '</ul></div></div><a href="' +
-      sessaoVivencias[i].link +
-      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
+    postBox.innerHTML = `
+    <div class="postImg filmeImg" style="background-image: url('${src}${sessaoVivencias[i].img}')"></div>
+    <div class="postInfo"><h1>${sessaoVivencias[i].tituloPt}</h1><h2>${sessaoVivencias[i].tituloEng}</h2><h3>${sessaoVivencias[i].localDuracao}</h3>
+    <p>${sessaoVivencias[i].sinopsePt}</p><p>${sessaoVivencias[i].sinopseEng}</p>
+    <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+    <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div></div>
+    <a href="${sessaoVivencias[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
     container.appendChild(postBox);
   }
 }
 function createDataSession3() {
   var sesTitle = document.createElement('a');
   sesTitle.className = 'sessionTitle';
-  sesTitle.innerHTML = 'AFETOS E PARTILHAS</a> <em class="fas fa-chevron-down"></em>';
+  sesTitle.innerHTML =
+    'AFETOS E PARTILHAS</a> <em class="fas fa-chevron-down"></em>';
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoAfetos.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox hidden';
-    postBox.innerHTML =
-      '<div class="postImg filmeImg" style="background-image: url(&#39;' +
-      src +
-     sessaoAfetos[i].img +
-      '&#39;)"> </div>' +
-      '<div class="postInfo"><h1>' +
-     sessaoAfetos[i].tituloPt +
-      '</h1><h2>' +
-     sessaoAfetos[i].tituloEng +
-      '</h2><h3>' +
-     sessaoAfetos[i].localDuracao +
-      '</h3><p>' +
-     sessaoAfetos[i].sinopsePt +
-      '</p><p>' +
-     sessaoAfetos[i].sinopseEng +
-      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
-     sessaoAfetos[i].fichaTecnica +
-      '</ul></div></div><a href="' +
-      sessaoAfetos[i].link +
-      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
+    postBox.innerHTML = `
+    <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAfetos[i].img}')"></div>
+    <div class="postInfo"><h1>${sessaoAfetos[i].tituloPt}</h1><h2>${sessaoAfetos[i].tituloEng}</h2><h3>${sessaoAfetos[i].localDuracao}</h3>
+    <p>${sessaoAfetos[i].sinopsePt}</p><p>${sessaoAfetos[i].sinopseEng}</p>
+    <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+    <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div></div>
+    <a href="${sessaoAfetos[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
     container.appendChild(postBox);
   }
 }
 function createDataSession4() {
   var sesTitle = document.createElement('a');
   sesTitle.className = 'sessionTitle';
-  sesTitle.innerHTML = 'GRITOS E FABULAÇÕES DE CURA</a> <em class="fas fa-chevron-down"></em>';
+  sesTitle.innerHTML =
+    'GRITOS E FABULAÇÕES DE CURA</a> <em class="fas fa-chevron-down"></em>';
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoGritos.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox hidden';
-    postBox.innerHTML =
-      '<div class="postImg filmeImg" style="background-image: url(&#39;' +
-      src +
-     sessaoGritos[i].img +
-      '&#39;)"> </div>' +
-      '<div class="postInfo"><h1>' +
-     sessaoGritos[i].tituloPt +
-      '</h1><h2>' +
-     sessaoGritos[i].tituloEng +
-      '</h2><h3>' +
-     sessaoGritos[i].localDuracao +
-      '</h3><p>' +
-     sessaoGritos[i].sinopsePt +
-      '</p><p>' +
-     sessaoGritos[i].sinopseEng +
-      '</p><div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button><div class="content"> <ul>' +
-     sessaoGritos[i].fichaTecnica +
-      '</ul></div></div><a href="' +
-      sessaoGritos[i].link +
-      '" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>';
+    postBox.innerHTML = `
+    <div class="postImg filmeImg" style="background-image: url('${src}${sessaoGritos[i].img}')"></div>
+    <div class="postInfo"><h1>${sessaoGritos[i].tituloPt}</h1><h2>${sessaoGritos[i].tituloEng}</h2><h3>${sessaoGritos[i].localDuracao}</h3>
+    <p>${sessaoGritos[i].sinopsePt}</p><p>${sessaoGritos[i].sinopseEng}</p>
+    <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+    <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div></div>
+    <a href="${sessaoGritos[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
     container.appendChild(postBox);
   }
 }
@@ -599,7 +550,7 @@ createDataSession4();
 
 $('.hidden').hide();
 $(document).ready(function () {
-  $(".sessionTitle").click(function(){
+  $('.sessionTitle').click(function () {
     $(this).nextAll('.postBox').slice(0, 12).toggle();
   });
 });
