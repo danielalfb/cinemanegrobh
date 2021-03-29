@@ -2,6 +2,34 @@ var container = document.querySelector('.container');
 var src = './img/filmes/';
 var boxContent = [
   {
+    tituloPt: 'CABASCABO',
+    tituloEng: '',
+    localDuracao: 'NÍGER, 1969, 45´',
+    fichaTecnica:
+      '<li>direção director Oumarou Ganda</li><li>roteiro script Oumarou Ganda</li><li>fotografia cinematography Gérard de Battista</li><li>montagem editing Danièle Tessier</li><li>som sound Moussa Hamidou</li><li>trilha sonora original original soundtrack Kaka e Dan Baba Ali</li><li>elenco principal main cast Oumarou Ganda, Zalika Souley, Issa Gombokoye</li><li>contato contact  Argos Films - Cécile Meyer-Cases c.meyer@argosfilms.fr</li><li>Classificação Indicativa Livre</li>',
+    sinopsePt:
+      'Um atirador africano da força expedicionária francesa na Indochina retorna ao Níger, desmobilizado e rico. Ele está cercado, comemorado. Generoso, ele desperdiçará seu pecúlio e logo será abandonado por todos os seus amigos. O filme é uma resposta de Oumarou Ganda ao filme Eu, um Negro, de Jean Rouch, em que desempenhou o seu próprio "papel", o de um "atirador senegalês" alistado na guerra da Indochina. \r\n\r\n\r\nRestaurado em 2K em 2019. \r\nParceiros de restauração: Orange Studio, Cinémathèque Afrique, Argos Films.',
+    sinopseEng:
+      'An African shooter from the French Expeditionary Corps in Indochina returns to Niger, demobilized and wealthy. People surround and celebrate him. For his generosity, he will waste his savings and will soon be abandoned by all his friends. The film is an answer by Oumarou Ganda to the film I, a Negro, by Jean Rouch, in which he played a “Senegalese shooter” enlisted in the Indochina war. \r\n\r\n\r\nRestored in 2K in 2019. \r\nRestoration partners: Orange Studio, Cinémathèque Afrique, Argos Films. \r\n',
+    img: 'MF_CABASCABO.png',
+    imgDir: 'maybe',
+    link: '/',
+  },
+  {
+    tituloPt: 'MUNA MOTO',
+    tituloEng: '',
+    localDuracao: 'Camarões, 1975 , 85’',
+    fichaTecnica:
+      '<li>direção director JeanPierre Dikongué Pipa</li><li>roteiro script Jean-Pierre Dikongué-Pipa</li><li>fotografia cinematography J-P. Delazay, J-L. Léon, M. Tagny</li><li>montagem editing Andrée Davanture, Dominique Saint, Jules Takam[LB2]</li><li>arte e figurino art and costume design Jean-Pierre Dikongué Pipa, Anne Bebe</li><li>som sound Ambroise Ayongo, Joseph Betare, Henry Humbert</li><li> trilha sonora original original soundtrack</li><li>elenco principal main cast David Endéné, Arlette Din Bell, Jeanne Mvondo, Philippe Abia, Jeacky Kingue, Gisèle Dikongué-Pipa, Esther Mwembe, Catherine Biboum, Justine Sengue, Samuel Baongla</li><li>contato contact carmen.accaputo@cineteca.bologna.it</li><li>Classificação Indicativa Livre</li>',
+    sinopsePt:
+      'Ngando e Ndomé estão apaixonados e querem se casar, mas a família de Ndomé só aceita a união mediante o pagamento de um dote, como manda a tradição. Sem dinheiro, o jovem Ngando recorre ao tio para ajudá-lo, mas é traído pelo mesmo, que está disposto a tomar Ndomé como sua quinta esposa na esperança de ter um filho. \r\n\r\nRestaurado em 2019 pela Cineteca di Bologna/L’Immagine Ritrovata e The Film Foundation’s World Cinema Project. Financiado pela Hobson/Lucas Family Foundation. \r\n\r\n\r\nEssa restauração é parte do African Film Heritage Project, criado pela The Film Foundation, FEPACI e UNESCO – em colaboração com a Cineteca di Bologna – para ajudar a localizar, restaurar e propagar o cinema africano. \r\n\r\n',
+    sinopseEng:
+      'Ngando and Ndomé are in love and want to get married, but Ndomé’s family will only accept the union if Ndomé pays the dowry, as per tradition. Since he has no money, Ngando asks his uncle to help him; however, his uncle betrays him for he is willing to take Ndomé as his fifth wife so he could have a child. \r\n\r\nRestored in 2019 by Cineteca di Bologna/L’Immagine Ritrovata and The Film Foundation’s World Cinema Project. Funding provided by the Hobson/Lucas Family Foundation. \r\n\r\n\r\nThis restoration is part of the African Film Heritage Project, created by The Film Foundation, FEPACI and UNESCO – in collaboration with Cineteca di Bologna – to help locate, restore, and disseminate African cinema.',
+    img: 'MF_MUNAMOTO.jpg',
+    imgDir: 'maybe',
+    link: '/',
+  },
+  {
     tituloPt: 'OUAGA, CAPITALE DU CINÉMA',
     tituloEng: 'OUAGA, CAPITAL DO CINEMA',
     localDuracao: 'TUNÍSIA, BURKINA FASO, ITÁLIA, 2000, 60’',
@@ -26,34 +54,6 @@ var boxContent = [
     sinopseEng:
       'Exploring the extraordinary contributions of women filmmakers from Africa and the diaspora, Beti Ellerson’s engaging debut intersperses interviews with acclaimed women directors such as Safi Faye, Sarah Maldoror, Anne Mungai, Fanta Régina Nacro, and Ngozi Onwurah with footage from their seminal works. With power and nuance, Ellerson also confronts the thorny question of cultural authenticity by revisiting the legendary 1991 FESPACO (Pan-African Festival of Cinema and Television of Ouagadougou), in which diasporic women were asked to leave a meeting intended for African women only. This film is both a valuable anthology and a fitting homage to the pioneers and to the new talents of African cinema.',
     img: 'MF_SISTERSOFTHESCREENAFRICANWOMENINCINEMA.jpg',
-    imgDir: 'maybe',
-    link: '/',
-  },
-  {
-    tituloPt: 'MUNA MOTO',
-    tituloEng: '',
-    localDuracao: 'Camarões, 1975 , 85’',
-    fichaTecnica:
-      '<li>direção director JeanPierre Dikongué Pipa</li><li>roteiro script Jean-Pierre Dikongué-Pipa</li><li>fotografia cinematography J-P. Delazay, J-L. Léon, M. Tagny</li><li>montagem editing Andrée Davanture, Dominique Saint, Jules Takam[LB2]</li><li>arte e figurino art and costume design Jean-Pierre Dikongué Pipa, Anne Bebe</li><li>som sound Ambroise Ayongo, Joseph Betare, Henry Humbert</li><li> trilha sonora original original soundtrack</li><li>elenco principal main cast David Endéné, Arlette Din Bell, Jeanne Mvondo, Philippe Abia, Jeacky Kingue, Gisèle Dikongué-Pipa, Esther Mwembe, Catherine Biboum, Justine Sengue, Samuel Baongla</li><li>contato contact carmen.accaputo@cineteca.bologna.it</li><li>Classificação Indicativa Livre</li>',
-    sinopsePt:
-      'Ngando e Ndomé estão apaixonados e querem se casar, mas a família de Ndomé só aceita a união mediante o pagamento de um dote, como manda a tradição. Sem dinheiro, o jovem Ngando recorre ao tio para ajudá-lo, mas é traído pelo mesmo, que está disposto a tomar Ndomé como sua quinta esposa na esperança de ter um filho. \r\n\r\nRestaurado em 2019 pela Cineteca di Bologna/L’Immagine Ritrovata e The Film Foundation’s World Cinema Project. Financiado pela Hobson/Lucas Family Foundation. \r\n\r\n\r\nEssa restauração é parte do African Film Heritage Project, criado pela The Film Foundation, FEPACI e UNESCO – em colaboração com a Cineteca di Bologna – para ajudar a localizar, restaurar e propagar o cinema africano. \r\n\r\n',
-    sinopseEng:
-      'Ngando and Ndomé are in love and want to get married, but Ndomé’s family will only accept the union if Ndomé pays the dowry, as per tradition. Since he has no money, Ngando asks his uncle to help him; however, his uncle betrays him for he is willing to take Ndomé as his fifth wife so he could have a child. \r\n\r\nRestored in 2019 by Cineteca di Bologna/L’Immagine Ritrovata and The Film Foundation’s World Cinema Project. Funding provided by the Hobson/Lucas Family Foundation. \r\n\r\n\r\nThis restoration is part of the African Film Heritage Project, created by The Film Foundation, FEPACI and UNESCO – in collaboration with Cineteca di Bologna – to help locate, restore, and disseminate African cinema.',
-    img: 'MF_MUNAMOTO.jpg',
-    imgDir: 'maybe',
-    link: '/',
-  },
-  {
-    tituloPt: 'CABASCABO',
-    tituloEng: '',
-    localDuracao: 'NÍGER, 1969, 45´',
-    fichaTecnica:
-      '<li>direção director Oumarou Ganda</li><li>roteiro script Oumarou Ganda</li><li>fotografia cinematography Gérard de Battista</li><li>montagem editing Danièle Tessier</li><li>som sound Moussa Hamidou</li><li>trilha sonora original original soundtrack Kaka e Dan Baba Ali</li><li>elenco principal main cast Oumarou Ganda, Zalika Souley, Issa Gombokoye</li><li>contato contact  Argos Films - Cécile Meyer-Cases c.meyer@argosfilms.fr</li><li>Classificação Indicativa Livre</li>',
-    sinopsePt:
-      'Um atirador africano da força expedicionária francesa na Indochina retorna ao Níger, desmobilizado e rico. Ele está cercado, comemorado. Generoso, ele desperdiçará seu pecúlio e logo será abandonado por todos os seus amigos. O filme é uma resposta de Oumarou Ganda ao filme Eu, um Negro, de Jean Rouch, em que desempenhou o seu próprio "papel", o de um "atirador senegalês" alistado na guerra da Indochina. \r\n\r\n\r\nRestaurado em 2K em 2019. \r\nParceiros de restauração: Orange Studio, Cinémathèque Afrique, Argos Films.',
-    sinopseEng:
-      'An African shooter from the French Expeditionary Corps in Indochina returns to Niger, demobilized and wealthy. People surround and celebrate him. For his generosity, he will waste his savings and will soon be abandoned by all his friends. The film is an answer by Oumarou Ganda to the film I, a Negro, by Jean Rouch, in which he played a “Senegalese shooter” enlisted in the Indochina war. \r\n\r\n\r\nRestored in 2K in 2019. \r\nRestoration partners: Orange Studio, Cinémathèque Afrique, Argos Films. \r\n',
-    img: 'MF_CABASCABO.png',
     imgDir: 'maybe',
     link: '/',
   },
