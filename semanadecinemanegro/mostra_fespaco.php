@@ -27,26 +27,8 @@
                 >African Films Revisited: the origins of FESPACO</span></h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-            amet diam sit amet quam mattis maximus. Proin congue justo vitae
-            diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-            tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-            imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-            eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-            gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-            blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
-            turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
-            Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
-            rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
-            vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
-            vitae nunc porta malesuada. Duis efficitur orci nec suscipit
-            viverra. In dictum, arcu vel blandit pretium, dolor metus hendrerit
-            ligula, quis maximus erat ex ac lorem. Nunc ornare quam sed
-            condimentum pretium. In dapibus lectus quis dolor vehicula
-            elementum. Duis sollicitudin nisl et faucibus pellentesque. Cras
-            dictum erat at massa eleifend euismod.
-          </p>
-        </div>
+          Sob curadoria de Janaína Oliveira, "Cinemas Africanos em revista: as origens do FESPACO" rende homenagem ao Festival Panafricano de Cinema e Televisão de Ouagadougou, que acontece em Burkina Faso e completou 51 anos de existência em 2021. O Festival segue sendo, com todas as suas idiossincrasias, o mais tradicional do continente africano. Buscamos com a mostra trazer um  conjunto composto por 5 filmes fundamentais para a celebração da memória do festival e que contam sobre sua história, trajetória e composição. Iremos exibir 2 filmes recentemente restaurados que fazem parte do primeiro momento do festival e 3 documentários que permitirão ao público da Semana entrar em contato com momentos fundamentais na trajetória do FESPACO. “Criado em 1969, o FESPACO é uma parte fundamental na trajetória do cinema africano de tal forma que é possível ter na sua história um fio condutor para entender as diversas nuances, dinâmicas e complexidades que apontam o curso dos acontecimentos que marcam o fazer filmes no continente nas últimas cinco décadas”, conforme nos diz a curadora. Convidamos realizadoras/es e estudiosas/os de cinemas africanos para falar sobre os filmes e as  linguagens cinematográficas construídas no continente, além de uma reunião de textos fundamentais sobre o FESPACO, alguns deles inéditos em língua portuguesa.
+          </p></div>
         <div class="mainIllus"><img src="img/fespaco.png" alt="" /></div>
       </div>
     </section>

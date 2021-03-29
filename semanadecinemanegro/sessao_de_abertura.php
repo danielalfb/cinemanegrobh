@@ -29,24 +29,7 @@ getHeader();
               ></h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-            amet diam sit amet quam mattis maximus. Proin congue justo vitae
-            diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-            tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-            imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-            eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-            gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-            blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
-            turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
-            Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
-            rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
-            vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
-            vitae nunc porta malesuada. Duis efficitur orci nec suscipit
-            viverra. In dictum, arcu vel blandit pretium, dolor metus hendrerit
-            ligula, quis maximus erat ex ac lorem. Nunc ornare quam sed
-            condimentum pretium. In dapibus lectus quis dolor vehicula
-            elementum. Duis sollicitudin nisl et faucibus pellentesque. Cras
-            dictum erat at massa eleifend euismod.
+          Sob curadoria de Alessandra Brito e André Novais Oliveira, a  sessão de abertura da Semana de Cinema Negro de Belo Horizonte traz um conjunto de filmes para  celebrar a presença de Maria José de Novais Oliveira, a Dona Zezé, no cinema brasileiro contemporâneo rendendo homenagem a atriz de Quintal e Ela volta na quinta, dentre outros títulos.  Esta sessão é composta por três filmes e um Teaser de um filme que está por vir sobre a atriz.
           </p>
         </div>
         <div class="mainIllus"><img src="img/sessaoAbertura.png" alt="" /></div>

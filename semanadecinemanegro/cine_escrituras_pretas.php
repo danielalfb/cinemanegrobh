@@ -31,24 +31,7 @@ getHeader();
             </h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-            amet diam sit amet quam mattis maximus. Proin congue justo vitae
-            diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-            tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-            imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-            eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-            gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-            blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
-            turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
-            Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
-            rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
-            vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
-            vitae nunc porta malesuada. Duis efficitur orci nec suscipit
-            viverra. In dictum, arcu vel blandit pretium, dolor metus hendrerit
-            ligula, quis maximus erat ex ac lorem. Nunc ornare quam sed
-            condimentum pretium. In dapibus lectus quis dolor vehicula
-            elementum. Duis sollicitudin nisl et faucibus pellentesque. Cras
-            dictum erat at massa eleifend euismod.
+          A Mostra Cine-Escrituras Pretas, sob curadoria de Natalie Matos, Tatiana Carvalho Costa e Vanessa Santos, traz uma série de filmes, realizados entre 2019 e 2020, que abordam e afirmam múltiplas identidades e questões da negritude. Sugerindo um avizinhamento entre as obras, as curadoras propuseram três conjuntos: “Vivências afro-diaspóricas”, composto por 10 filmes; “Afetos e partilhas”, composto por 12 filmes; e “Gritos e fabulações de cura”, que conta com 10 produções. A mostra propõe, ainda, uma sessão especial com filme convidado. Os filmes não seguem uma ordem pré-definida. Com isso, espera-se que espectadores e espectadoras possam escolher livremente o seu percurso e encontro com as obras. 
           </p>
         </div>
         <div class="mainIllus"><img src="img/cine.png" alt="" /></div>

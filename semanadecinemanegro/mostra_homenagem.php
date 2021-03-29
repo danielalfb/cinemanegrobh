@@ -29,25 +29,8 @@ getHeader();
               </span></h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-            amet diam sit amet quam mattis maximus. Proin congue justo vitae
-            diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-            tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-            imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-            eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-            gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-            blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
-            turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
-            Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
-            rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
-            vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
-            vitae nunc porta malesuada. Duis efficitur orci nec suscipit
-            viverra. In dictum, arcu vel blandit pretium, dolor metus hendrerit
-            ligula, quis maximus erat ex ac lorem. Nunc ornare quam sed
-            condimentum pretium. In dapibus lectus quis dolor vehicula
-            elementum. Duis sollicitudin nisl et faucibus pellentesque. Cras
-            dictum erat at massa eleifend euismod.
-          </p>
+            Esta homenagem a Sarah Maldoror é composta por 3 filmes que estarão disponíveis a partir das 19h do dia 13/04 (terça-feira) até às 19h do dia 14/04. Proposta por Janaína Oliveira, esta sessão conta com a colaboração de Annouchka de Andrade, filha de Maldoror, que assina o texto de apresentação disponível no catálogo da Semana de Cinema Negro de Belo Horizonte. A seleção de filmes está voltada para a poesia que, segundo Annouchka, é uma escolha um tanto notável, pois reúne Césaire e Damas, dois grandes poetas da negritude que Sarah admirava. Maldoror “escolheu o cinema para compartilhar a cultura negra e seus autores”.</p>
+          <p>A mostra contará com um debate com Annouchka e Yasmina Price, que escreveu um texto sobre Sarah Maldoror,  também  disponível no nosso catálogo.</p>
         </div>
         <div class="mainIllus"><img src="img/sarah.png" alt="" /></div>
       </div>

@@ -25,27 +25,13 @@
             <h1>Catálogo</h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-            amet diam sit amet quam mattis maximus. Proin congue justo vitae
-            diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-            tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-            imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-            eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-            gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-            blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
-            turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
+          Baixe aqui a versão em PDF do catálogo da Semana de Cinema Negro de Belo Horizonte.
+Como memória permanente, o festival contará com a publicação de um catálogo com aproximadamente 250 páginas. Nele apresentaremos informações sobre os filmes, textos e ensaios que complementam e ampliam  as discussões  em torno dos filmes. Contamos com o apoio da revista The New Inquiry que liberou a publicação do texto Woman With a Weapon-Camera, de Yasmine Price. Também publicaremos um conjunto composto por quatro textos originalmente publicados na revista  Black Camera, v. 12, Number 1, 2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), publicada pela Indiana University Press. Teremos o texto “Descolonizando telas: o FESPACO e os primeiros tempos do cinema africano” escrito por Janaína Oliveira.
           </p>
           <p>
-            Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
-            rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
-            vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
-            vitae nunc porta malesuada. Duis efficitur orci nec suscipit
-            viverra. In dictum, arcu vel blandit pretium, dolor metus hendrerit
-            ligula, quis maximus erat ex ac lorem. Nunc ornare quam sed
-            condimentum pretium. In dapibus lectus quis dolor vehicula
-            elementum. Duis sollicitudin nisl et faucibus pellentesque. Cras
-            dictum erat at massa eleifend euismod.
+          O catálogo também trará um pouco da memória do FAN - Festival de Arte Negra, que na sua primeira edição trouxe realizadores e filmes do continente africano para Belo Horizonte/ MG, em  texto  escrito por Adyr Assumpção, que fazia parte da produção do festival.
           </p>
+          <p>Contaremos também com um conjunto de ensaios sobre curadoria escritos por Heitor Augusto, Janaína Oliveira, Layla Braz, Natalie Matos, Tatiana Carvalho Costa e Vanessa Santos</p>
         </div>
         <div class="mainIllus dowloadContainer">
           <div class="pdfCover"></div>

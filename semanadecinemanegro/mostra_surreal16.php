@@ -28,24 +28,8 @@ getHeader();
                 >Surreal16 Collective, A New Look at Nigerian Cinema</span></h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-            amet diam sit amet quam mattis maximus. Proin congue justo vitae
-            diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-            tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-            imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-            eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-            gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-            blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
-            turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
-            Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
-            rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
-            vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
-            vitae nunc porta malesuada. Duis efficitur orci nec suscipit
-            viverra. In dictum, arcu vel blandit pretium, dolor metus hendrerit
-            ligula, quis maximus erat ex ac lorem. Nunc ornare quam sed
-            condimentum pretium. In dapibus lectus quis dolor vehicula
-            elementum. Duis sollicitudin nisl et faucibus pellentesque. Cras
-            dictum erat at massa eleifend euismod.
+          Esta mostra é dedicada à produção de cinema nigeriano do Coletivo Surreal16 que, em 2016, lançou um manifesto  em  reação ao padrão de Nollywood e como crítica à indústria cinematográfica do país. Como nos adianta Janaína Oliveira, curadora da mostra, Surreal16 estabelece regras em seu manifesto que vão desde não fazer filmes sobre casamentos, evitar comédias românticas e melodramas, a propagandas religiosas e uso de sotaques em inglês britânico e estadunidense. Estimula-se a produção de filmes de gênero e também do uso das línguas locais, assim como a exploração de temas genuinamente africanos e nenhuma censura. Ainda, entre as regras, está o uso obrigatório de “elementos do surrealismo”, colocando assim a proposta do Surreal 16 em diálogo com as estéticas afrofuturistas.</p>
+          <p> A mostra é composta por 5 filmes que estarão disponíveis a partir das 21h do dia 15/04 (quinta-feira) até às 21h do dia 16/04, teremos, ainda, uma conversa com um dos realizadores mediada pela curadora.
           </p>
         </div>
         <div class="mainIllus"><img src="img/surreal16.png" alt="" /></div>
