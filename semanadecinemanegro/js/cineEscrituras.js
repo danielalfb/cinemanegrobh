@@ -599,7 +599,17 @@ createDataSession4();
 
 $('.hidden').hide();
 $(document).ready(function () {
-  $(".sessionTitle").click(function(){
-    $(this).nextAll('.postBox').slice(0, 12).toggle();
+  $(".sessionTitle").click(function(){ 
+    if(sessaoGritos.length == 10 || sessaoVivencias.length == 10) {
+      $(this).nextAll('.postBox').slice(0, 10).toggle();
+      return true;
+    }
+    else if(sessaoAfetos.length == 12) {
+      $(this).nextAll('.postBox').slice(0, 12).toggle();
+      return true;
+    } 
+    else {
+      $('.postBox').toggle();
+    }
   });
 });
