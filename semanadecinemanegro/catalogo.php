@@ -6,55 +6,32 @@
       <div class="mainBanner">
         <div class="mainInfo">
           <div class="title">
-            <!-- <img src="img/detalhe_topBar.svg" alt="" /> -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              id="Layer_1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 124.5 58.9"
-              style="enable-background: new 0 0 124.5 58.9"
-              xml:space="preserve"
-              class="notHidden"
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            xmlns:xlink="http://www.w3.org/1999/xlink" 
+            version="1.1" 
+            id="Layer_1" 
+            x="0px" y="0px" 
+            viewBox="0 0 39.9 57.6" 
+            style="enable-background:new 0 0 39.9 57.6;" 
+            xml:space="preserve"
             >
-              <title>Setas detalhe posicionadas antes do título</title>
-
-              <style type="text/css">
+            <style type="text/css">
                 .st0 {
                   fill: var(--cor-laranja);
                 }
               </style>
-              <path
-                class="st0"
-                d="M39.9,29.4L11.1,58.2L0,47.6l18.4-18.2L0,11.2L11.1,0.6L39.9,29.4z M91.3,10.4l-18.7,19l18.7,18.9L80.2,58.9  L62.1,40.2L44,58.9L32.9,48.3l18.7-18.9l-18.7-19L44,0l18.1,18.7L80.2,0L91.3,10.4z M124.5,11.2l-18.4,18.2l18.4,18.2l-11.2,10.6  L84.5,29.4l28.8-28.8L124.5,11.2z"
-              />
+            <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
             <h1>Catálogo</h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-            amet diam sit amet quam mattis maximus. Proin congue justo vitae
-            diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-            tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-            imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-            eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-            gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-            blandit finibus. Nunc dolor enim, cursus ut congue nec, euismod a
-            turpis. Integer suscipit sapien sit amet ullamcorper lobortis.
+          Baixe aqui a versão em PDF do catálogo da Semana de Cinema Negro de Belo Horizonte.
+Como memória permanente, o festival contará com a publicação de um catálogo com aproximadamente 250 páginas. Nele apresentaremos informações sobre os filmes, textos e ensaios que complementam e ampliam  as discussões  em torno dos filmes. Contamos com o apoio da revista The New Inquiry que liberou a publicação do texto Woman With a Weapon-Camera, de Yasmine Price. Também publicaremos um conjunto composto por quatro textos originalmente publicados na revista  Black Camera, v. 12, Number 1, 2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), publicada pela Indiana University Press. Teremos o texto “Descolonizando telas: o FESPACO e os primeiros tempos do cinema africano” escrito por Janaína Oliveira.
           </p>
           <p>
-            Mauris vitae bibendum nisl, et venenatis nulla. Duis sollicitudin
-            rutrum ipsum nec luctus. Maecenas hendrerit lacinia ultricies. Fusce
-            vel quam ac dui condimentum volutpat vel vel elit. Aenean eget felis
-            vitae nunc porta malesuada. Duis efficitur orci nec suscipit
-            viverra. In dictum, arcu vel blandit pretium, dolor metus hendrerit
-            ligula, quis maximus erat ex ac lorem. Nunc ornare quam sed
-            condimentum pretium. In dapibus lectus quis dolor vehicula
-            elementum. Duis sollicitudin nisl et faucibus pellentesque. Cras
-            dictum erat at massa eleifend euismod.
+          O catálogo também trará um pouco da memória do FAN - Festival de Arte Negra, que na sua primeira edição trouxe realizadores e filmes do continente africano para Belo Horizonte/ MG, em  texto  escrito por Adyr Assumpção, que fazia parte da produção do festival.
           </p>
+          <p>Contaremos também com um conjunto de ensaios sobre curadoria escritos por Heitor Augusto, Janaína Oliveira, Layla Braz, Natalie Matos, Tatiana Carvalho Costa e Vanessa Santos</p>
         </div>
         <div class="mainIllus dowloadContainer">
           <div class="pdfCover"></div>
