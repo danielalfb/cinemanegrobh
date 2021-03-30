@@ -35,6 +35,9 @@ $(document).ready(function() {
     $('#video').prop('src',videoURL);
   });
     $("#close-btn").on("click", function() {
+      var videoURL = $('#video').prop('src');
+      videoURL += "?stop=1";
+      $('#video').prop('src',videoURL);   
     $("#lightbox").fadeOut(500);
     $("#button").show(250);
   });

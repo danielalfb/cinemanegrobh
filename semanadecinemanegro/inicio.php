@@ -37,7 +37,7 @@ getHeader();
       <div id = "lightbox">
         <em id = "close-btn" class="fa fa-times"></em>
         <div id = "video-wrapper">
-          <iframe title="Video Inicial" id = "video" width="960" height="540" src = "https://www.youtube.com/embed/lJfqK9bgIng" allowfullscreen></iframe>
+          <iframe class="youtube-video" title="Video Inicial" id = "video" width="960" height="540" src = "https://www.youtube.com/embed/lJfqK9bgIng" allowfullscreen></iframe>
         </div>
       </div>
     </div>
