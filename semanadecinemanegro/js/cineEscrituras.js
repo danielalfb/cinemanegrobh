@@ -469,7 +469,7 @@ var sessaoGritos = [
 
 function createDataSession1() {
   var sesTitle = document.createElement('a');
-  sesTitle.className = 'sessionTitle';
+  sesTitle.className = 'sessionTitle1';
   sesTitle.innerHTML = 'SESSÃO ESPECIAL</a> <em class="fas fa-chevron-down"></em>';
   container.appendChild(sesTitle);
   for (let i = 0; i < sessaoEspecial.length; i++) {

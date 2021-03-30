@@ -9,10 +9,6 @@ else if(sessaoAfetos.length == 12) {
   $(this).nextAll('.postBox').slice(0, 12).toggle();
   return false;
 } 
-else if(sessaoEspecial.length == 1){
-  $('.postBox').toggle();
-  return true;
-}
 });
 
 var coll = document.getElementsByClassName('collapsible');

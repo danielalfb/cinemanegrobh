@@ -310,7 +310,8 @@ a.btn:hover {
   align-items: center;
 }
 
-a.sessionTitle {
+a.sessionTitle,
+a.sessionTitle1 {
   display: flex;
   width: 91%;
   justify-content: space-between;
@@ -318,7 +319,8 @@ a.sessionTitle {
   cursor: pointer;
   margin-bottom: 40px;
 }
-.sessionTitle {
+.sessionTitle,
+.sessionTitle1 {
   display: flex;
   justify-content: start;
   text-transform: uppercase;
@@ -326,7 +328,8 @@ a.sessionTitle {
   font-weight: 600;
 }
 
-div.postBox {
+div.postBox,
+div.postBoxSession {
   display: flex;
   align-items: center;
   width: 90%;
@@ -369,7 +372,8 @@ div.postImg {
 }
 
 /* bloco: filmes */
-.postBox > div.filmeImg {
+.postBox > div.filmeImg,
+.postBoxSession > div.filmeImg {
   width: 600px;
   align-self: stretch;
   border-radius: 5px;
