@@ -25,6 +25,7 @@
   margin: 0;
   padding: 0;
 }
+
 html,
 body {
   font-family: var(--font-padrao);
@@ -33,6 +34,7 @@ body {
 
   background-color: #fff;
 }
+
 h3 {
   font-size: 20px;
   margin-bottom: 20px;
@@ -728,11 +730,12 @@ footer {
 
 /*  VIDEO    */
 .video {
-  background-color: #3D604C;
+  background-color: #3d604c;
   width: 100%;
   height: 700px;
   max-height: 100%;
   position: relative;
+  margin-top: 30px;
 }
 #button {
   font-size: 45px;
@@ -755,11 +758,11 @@ footer {
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
-  -webkit-transition: transform .5s ease;
-  -moz-transition: transform .5s ease;
-  -ms-transition: transform .5s ease;
-  -o-transition: transform .5s ease;
-  transition: transform .5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 #button:hover {
@@ -768,11 +771,11 @@ footer {
   -ms-transform: scale(1.2, 1.2);
   -o-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
-  -webkit-transition: transform .5s ease;
-  -moz-transition: transform .5s ease;
-  -ms-transition: transform .5s ease;
-  -o-transition: transform .5s ease;
-  transition: transform .5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 #button > em {
@@ -781,22 +784,22 @@ footer {
   position: relative;
   margin-top: 4px;
   margin-left: 6px;
-  -webkit-transition: color .5s ease;
-  -moz-transition: color .5s ease;
-  -ms-transition: color .5s ease;
-  -o-transition: color .5s ease;
-  transition: color .5s ease;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
   font-size: 100px;
 }
 
 #button:hover > em {
   color: white;
-  -webkit-transition: color .5s ease;
-  -moz-transition: color .5s ease;
-  -ms-transition: color .5s ease;
-  -o-transition: color .5s ease;
-  transition: color .5s ease;
-  }
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
 
 #lightbox {
   position: fixed;
@@ -820,7 +823,6 @@ footer {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
-  
 }
 
 #close-btn {
@@ -835,11 +837,11 @@ footer {
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
-  -webkit-transition: transform .5s ease, color .5s ease;
-  -moz-transition: transform .5s ease, color .5s ease;
-  -ms-transition: transform .5s ease, color .5s ease;
-  -o-transition: transform .5s ease, color .5s ease;
-  transition: transform .5s ease, color .5s ease;
+  -webkit-transition: transform 0.5s ease, color 0.5s ease;
+  -moz-transition: transform 0.5s ease, color 0.5s ease;
+  -ms-transition: transform 0.5s ease, color 0.5s ease;
+  -o-transition: transform 0.5s ease, color 0.5s ease;
+  transition: transform 0.5s ease, color 0.5s ease;
 }
 
 #close-btn:hover {
@@ -850,9 +852,9 @@ footer {
   -ms-transform: scale(1.2, 1.2);
   -o-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
-  -webkit-transition: transform .5s ease, color .5s ease;
-  -moz-transition: transform .5s ease, color .5s ease;
-  -ms-transition: transform .5s ease, color .5s ease;
-  -o-transition: transform .5s ease, color .5s ease;
-  transition: transform .5s ease, color .5s ease;
+  -webkit-transition: transform 0.5s ease, color 0.5s ease;
+  -moz-transition: transform 0.5s ease, color 0.5s ease;
+  -ms-transition: transform 0.5s ease, color 0.5s ease;
+  -o-transition: transform 0.5s ease, color 0.5s ease;
+  transition: transform 0.5s ease, color 0.5s ease;
 }
