@@ -720,9 +720,139 @@ footer {
   display: flex;
   align-items: center;
   padding: 20px 0;
-  margin-top: 20px;
 }
 .patrocinio img {
   width: 100%;
   height: 95%;
+}
+
+/*  VIDEO    */
+.video {
+  background-color: #3D604C;
+  width: 100%;
+  height: 700px;
+  max-height: 100%;
+  position: relative;
+}
+#button {
+  font-size: 45px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: transform .5s ease;
+  -moz-transition: transform .5s ease;
+  -ms-transition: transform .5s ease;
+  -o-transition: transform .5s ease;
+  transition: transform .5s ease;
+}
+
+#button:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  -webkit-transition: transform .5s ease;
+  -moz-transition: transform .5s ease;
+  -ms-transition: transform .5s ease;
+  -o-transition: transform .5s ease;
+  transition: transform .5s ease;
+}
+
+#button > em {
+  color: #fff;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
+  position: relative;
+  margin-top: 4px;
+  margin-left: 6px;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -ms-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+  font-size: 100px;
+}
+
+#button:hover > em {
+  color: white;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -ms-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+  }
+
+#lightbox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+#video-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  
+}
+
+#close-btn {
+  color: grey;
+  font-size: 25px;
+  position: fixed;
+  top: 3%;
+  right: 3%;
+  z-index: 2;
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: transform .5s ease, color .5s ease;
+  -moz-transition: transform .5s ease, color .5s ease;
+  -ms-transition: transform .5s ease, color .5s ease;
+  -o-transition: transform .5s ease, color .5s ease;
+  transition: transform .5s ease, color .5s ease;
+}
+
+#close-btn:hover {
+  color: white;
+  cursor: pointer;
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  -webkit-transition: transform .5s ease, color .5s ease;
+  -moz-transition: transform .5s ease, color .5s ease;
+  -ms-transition: transform .5s ease, color .5s ease;
+  -o-transition: transform .5s ease, color .5s ease;
+  transition: transform .5s ease, color .5s ease;
 }

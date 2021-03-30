@@ -25,3 +25,17 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+$(document).ready(function() {
+  $("#button").on("click", function() {
+    $("#lightbox").fadeIn(1000);
+    $(this).hide();
+    var videoURL = $('#video').prop('src');
+    videoURL += "?autoplay=1";
+    $('#video').prop('src',videoURL);
+  });
+    $("#close-btn").on("click", function() {
+    $("#lightbox").fadeOut(500);
+    $("#button").show(250);
+  });
+});

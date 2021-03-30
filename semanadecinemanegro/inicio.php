@@ -31,6 +31,19 @@ getHeader();
         </div>
       </div>
     </section>
-<?php
-  getFooter();
+    <section>
+    <div class="video">
+      <button id = "button"><em class = "fa fa-play" aria-hidden = "true"></em></button>
+      <div id = "lightbox">
+        <em id = "close-btn" class="fa fa-times"></em>
+        <div id = "video-wrapper">
+          <iframe title="Video Inicial" id = "video" width="960" height="540" src = "https://www.youtube.com/embed/lJfqK9bgIng" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    </section>
+    <?php
+  getFooterOpen(); 
 ?>
+  <script src="js/collapse.js"></script>
+</html>
