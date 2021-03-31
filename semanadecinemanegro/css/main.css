@@ -330,6 +330,10 @@ a.sessionTitle1 {
   font-size: 24px;
   font-weight: 600;
 }
+p.descriptionSession {
+  width: 91%;
+  margin-bottom: 50px;
+}
 
 div.postBox,
 div.postBoxSession {

@@ -469,9 +469,17 @@ var sessaoGritos = [
 
 function createDataSession1() {
   var sesTitle = document.createElement('a');
+  var description = document.createElement('p');
   sesTitle.className = 'sessionTitle1';
   sesTitle.innerHTML = 'SESSÃO ESPECIAL</a> <em class="fas fa-chevron-down"></em>';
+  description.className = 'descriptionSession';
+  description.innerHTML = 'Dedicada a pensar como as articulações dos elementos estéticos e narrativos no cinema' 
+  + 'circunscrevem uma forma de cine-escritura preta que, em lugar da mera assimilação de formas dadas,' 
+  + 'busca ressignificar um repertório de técnicas já consolidadas, muitas destas até mesmo desgastadas.' 
+  + 'Segundo as curadoras, isso se dá à luz de uma experiência negra, afrodescendente, operando uma resistência que é,' 
+  + 'sobretudo, cultural e em favor do não-apagamento de maneiras muito particulares de vivenciar e estar no mundo.';
   container.appendChild(sesTitle);
+  container.appendChild(description);
   for (let i = 0; i < sessaoEspecial.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox';
@@ -487,10 +495,16 @@ function createDataSession1() {
 }
 function createDataSession2() {
   var sesTitle = document.createElement('a');
+  var description = document.createElement('p');
   sesTitle.className = 'sessionTitle';
-  sesTitle.innerHTML =
-    'VIVÊNCIAS AFRO-DIASPÓRICAS</a> <em class="fas fa-chevron-down"></em>';
+  sesTitle.innerHTML = 'VIVÊNCIAS AFRO-DIASPÓRICAS</a> <em class="fas fa-chevron-down"></em>';
+  description.className = 'descriptionSession';
+  description.innerHTML = 'Cinema como foco na história e na cultura negra, que revive e coloca na tela' 
+  + 'experiências negras brasileira e corpos negros de várias matizes e expressões de gênero, todos encarnados em uma marca comum, a da ancestralidade. As' 
+  + 'obras deste conjunto nos ajudam a entender a ancestralidade como base fundamental das existências destes sujeitos diaspóricos, possibilitando o' 
+  + 'encontro e a re-inscrição do passado no presente e a imaginação de outros futuros que se fazem no agora.'
   container.appendChild(sesTitle);
+  container.appendChild(description);
   for (let i = 0; i < sessaoVivencias.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox hidden';
@@ -506,10 +520,16 @@ function createDataSession2() {
 }
 function createDataSession3() {
   var sesTitle = document.createElement('a');
+  var description = document.createElement('p');
   sesTitle.className = 'sessionTitle';
-  sesTitle.innerHTML =
-    'AFETOS E PARTILHAS</a> <em class="fas fa-chevron-down"></em>';
+  sesTitle.innerHTML = 'AFETOS E PARTILHAS</a> <em class="fas fa-chevron-down"></em>';
+  description.className = 'descriptionSession';
+  description.innerHTML = 'Cinema que elabora a construção de espaços de resistência que não são necessariamente físicos, mas emocionais e afetivos, calcados em laços de' 
+  + 'partilha e pertença. Um quilombismo, como sinalizado por Abdias do Nascimento, pautado na construção de espaços coletivos e compartilhados,' 
+  + 'nos quais o convívio em comunidade com pessoas de mesma raça tece utopias de acolhimento e de luta por direitos, frutos de um desejo e um ' 
+  + 'impulso de se irmanar, de se cercar de seus semelhantes.'
   container.appendChild(sesTitle);
+  container.appendChild(description);
   for (let i = 0; i < sessaoAfetos.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox hidden';
@@ -525,10 +545,15 @@ function createDataSession3() {
 }
 function createDataSession4() {
   var sesTitle = document.createElement('a');
+  var description = document.createElement('p');
   sesTitle.className = 'sessionTitle';
-  sesTitle.innerHTML =
-    'GRITOS E FABULAÇÕES DE CURA</a> <em class="fas fa-chevron-down"></em>';
+  sesTitle.innerHTML = 'GRITOS E FABULAÇÕES DE CURA</a> <em class="fas fa-chevron-down"></em>';
+  description.className = 'descriptionSession';
+  description.innerHTML = 'Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem' 
+  + 'necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e' 
+  + 'histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.' 
   container.appendChild(sesTitle);
+  container.appendChild(description);
   for (let i = 0; i < sessaoGritos.length; i++) {
     var postBox = document.createElement('div');
     postBox.className = 'postBox hidden';
