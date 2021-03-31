@@ -27,6 +27,8 @@
     display: flex;
   }
   .container,
+  .container-inicio,
+  div.btn-inicio,
   .collapsible,
   .content,
   a.btn,
@@ -34,10 +36,19 @@
   .teamContainer > .teamSing {
     width: 100%;
   }
-  .container {
+  img.inicio,
+  div.paragrafo-inicio {
+    width: 92.5%;
+  }
+  .container,
+  .container-inicio {
     justify-content: center;
     margin: 1em auto;
   }
+  img.inicio {
+    margin: 20px 0;
+  }
+
   div.postBox {
     flex-direction: column;
     padding: 0.6em;
@@ -54,11 +65,17 @@
   .postInfo > h2 {
     margin-bottom: 0;
   }
-  .postInfo .info {
+  .postInfo .info,
+  div.btn-inicio .btn {
     margin-bottom: 0.6em;
   }
-  div.btn-filmes {
+  div.btn-filmes,
+  .container-inicio,
+  div.btn-inicio {
     flex-direction: column;
+  }
+  div.btn-inicio .btn {
+    margin: 0.2em 0;
   }
   a.btn {
     padding: 5px 0;
@@ -73,8 +90,10 @@
     margin-right: 0.5em;
   }
 }
-@media (max-height:800px){
-	footer { position: static; }
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
 }
 /* Here is the code for Responsive Footer */
 /* You can remove below code if you don't want Footer to be responsive */

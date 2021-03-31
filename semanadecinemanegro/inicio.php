@@ -4,7 +4,7 @@ getHeader();
 ?>
    <!--banner:-->
     <section>
-      <div class="container flex-end">
+      <div class="container-inicio center">
         <img class="inicio" src="img/inicio.png" alt="Foto em família ilustrada"/>
         <div class="paragrafo-inicio">
           <h3>Sobre a semana</h3>
