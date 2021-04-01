@@ -1,5 +1,7 @@
 @media screen and (max-width: 650px) {
-  
+  .container-header .logo-menu a img {
+    margin-left: 10px;
+  }
   .subtitle {
     margin-left: 20px;
   }
@@ -126,6 +128,9 @@
     flex-direction: column;
     padding: 60px 30px;
   }
+  .footer-distributed .footer-left img {
+    width: 30%;
+}
   .footer-distributed .footer-left img {
     margin-bottom: 50px;
   }
