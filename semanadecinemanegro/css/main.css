@@ -145,9 +145,10 @@ p {
   font-weight: 500;
 }
 
-.container-header .navbar ul li a.ativo {
+.container-header .navbar ul li a.active {
   color: #000;
   font-weight: 700;
+  background-color: transparent !important;
 }
 
 .container-header .navbar ul li a:hover {

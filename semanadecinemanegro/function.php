@@ -1,5 +1,7 @@
 <?php
-function getHeader() { ?> 
+function getHeader() { 
+  $activePage = basename($_SERVER['PHP_SELF'], ".php");
+  ?> 
  <!DOCTYPE html>
     <html lang="pt-BR">
     <head>
@@ -33,8 +35,8 @@ function getHeader() { ?>
             <div class="bar3"></div>
           </div>
           <ul id="nav-list">
-            <li><a class="ativo" href="./inicio.php">Início</a></li>
-            <li><a href="./programacao.php">Programação</a></li>
+            <li><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Início</a></li>
+            <li><a  class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
            <div class="dropdown">
                <li><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
@@ -53,8 +55,8 @@ function getHeader() { ?>
                   
                </div>
            </div>
-            <li><a href="./catalogo.php">Catálogo</a></li>
-            <li><a href="./creditos.php">Créditos</a></li>
+            <li><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catálogo</a></li>
+            <li><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
             <div class="search-container">
            <form action="#">
            <input type="text" name="search">
