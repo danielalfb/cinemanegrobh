@@ -8,6 +8,7 @@ function getHeader() {
     <meta charset="pt-BR" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semana de Cinema Negro de Belo Horizonte</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link rel="stylesheet" type="text/css" href="./css/screen.css" />
@@ -29,11 +30,13 @@ function getHeader() {
           <a href="./inicio.php"><img src="./img/logo.svg" class="logo" alt="Logo Menu" title="Início"/></a>
         </div>
         <div class="navbar">
-          <div class="conteudo" onclick="menuMobile(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
+        <div class="menu__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+        <div class="menu__links">
           <ul id="nav-list">
             <li><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Início</a></li>
             <li><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
@@ -51,8 +54,7 @@ function getHeader() {
                <li><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
                   <li><a href="./oficinas.php">Oficinas</a></li>
-                  <li><a href="./debates.php">Debates</a></li>
-                  
+                  <li><a href="./debates.php">Debates</a></li>                  
                </div>
            </div>
             <li><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catálogo</a></li>
@@ -64,6 +66,7 @@ function getHeader() {
            </form>
            </div>
           </ul>
+        </div>
         </div>
       </div>
   </div>
@@ -117,7 +120,6 @@ function getFooter() { ?>
   </div>
 </footer>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </html>
 <?php }
 
@@ -167,5 +169,4 @@ function getFooterOpen() { ?>
     <a href="#"><em class="fab fa-youtube"></em></a>
   </div>
 </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <?php }
