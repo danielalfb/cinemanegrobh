@@ -21,11 +21,11 @@ async function loadData() {
         debateBox2.className = 'debateBox';
         debateBox2.innerHTML = `
         <div class="debateTitle">
-        <h1>${boxContent[i].titulo}</h1>
+        <h1>${boxContent[i].tituloPt}</h1>
         <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
         <div class="debateInfo">
         <ul>
-        <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img1}')"></div>
+        <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
         <span>${boxContent[i].direcao1}<br><p>${boxContent[i].funcao1}</p></li>
         <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img2}')"></div>
         <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>
@@ -38,11 +38,11 @@ async function loadData() {
         debateBox3.className = 'debateBox';
         debateBox3.innerHTML = `
             <div class="debateTitle">
-            <h1>${boxContent[i].titulo}</h1>
+            <h1>${boxContent[i].tituloPt}</h1>
             <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
             <div class="debateInfo">
             <ul>
-            <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img1}')"></div>
+            <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
             <span>${boxContent[i].direcao1}<br><p>${boxContent[i].funcao1}</p></li>
             <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img2}')"></div>
             <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>
@@ -57,11 +57,11 @@ async function loadData() {
         debateBox4.className = 'debateBox';
         debateBox4.innerHTML = `
               <div class="debateTitle">
-              <h1>${boxContent[i].titulo}</h1>
+              <h1>${boxContent[i].tituloPt}</h1>
               <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
               <div class="debateInfo">
               <ul>
-              <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img1}')"></div>
+              <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
               <span>${boxContent[i].direcao1}<br><p>${boxContent[i].funcao1}</p></li>
               <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img2}')"></div>
               <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>
@@ -78,11 +78,11 @@ async function loadData() {
         debateBox5.className = 'debateBox';
         debateBox5.innerHTML = `
               <div class="debateTitle">
-              <h1>${boxContent[i].titulo}</h1>
+              <h1>${boxContent[i].tituloPt}</h1>
               <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
               <div class="debateInfo">
               <ul>
-              <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img1}')"></div>
+              <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
               <span>${boxContent[i].direcao1}<br><p>${boxContent[i].funcao1}</p></li>
               <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img2}')"></div>
               <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>
@@ -101,11 +101,11 @@ async function loadData() {
         debateBox6.className = 'debateBox';
         debateBox6.innerHTML = `
               <div class="debateTitle">
-              <h1>${boxContent[i].titulo}</h1>
+              <h1>${boxContent[i].tituloPt}</h1>
               <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
               <div class="debateInfo">
               <ul>
-              <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img1}')"></div>
+              <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
               <span>${boxContent[i].direcao1}<br><p>${boxContent[i].funcao1}</p></li>
               <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img2}')"></div>
               <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>

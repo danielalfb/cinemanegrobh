@@ -19,7 +19,7 @@ async function loadData() {
       var postBox = document.createElement('div');
       postBox.className = 'postBox';
       postBox.innerHTML = `
-    <div class="postInfo"><h1>${boxContent[i].titulo}</h1>
+    <div class="postInfo"><h1>${boxContent[i].tituloPt}</h1>
     <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2>
     <p>${boxContent[i].descricaoPt}</p>
     <p>${boxContent[i].descricaoEng}</p></div>
