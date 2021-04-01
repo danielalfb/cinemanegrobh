@@ -948,12 +948,3 @@ footer {
   display: flex;
   top: 25px;
 }
-
-.container-header .navbar .dropdown:hover .dropdown-content {
-  position: relative;
-  min-width: 375px;
-}
-.container-header .navbar .dropdown .dropdown-content li a {
-  height: 50px;
-  font-size: 13px;
-}
