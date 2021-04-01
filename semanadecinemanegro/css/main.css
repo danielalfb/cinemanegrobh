@@ -118,8 +118,7 @@ p {
 .container-header .navbar {
   padding: 0 10px;
 }
-
-.container-header .navbar ul {
+.container-header .navbar .menu__links ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,7 +130,7 @@ p {
   padding: 0;
 }
 
-.container-header .navbar ul li a {
+.container-header .navbar .menu__links ul li a {
   font-family: var(--font-padrao);
   text-decoration: none;
   color: var(--cor-cinza-menu);
@@ -145,29 +144,16 @@ p {
   font-weight: 500;
 }
 
-.container-header .navbar ul li a.active {
+.container-header .navbar .menu__links ul li a.active {
   color: #000;
   font-weight: 700;
   background-color: transparent !important;
 }
 
-.container-header .navbar ul li a:hover {
+.container-header .navbar .menu__links ul li a:hover {
   color: #000;
 }
 
-.container-header .navbar ul .close {
-  display: none;
-  text-align: right;
-  padding: 10px;
-}
-
-.container-header .navbar ul .close span {
-  font-size: 40px;
-  display: inline-block;
-  border: 1px solid #cccccc;
-  padding: 0 10px;
-  cursor: pointer;
-}
 .search-container {
   display: flex;
   align-items: center;
@@ -897,4 +883,77 @@ footer {
   -ms-transition: transform 0.5s ease, color 0.5s ease;
   -o-transition: transform 0.5s ease, color 0.5s ease;
   transition: transform 0.5s ease, color 0.5s ease;
+}
+
+/*  MENU RESPONSIVO  */
+.header .navbar .menu__icon span {
+  background-color: #000;
+}
+
+.menu__icon {
+  display: none;
+  width: 45px;
+  height: 35px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu__icon span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  right: 20px;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.menu__icon span:nth-child(1) {
+  top: 0px;
+}
+
+.menu__icon span:nth-child(2),
+.menu__icon span:nth-child(3) {
+  top: 13px;
+}
+
+.menu__icon span:nth-child(4) {
+  top: 26px;
+}
+
+.navbar.menu_state_open .menu__icon span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.navbar.menu_state_open .menu__icon span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.navbar.menu_state_open .menu__icon span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.navbar.menu_state_open .menu__icon span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.navbar.menu_state_open .menu__links{
+  display: flex;
+  top: 25px;
+}
+
+.container-header .navbar .dropdown:hover .dropdown-content {
+  position: relative;
+  min-width: 375px;
+}
+.container-header .navbar .dropdown .dropdown-content li a {
+  height: 50px;
+  font-size: 13px;
 }

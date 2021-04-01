@@ -1,4 +1,43 @@
 @media screen and (max-width: 650px) {
+  .container-header .logo-menu a img {
+    margin-left: 10px;
+  }
+  .banner-header img {
+    height: 16px;
+    margin-right: 0;
+}
+  .subtitle {
+    margin-left: 20px;
+  }
+  .social-media {
+    display: flex;
+    margin-right: 25px;
+  }
+  .banner-header p {
+    font-size: 12px;
+  }
+  .menu__icon {
+    display: inline-block;
+  }
+ .menu__links {
+  position: fixed;
+  display: none;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 100px;
+  z-index: 1000;
+  overflow: auto;
+  background-color: #fff;
+  }
+  .container-header .navbar .menu__links ul {
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 20px;
+  } 
+  .search-container{
+   display: none;
+  }
   .conteudo {
     display: inline-block;
     cursor: pointer;
@@ -88,6 +127,53 @@
   }
   .debateInfo > ul li .debateImg {
     margin-right: 0.5em;
+  }
+  .footer-distributed {
+    flex-direction: column;
+    padding: 60px 30px;
+  }
+  .footer-distributed .footer-left img {
+    width: 30%;
+}
+  .footer-distributed .footer-left img {
+    margin-bottom: 50px;
+  }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+  }
+  .footer-distributed .footer-center {
+    margin: 30px 0;
+  }
+  .footer-distributed .footer-left {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .footer-distributed .footer-left ul li a, 
+  .footer-distributed .footer-center ul li a {
+    line-height: 2em;
+  }
+  #button {
+    top: 40%;
+    left: 40%;
+    z-index: 0;
+  }
+.div-video {
+  flex-direction: column;
+  height: 100%;
+}
+  .div-video .paragraph-video p {
+  width: 340px;
+  }
+  .video-footer {
+    width: 85%;
+  }
+  .div-video .paragraph-video p, 
+  .div-video .paragraph-video h3 {
+    margin-left: 30px;
   }
 }
 @media (max-height: 800px) {
