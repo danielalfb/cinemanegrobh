@@ -36,7 +36,7 @@ function getHeader() {
           </div>
           <ul id="nav-list">
             <li><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Início</a></li>
-            <li><a  class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
+            <li><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
            <div class="dropdown">
                <li><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
