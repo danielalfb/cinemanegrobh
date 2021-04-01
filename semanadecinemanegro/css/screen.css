@@ -38,6 +38,15 @@
   .search-container{
    display: none;
   }
+  
+.container-header .navbar .dropdown:hover .dropdown-content {
+  position: relative;
+  min-width: 375px;
+}
+.container-header .navbar .dropdown .dropdown-content li a {
+  height: 50px;
+  font-size: 13px;
+}
   .conteudo {
     display: inline-block;
     cursor: pointer;
@@ -161,7 +170,7 @@
     left: 40%;
     z-index: 0;
   }
-.div-video {
+.div-video {  
   flex-direction: column;
   height: 100%;
 }
