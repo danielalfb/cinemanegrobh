@@ -13,7 +13,7 @@ getHeader();
       </div>
 </section>
 <section>
-<div class="container containerColumn" id="results">lalalla</div>
+<div class="container containerColumn" id="results"></div>
 </section>
 
 <?php

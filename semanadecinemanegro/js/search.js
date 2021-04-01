@@ -27,15 +27,15 @@ async function render() {
     ...data.debates,
     ...data.oficinas,
   ];
-  displayResults(resultTotal);
-  console.log(resultTotal);
+  // displayResults(resultTotal);
+  // console.log(resultTotal);
 
   searchBar.addEventListener('keyup', (e) => {
     const searchString = e.target.value.toUpperCase();
     const filteredResult = resultTotal.filter((result) => {
       return result.tituloPt.includes(searchString);
     });
-    console.log(filteredResult);
+    displayResults(filteredResult);
   });
 }
 
