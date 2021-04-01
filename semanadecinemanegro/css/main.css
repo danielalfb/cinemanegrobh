@@ -500,6 +500,7 @@ div.debateContainer {
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 3em;
   border-radius: 10px;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
