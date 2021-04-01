@@ -17,8 +17,8 @@ async function loadData() {
   );
   sessaoEspecial = data.sessaoEspecial;
   sessaoVivencias = data.sessaoVivencias;
-  sessaoAfetos = data.sarahMaldoror;
-  boxContent = data.sessaoGritos;
+  sessaoAfetos = data.sessaoAfetos;
+  sessaoGritos = data.sessaoGritos;
 
   function createDataSession1() {
     var sesTitle = document.createElement('a');
