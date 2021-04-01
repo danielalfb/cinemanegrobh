@@ -1,13 +1,15 @@
-$('.hidden').hide();
-$('.sessionTitle').click(function () {
-  if (sessaoGritos.length == 10 || sessaoVivencias.length == 10) {
-    $(this).nextAll('.postBox').slice(0, 10).toggle();
-    return false;
-  } else if (sessaoAfetos.length == 12) {
-    $(this).nextAll('.postBox').slice(0, 12).toggle();
-    return false;
-  }
-});
+function sessionCollapsible() {
+  $('.hidden').hide();
+  $('.sessionTitle').click(function () {
+    if (sessaoGritos.length == 10 || sessaoVivencias.length == 10) {
+      $(this).nextAll('.postBox').slice(0, 10).toggle();
+      return false;
+    } else if (sessaoAfetos.length == 12) {
+      $(this).nextAll('.postBox').slice(0, 12).toggle();
+      return false;
+    }
+  });
+}
 
 function collapsible() {
   var coll = document.getElementsByClassName('collapsible');
@@ -25,7 +27,6 @@ function collapsible() {
     });
   }
 }
-collapsible();
 
 $(document).ready(function () {
   $('#button').on('click', function () {
