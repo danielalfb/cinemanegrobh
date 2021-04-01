@@ -147,6 +147,11 @@
   .footer-distributed .footer-center ul li a {
     line-height: 2em;
   }
+  #button {
+    top: 40%;
+    left: 40%;
+    z-index: 0;
+  }
 }
 @media (max-height: 800px) {
   footer {
