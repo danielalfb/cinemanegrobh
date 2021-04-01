@@ -89,6 +89,31 @@
   .debateInfo > ul li .debateImg {
     margin-right: 0.5em;
   }
+  .footer-distributed {
+    flex-direction: column;
+    padding: 60px 30px;
+  }
+  .footer-distributed .footer-left img {
+    margin-bottom: 50px;
+  }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+  }
+  .footer-distributed .footer-center {
+    margin: 30px 0;
+  }
+  .footer-distributed .footer-left {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .footer-distributed .footer-left ul li a, 
+  .footer-distributed .footer-center ul li a {
+    line-height: 2em;
+  }
 }
 @media (max-height: 800px) {
   footer {
