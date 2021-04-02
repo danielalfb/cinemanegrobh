@@ -944,7 +944,7 @@ footer {
   left: 50%;
 }
 
-.navbar.menu_state_open .menu__links{
+.navbar.menu_state_open .menu__links {
   display: flex;
   top: 25px;
 }

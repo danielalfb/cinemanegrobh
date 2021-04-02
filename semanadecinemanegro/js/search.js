@@ -1,5 +1,5 @@
-var container = document.querySelector('.container');
-var searchBar = document.querySelector('#searchBar');
+var page = document.querySelector('.page');
+var searchButton = document.querySelector('#searchButton');
 
 var resultTotal = [];
 
@@ -30,12 +30,18 @@ async function render() {
   // displayResults(resultTotal);
   // console.log(resultTotal);
 
-  searchBar.addEventListener('keyup', (e) => {
-    const searchString = e.target.value.toUpperCase();
+  searchButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    const searchBar = document.querySelector('#searchBar').value.toUpperCase();
+    const searchString = searchBar;
     const filteredResult = resultTotal.filter((result) => {
       return result.tituloPt.includes(searchString);
     });
-    displayResults(filteredResult);
+    if (filteredResult.length === 0) {
+      displayEmpty();
+    } else {
+      displayResults(filteredResult);
+    }
   });
 }
 
@@ -43,12 +49,66 @@ const displayResults = (results) => {
   const htmlString = results
     .map((result) => {
       return `
-      <div class="postBox"><li>
-        <h2>${result.tituloPt}</h2>
-        <p>${result.sinopsePt ? result.sinopsePt : result.descricaoPt}</p>
-      </li>
-      </div>`;
+        <section>
+          <div class="mainBanner">
+            <div class="mainInfo">
+              <div class="title creditos">
+                <h1>Resultados da busca:</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+        <div class="container containerColumn">
+        <div class="postBox"><li>
+          <h2>${result.tituloPt}</h2>
+          <p>${result.sinopsePt ? result.sinopsePt : result.descricaoPt}</p>
+        </li>
+        </div></div></section>`;
     })
     .join('');
-  container.innerHTML = htmlString;
+  page.innerHTML = htmlString;
 };
+
+const displayEmpty = () => {
+  return (page.innerHTML = `
+  <section>
+    <div class="mainBanner">
+      <div class="mainInfo">
+        <div class="title creditos">
+          <h1>Resultados da busca:</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container containerColumn">
+      <h2>Sem resultados para esta busca.</h2>        
+    </div>
+  </section>`);
+};
+
+/* <section>
+        <div class="mainBanner">
+          <div class="mainInfo">
+            <div class="title creditos">
+              <h1>Resultados da busca:</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+      <div class="container containerColumn"></div> 
+    
+    
+    const mainBanner = document.createElement('div').className='mainBanner';
+    const mainInfo = document.createElement('div').className='mainBanner';
+    const title = document.createElement('div').className='title creditos';
+    const container = document.createElement('div').className='container containerColumn';
+    const h1 = document.createElement('h1');
+    h1.textContent = 'Resultados da busca:'
+    title.appendChild(h1);
+    mainInfo.appendChild(title);
+    mainBanner.appendChild(mainInfo);
+    
+    page.appendChild(container);*/

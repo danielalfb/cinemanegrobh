@@ -2,7 +2,8 @@
 require_once __DIR__ . './function.php';
 getHeader();
 ?>
-    <section>
+<div class="page">
+  <section>
       <div class="mainBanner">
         <div class="mainInfo">
           <div class="title">
@@ -37,10 +38,12 @@ getHeader();
     </section>
     <section>
       <div class="container containerColumn"></div>
-    </section>
+    </section></div>
+    
     <?php
       getFooterOpen(); 
     ?>
+    <script src="js/search.js"></script>
     <script src="js/donaZeze.js"></script>
     <script src="js/collapse.js"></script>
   </body>
