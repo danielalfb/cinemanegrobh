@@ -290,7 +290,8 @@ a.btn:hover {
 }
 
 .container,
-.container-inicio {
+.container-inicio,
+.containerResults {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -302,7 +303,8 @@ a.btn:hover {
   margin-top: 140px;
 }
 
-.containerColumn {
+.containerColumn,
+.containerResults {
   flex-direction: column;
   align-items: center;
 }
@@ -330,7 +332,8 @@ p.descriptionSession {
 }
 
 div.postBox,
-div.postBoxSession {
+div.postBoxSession,
+div.resultBox {
   display: flex;
   align-items: center;
   width: 90%;
@@ -370,6 +373,11 @@ div.postImg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* bloco: resultados */
+div.resultBox {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* bloco: filmes */

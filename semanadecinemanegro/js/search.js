@@ -59,12 +59,12 @@ const displayResults = (results) => {
           </div>
         </section>
         <section>
-        <div class="container containerColumn">
-        <div class="postBox"><li>
+        <div class="containerResults">
+        <a href="${result.homepage}"><div class="resultBox">          
           <h2>${result.tituloPt}</h2>
           <p>${result.sinopsePt ? result.sinopsePt : result.descricaoPt}</p>
-        </li>
-        </div></div></section>`;
+        
+        </div></a></div></section>`;
     })
     .join('');
   page.innerHTML = htmlString;
@@ -82,7 +82,7 @@ const displayEmpty = () => {
     </div>
   </section>
   <section>
-    <div class="container containerColumn">
+    <div class="containerResults">
       <h2>Sem resultados para esta busca.</h2>        
     </div>
   </section>`);
