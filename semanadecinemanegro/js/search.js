@@ -46,18 +46,18 @@ async function render() {
 }
 
 const displayResults = (results) => {
+  const header = `<section>
+  <div class="mainBanner">
+    <div class="mainInfo">
+      <div class="title creditos">
+        <h1>Resultados da busca:</h1>
+      </div>
+    </div>
+  </div>
+</section>`;
   const htmlString = results
     .map((result) => {
-      return `
-        <section>
-          <div class="mainBanner">
-            <div class="mainInfo">
-              <div class="title creditos">
-                <h1>Resultados da busca:</h1>
-              </div>
-            </div>
-          </div>
-        </section>
+      return `        
         <section>
         <div class="containerResults">
         <a href="${result.homepage}"><div class="resultBox">          
@@ -67,7 +67,7 @@ const displayResults = (results) => {
         </div></a></div></section>`;
     })
     .join('');
-  page.innerHTML = htmlString;
+  page.innerHTML = header + htmlString;
 };
 
 const displayEmpty = () => {
