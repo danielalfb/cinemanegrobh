@@ -38,7 +38,8 @@ getHeader();
     </section>
     <section>
       <div class="container containerColumn"></div>
-    </section></div>
+    </section>
+    </div>
     
     <?php
       getFooterOpen(); 

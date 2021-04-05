@@ -2,6 +2,7 @@
   require_once __DIR__ . './function.php';
   getHeader();
 ?>
+    <div class="page">
     <section>
       <div class="mainBanner">
         <div class="mainInfo">
@@ -35,9 +36,11 @@
     <section>
       <div class="container containerColumn"></div>
     </section>
+  </div>
 <?php
   getFooterOpen(); 
 ?>
+<script src="js/search.js"></script>
 <script src="js/fespaco.js"></script>
 <script src="js/collapse.js"></script>
   </body>

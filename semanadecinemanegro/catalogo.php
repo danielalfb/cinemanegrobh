@@ -2,6 +2,7 @@
   require_once __DIR__ . './function.php';
   getHeader();
 ?>
+    <div class="page">
     <section>
       <div class="mainBanner">
         <div class="mainInfo">
@@ -40,6 +41,9 @@ Como memória permanente, o festival contará com a publicação de um catálogo
         </div>
       </div>
     </section>
-<?php
-  getFooter();
+    </div>
+    <?php
+  getFooterOpen(); 
 ?>
+  <script src="js/search.js"></script>
+</html>
