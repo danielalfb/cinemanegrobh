@@ -35,7 +35,7 @@ async function render() {
     const searchBar = document.querySelector('#searchBar').value.toUpperCase();
     const searchString = searchBar;
     const filteredResult = resultTotal.filter((result) => {
-      return result.tituloPt.includes(searchString);
+      return result.tituloPt.toUpperCase().includes(searchString);
     });
     if (filteredResult.length === 0) {
       displayEmpty();
