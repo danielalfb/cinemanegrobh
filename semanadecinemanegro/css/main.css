@@ -535,6 +535,10 @@ div.debateInfo {
   font-weight: 500;
 }
 
+.debateInfo span {
+  width: 250px;
+}
+
 .debateInfo ul li .debate-btn {
   width: 100%;
 }
