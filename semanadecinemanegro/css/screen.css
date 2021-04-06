@@ -131,6 +131,9 @@
   a.btn {
     padding: 5px 0;
   }
+  div.debateContainer {
+    column-count: 1;
+  }
   div.minCurr {
     width: 86%;
   }
@@ -138,13 +141,17 @@
     margin: 1em;
   }
   .debateInfo > ul li .debateImg {
-    margin-right: 0.5em;
-  }
-  .debateInfo > ul li .debateImg {
     margin: 0 0.5em 0 0;
   }
   .debateInfo > ul li span {
     width: 250px;
+  }
+  .debateInfo ul li {
+    margin: 0.05rem;
+  }
+  .debateInfo ul li:last-child,
+  .debateInfo ul li:first-child {
+    margin-top: 0.5em;
   }
   .footer-distributed {
     flex-direction: column;
