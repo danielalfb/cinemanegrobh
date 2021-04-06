@@ -23,7 +23,7 @@ getHeader();
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
-            <h1>Debates</h1>
+            <h1>Conversas e Debates</h1>
           </div>
           <p>
           As conversas e os debates foram pensados para ampliar  o pensamento ao redor dos filmes.Teremos conversas com convidades internacionais, além de debates com realizadoras e realizadores da mostra Cine-Escrituras Pretas. A abertura do festival contará com um debate dedicado a nossa homenageada Maria José Novais de Oliveira.

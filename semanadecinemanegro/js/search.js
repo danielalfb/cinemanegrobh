@@ -32,7 +32,7 @@ async function render() {
 
   searchButton.addEventListener('click', (e) => {
     e.preventDefault();
-    const searchBar = document.querySelector('#searchBar').value.toUpperCase();
+    const searchBar = document.querySelector('.searchBar').value.toUpperCase();
     const searchString = searchBar;
     const filteredResult = resultTotal.filter((result) => {
       return result.tituloPt.toUpperCase().includes(searchString);
