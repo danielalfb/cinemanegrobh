@@ -203,12 +203,12 @@
     line-height: 2em;
   }
   .patrocinio {
-    height: 15%;
+    height: 45%;
     display: flex;
     justify-content: center;
   }
-  .patrocinio img {
-    width: 95%;
+  .patrocinio-img {
+    background-image: url(../img/logomarcas_mobile.png);
   }
   #button {
     top: 40%;
