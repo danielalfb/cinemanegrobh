@@ -37,30 +37,44 @@ function getHeader() {
         </div> 
         <div class="menu__links">
           <ul id="nav-list">
-            <li><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Início</a></li>
-            <li><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
+            <li id="pt"><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Início</a></li>
+            <li id="en"><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Home</a></li>
+            <li id="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
+            <li id="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Program</a></li>
            <div class="dropdown">
-               <li><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
+               <li id="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
+               <li id="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li><a href="./mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
-                  <li><a href="./mostra_surreal16.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
-                  <li><a href="./mostra_homenagem.php">Cinema, negritude e poesia: uma homenagem a Sarah Maldoror</a></li>
-                  <li><a href="./cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
+                  <li id="pt"><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
+                  <li id="en"><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Our Actress</a></li>
+                  <li id="pt"><a href="./mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
+                  <li id="en"><a href="./mostra_fespaco.php">African Films Revisited: The Origins of FESPACO</a></li>
+                  <li id="pt"><a href="./mostra_surreal16.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
+                  <li id="en"><a href="./mostra_surreal16.php">Surreal16 Collective, a new look at nigerian cinema</a></li>
+                  <li id="pt"><a href="./mostra_homenagem.php">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
+                  <li id="en"><a href="./mostra_homenagem.php">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
+                  <li id="pt"><a href="./cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
+                  <li id="en"><a href="./cine_escrituras_pretas.php">Black Film-Writings</a></li>
                </div>
            </div>
            <div class="dropdown">
-               <li><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
+               <li id="pt"><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
+               <li id="en"><a>Activities <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li><a href="./oficinas.php">Oficinas</a></li>
-                  <li><a href="./debates.php">Debates</a></li>                  
+                  <li id="pt"><a href="./oficinas.php">Oficinas</a></li>
+                  <li id="en"><a href="./oficinas.php">Workshops</a></li>
+                  <li id="pt"><a href="./debates.php">Conversas e Debates</a></li>                  
+                  <li id="en"><a href="./debates.php"></a>Talks and Q&A's</li>                  
                </div>
            </div>
-            <li><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catálogo</a></li>
-            <li><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
+            <li id="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catálogo</a></li>
+            <li id="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catalog</a></li>
+            <li id="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
+            <li id="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
             <div class="search-container">
            <form action="./resultado.php">
-           <input type="text" name="search" id="searchBar" placeholder="Pesquisa">
+           <input  id="pt" type="text" name="search" class="searchBar" placeholder="Pesquisa">
+           <input  id="en" type="text" name="search" class="searchBar" placeholder="Search">
            <button type="submit" id="searchButton"><em class="fa fa-search"></em></button>
            </form>
            </div>
