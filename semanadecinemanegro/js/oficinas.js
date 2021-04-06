@@ -17,7 +17,7 @@ async function loadData() {
   function createData() {
     for (i = 0; i < boxContent.length; i++) {
       var postBox = document.createElement('div');
-      postBox.className = 'postBox';
+      postBox.className = 'postBoxOficina postBox';
       postBox.innerHTML = `
     <div class="postInfo"><h1>${boxContent[i].tituloPt}</h1>
     <h3>${boxContent[i].tituloEng}</h3>

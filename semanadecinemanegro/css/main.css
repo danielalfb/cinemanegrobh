@@ -297,7 +297,8 @@ a.btn:hover {
 
 .container,
 .container-inicio,
-.containerResults {
+.containerResults,
+.containerOficina {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -488,6 +489,13 @@ i.fas {
 }
 
 /* bloco: oficinas */
+.postBoxOficina {
+  display: table !important;
+  align-items: center !important;
+  width: 50% !important;
+  padding: 1rem !important;
+  margin: 0 1rem 1rem !important;
+}
 .minInfoImg {
   width: 120px;
   height: 120px;
@@ -497,7 +505,7 @@ i.fas {
   backdrop-filter: blur(2px);
 }
 div.minCurr {
-  width: 400px;
+  width: 92%;
   background-color: var(--cor-salmao);
   padding: 4rem 1.5rem 1.5rem 1.5rem;
   border-radius: 5px;
@@ -507,6 +515,7 @@ div.minInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
 }
 .minCurr > p {
   color: #fff;

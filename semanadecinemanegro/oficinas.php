@@ -33,7 +33,7 @@ getHeader();
       </div>
     </section>
     <section>
-      <div class="container containerColumn"></div>
+      <div class="container containerOficina"></div>
     </section>
   </div>
 <?php

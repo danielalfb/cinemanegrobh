@@ -96,7 +96,10 @@
   img.inicio {
     margin: 100px 0 20px 0;
   }
-
+  .containerOficina {
+    flex-direction: column;
+    align-items: center;
+  }
   div.postBox {
     flex-direction: column;
     padding: 0.6em;
@@ -229,5 +232,8 @@
 @media screen and (min-width: 2560px) {
   .footer-distributed .footer-left {
     width: 26%;
+  }
+  div.minCurr {
+    width: 95%;
   }
 }
