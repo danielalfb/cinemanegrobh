@@ -377,6 +377,12 @@ div.postInfo {
   margin: 10px 15px 0 0;
   text-transform: none;
 }
+p.english-info {
+  font-size: 12px;
+}
+p.english {
+  font-weight: 300;
+}
 
 div.postImg {
   background-position: center;

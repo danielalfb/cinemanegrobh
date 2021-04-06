@@ -41,7 +41,7 @@ async function loadData() {
       postBox.innerHTML = `
     <div class="postImg filmeImg" style="background-image: url('${src}${sessaoEspecial[i].img}')"></div>
     <div class="postInfo"><h1>${sessaoEspecial[i].tituloPt}</h1><h2>${sessaoEspecial[i].tituloEng}</h2><h3>${sessaoEspecial[i].localDuracao}</h3>
-    <p>${sessaoEspecial[i].sinopsePt}</p><p>${sessaoEspecial[i].sinopseEng}</p>
+    <p>${sessaoEspecial[i].sinopsePt}</p><p class="english">${sessaoEspecial[i].sinopseEng}</p>
     <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
     <div class="content"><ul>${sessaoEspecial[i].fichaTecnica}</ul></div></div>
     <a href="${sessaoEspecial[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
@@ -68,7 +68,7 @@ async function loadData() {
       postBox.innerHTML = `
     <div class="postImg filmeImg" style="background-image: url('${src}${sessaoVivencias[i].img}')"></div>
     <div class="postInfo"><h1>${sessaoVivencias[i].tituloPt}</h1><h2>${sessaoVivencias[i].tituloEng}</h2><h3>${sessaoVivencias[i].localDuracao}</h3>
-    <p>${sessaoVivencias[i].sinopsePt}</p><p>${sessaoVivencias[i].sinopseEng}</p>
+    <p>${sessaoVivencias[i].sinopsePt}</p><p class="english">${sessaoVivencias[i].sinopseEng}</p>
     <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
     <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div></div>
     <a href="${sessaoVivencias[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
@@ -95,7 +95,7 @@ async function loadData() {
       postBox.innerHTML = `
     <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAfetos[i].img}')"></div>
     <div class="postInfo"><h1>${sessaoAfetos[i].tituloPt}</h1><h2>${sessaoAfetos[i].tituloEng}</h2><h3>${sessaoAfetos[i].localDuracao}</h3>
-    <p>${sessaoAfetos[i].sinopsePt}</p><p>${sessaoAfetos[i].sinopseEng}</p>
+    <p>${sessaoAfetos[i].sinopsePt}</p><p class="english">${sessaoAfetos[i].sinopseEng}</p>
     <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
     <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div></div>
     <a href="${sessaoAfetos[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
@@ -121,7 +121,7 @@ async function loadData() {
       postBox.innerHTML = `
     <div class="postImg filmeImg" style="background-image: url('${src}${sessaoGritos[i].img}')"></div>
     <div class="postInfo"><h1>${sessaoGritos[i].tituloPt}</h1><h2>${sessaoGritos[i].tituloEng}</h2><h3>${sessaoGritos[i].localDuracao}</h3>
-    <p>${sessaoGritos[i].sinopsePt}</p><p>${sessaoGritos[i].sinopseEng}</p>
+    <p>${sessaoGritos[i].sinopsePt}</p><p class="english">${sessaoGritos[i].sinopseEng}</p>
     <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
     <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div></div>
     <a href="${sessaoGritos[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;

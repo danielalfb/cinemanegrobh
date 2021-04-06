@@ -21,14 +21,17 @@ async function loadData() {
       postBox.innerHTML = `
     <div class="postImg filmeImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
     <div class="postInfo"><h1>${boxContent[i].tituloPt}</h1><h2>${boxContent[i].tituloEng}</h2><h3>${boxContent[i].localDuracao}</h3>
-    <p><strong>Disponível: ${boxContent[i].data}</strong></p><p>${boxContent[i].sinopsePt}</p><p>${boxContent[i].sinopseEng}</p>
+    <p><strong>Disponível: ${boxContent[i].data}</strong></p>
+    <p class="english-info">* Please note that the timezone considered is GMT-3 Brazilian Time.</p>
+    <p>${boxContent[i].sinopsePt}</p><p class="english">${boxContent[i].sinopseEng}</p>
     <div class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
     <div class="content"><ul>${boxContent[i].fichaTecnica}</ul></div></div>
-    <a href="${boxContent[i].link}" class="btn" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
+    <a href="${boxContent[i].link}" class="btn" onClick="linkStatus()" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
   createData();
   collapsible();
+  linkStatus();
 }
 loadData();
