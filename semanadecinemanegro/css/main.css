@@ -656,6 +656,9 @@ img.inicio {
 div.paragrafo-inicio {
   width: 700px;
 }
+div.paragrafo-inicio h3 {
+  text-transform: uppercase;
+}
 div.btn-inicio {
   width: 100%;
   display: flex;
@@ -1007,4 +1010,38 @@ footer {
 .navbar.menu_state_open .menu__links {
   display: flex;
   top: 25px;
+}
+
+/* LANGUAGE   */
+#en {
+  display: none;
+}
+.language ul{
+  display: flex;
+  margin-right: 50px;
+}
+.language ul li {
+  width: auto;
+  display: inline;
+  margin-left: 15px;
+}
+.button_lang {
+  background-color: #777;
+  color: #FFF;
+  padding: 8px 20px;
+  border-radius: 5px;	
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
+  cursor: pointer;
+}
+.button_lang:hover, .current_lang {
+  background-color: #444;	
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -ms-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
