@@ -24,15 +24,26 @@ getHeader();
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
             
-            <h1>Programação</h1>
+            <h1 id="pt">Programação</h1>
+            <h1 id="en">Program</h1>
           </div>
-          <p>
-          Aqui você encontra a  programação da Semana de Cinema Negro para download. A Mostra Cine-Escrituras Pretas permanece inteiramente disponível on-line ao longo dos dias de festival, com apenas 3 filmes com datas de exibição definidas. As demais sessões têm datas definidas para a entrada on-line. Baixe a programação e veja as datas de exibição dos filmes, das conversas internacionais e dos debates da mostra Cine-Escrituras Pretas.  
+          <p id="pt">
+          Aqui você encontra a  programação da Semana de Cinema Negro para download. A Mostra Cine-Escrituras Pretas permanece 
+          inteiramente disponível on-line ao longo dos dias de festival, com apenas 3 filmes com datas de exibição definidas. 
+          As demais sessões têm datas definidas para a entrada on-line. Baixe a programação e veja as datas de exibição dos filmes, 
+          das conversas internacionais e dos debates da mostra Cine-Escrituras Pretas.  
+          </p>
+          <p id="en">
+          Here, you will find the Black Film Week program available for download. The Black Film-Writings section will be entirely 
+          available online during all days of the festival, except for 3 films with scheduled screening dates. The remaining sections 
+          have a scheduled  date for online access. Download the program and check the films’ screening dates, as well as the schedule 
+          of international talks and Q&A's of the Black Film-Writings section.
           </p>
         </div>
         <div class="mainIllus dowloadContainer">
           <div class="pdfCover"></div>
-          <p>Confira a programação completa do Festival.</p>
+          <p id="pt">Confira a programação completa do Festival.</p>
+          <p id="en">Check the complete program of the Festival.</p>
           <a href="/" class="btn">DOWNLOAD PDF</a>
         </div>
       </div>
