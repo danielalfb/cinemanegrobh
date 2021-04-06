@@ -1027,11 +1027,35 @@ footer {
   top: 25px;
 }
 
+/* PAGINAS DE ERRO */
+div.errorContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  margin-top: 150px;
+}
+.errorInfo {
+  width: 500px;
+  max-width: 100%;
+}
+.errorInfo h1 {
+  font-size: 3em;
+}
+.errorInfo h2 {
+  font-size: 2em;
+}
+.errorIllus > img {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 10px 40px 40px 0;
+}
 /* LANGUAGE   */
 #en {
   display: none;
 }
-.language ul{
+.language ul {
   display: flex;
   margin-right: 50px;
 }
@@ -1042,21 +1066,22 @@ footer {
 }
 .button_lang {
   background-color: #777;
-  color: #FFF;
+  color: #fff;
   padding: 8px 20px;
-  border-radius: 5px;	
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
-  -ms-transition: background-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   cursor: pointer;
 }
-.button_lang:hover, .current_lang {
-  background-color: #444;	
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
-  -ms-transition: background-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out;
+.button_lang:hover,
+.current_lang {
+  background-color: #444;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }

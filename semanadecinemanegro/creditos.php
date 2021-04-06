@@ -146,5 +146,4 @@ Gestão e Desenvolvimento de Projetos</h3></li></br>
 getFooterOpen(); 
 ?>
     <script src="js/search.js"></script>
-  <script src="js/collapse.js"></script>
 </html>

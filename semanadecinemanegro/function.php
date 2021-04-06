@@ -72,7 +72,7 @@ function getHeader() {
             <li id="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
             <li id="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
             <div class="search-container">
-           <form action="./resultado.php">
+           <form>
            <input  id="pt" type="text" name="search" class="searchBar" placeholder="Pesquisa">
            <input  id="en" type="text" name="search" class="searchBar" placeholder="Search">
            <button type="submit" id="searchButton"><em class="fa fa-search"></em></button>
