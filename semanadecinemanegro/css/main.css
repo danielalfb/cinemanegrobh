@@ -805,11 +805,11 @@ footer {
   background-color: #f3f3f3;
   position: relative;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
 }
 .video-footer {
   background-color: #ff8b1a;
-  width: 30%;
+  width: 50%;
   max-height: 100%;
   position: relative;
   margin: 50px;
