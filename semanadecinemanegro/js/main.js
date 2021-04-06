@@ -5,7 +5,9 @@
     });
   });
 })(jQuery);
-var portuguese = document.getElementById('pt_click'),
+
+function translate() {
+    var portuguese = document.getElementById('pt_click'),
     english = document.getElementById('en_click'),
     pt_txt = document.querySelectorAll('#pt'),
     en_txt = document.querySelectorAll('#en'),
@@ -48,3 +50,5 @@ function init(){
     langue(portuguese,english);
 }
 init();
+}
+translate();
