@@ -61,7 +61,7 @@
           <div class="pdfCover"></div>
           <p id="pt">Confira o catálogo do Festival.</p>
           <p id="en">Check out the Festival catalog.</p>
-          <a href="/" class="btn">DOWNLOAD PDF</a>
+          <a href="/" class="btn download">DOWNLOAD PDF</a>
         </div>
       </div>
     </section>
