@@ -101,7 +101,7 @@ function getHeader() {
  <?php }
 
 function getFooterOpen() { ?>
-<div class="patrocinio"><img src="./img/logomarcas.png" alt=""></div>
+<div class="patrocinio"><div class="patrocinio-img"></div></div>
 <footer class="footer-distributed">
 
 <div class="footer-left">
