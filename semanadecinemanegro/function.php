@@ -19,9 +19,10 @@ function getHeader() {
     <div class="banner-header">
       <div class="subtitle"><img src="./img/detalhe_topBar.svg" alt="Logo"><p>Festival de Cinema Intercâmbio Cultural Brasil-África</p></div>  
       <div class="social-media">
-       <a href="#"><em class="fab fa-instagram"></em></a>
-       <a href="#"><em class="fab fa-facebook-f"></em></a>
-       <a href="#"><em class="fab fa-youtube"></em></a>
+       <a href="https://instagram.com/semana.cinemanegrobh?igshid=1d6oomjwgo5aj" target="_blank"><em class="fab fa-instagram"></em></a>
+       <a href="https://www.facebook.com/semana.cinemanegrobh" target="_blank"><em class="fab fa-facebook-f"></em></a>
+       <a href="https://www.youtube.com/channel/UCWEYVmhTOymK86IAzCmC70g" target="_blank"><em class="fab fa-youtube"></em></a>
+       <a href="https://twitter.com/scnegrobh" target="_blank"><em class="fab fa-twitter"></em></a>
       </div>
     </div>
     <div class="container-header header">
@@ -119,22 +120,18 @@ function getFooterOpen() { ?>
 </div>
 <div class="footer-right">
   <p class="footer-about">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-      amet diam sit amet quam mattis maximus. Proin congue justo vitae
-      diam facilisis mattis. Vestibulum nec suscipit massa. Sed odio
-      tortor, faucibus eu mauris at, mollis tempus orci. Proin risus orci,
-      imperdiet ac mauris et, egestas auctor leo. Integer erat nisl,
-      eleifend ac laoreet id, finibus eu arcu. In vitae diam vestibulum,
-      gravida quam semper, accumsan justo. Suspendisse vehicula mauris id
-      blandit finibus.
+    Semana de Cinema Negro de Belo Horizonte</br>
+    <strong>scnegrobh@gmail.com</strong>
+
 
 </p>
 </div>
 <div class="border"></div>
 <div class="footer-icons">
-    <a href="#"><em class="fab fa-instagram"></em></a>
-    <a href="#"><em class="fab fa-facebook-f"></em></a>
-    <a href="#"><em class="fab fa-youtube"></em></a>
+<a href="https://instagram.com/semana.cinemanegrobh?igshid=1d6oomjwgo5aj" target="_blank"><em class="fab fa-instagram"></em></a>
+       <a href="https://www.facebook.com/semana.cinemanegrobh" target="_blank"><em class="fab fa-facebook-f"></em></a>
+       <a href="https://www.youtube.com/channel/UCWEYVmhTOymK86IAzCmC70g" target="_blank"><em class="fab fa-youtube"></em></a>
+       <a href="https://twitter.com/scnegrobh" target="_blank"><em class="fab fa-twitter"></em></a>
   </div>
 </footer>
 <script src="js/main.js"></script>
