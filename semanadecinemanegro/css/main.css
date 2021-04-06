@@ -1023,3 +1023,28 @@ footer {
   display: flex;
   top: 25px;
 }
+
+/* PAGINAS DE ERRO */
+div.errorContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  margin-top: 150px;
+}
+.errorInfo {
+  width: 500px;
+  max-width: 100%;
+}
+.errorInfo h1 {
+  font-size: 3em;
+}
+.errorInfo h2 {
+  font-size: 2em;
+}
+.errorIllus > img {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 10px 40px 40px 0;
+}

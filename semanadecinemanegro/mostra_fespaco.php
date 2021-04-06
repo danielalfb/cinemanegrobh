@@ -2,7 +2,7 @@
   require_once __DIR__ . './function.php';
   getHeader();
 ?>
-    <div class="page">
+  <div class="page">
     <section>
       <div class="mainBanner">
         <div class="mainInfo">
