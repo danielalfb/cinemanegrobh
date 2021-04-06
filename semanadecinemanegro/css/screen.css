@@ -84,6 +84,10 @@
   .teamContainer > .teamSing {
     width: 100%;
   }
+  .teamContainer > .teamSing {
+    width: 100%;
+    padding: 0;
+  }
   img.inicio,
   div.paragrafo-inicio {
     width: 92.5%;
@@ -210,6 +214,10 @@
   .div-video .paragraph-video p,
   .div-video .paragraph-video h3 {
     margin-left: 30px;
+  }
+  #button > em {
+    margin-bottom: 0;
+    margin-left: 0;
   }
 }
 @media (max-height: 800px) {
