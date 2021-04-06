@@ -23,10 +23,18 @@ getHeader();
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
-            <h1>Conversas e Debates</h1>
+            <h1 id="pt">Conversas e Debates</h1>
+            <h1 id="en">Talks and Q&A's</h1>
           </div>
-          <p>
-          As conversas e os debates foram pensados para ampliar  o pensamento ao redor dos filmes.Teremos conversas com convidades internacionais, além de debates com realizadoras e realizadores da mostra Cine-Escrituras Pretas. A abertura do festival contará com um debate dedicado a nossa homenageada Maria José Novais de Oliveira.
+          <p id="pt">
+          As conversas e os debates foram pensados para ampliar  o pensamento ao redor dos filmes.
+          Teremos conversas com convidades internacionais, além de debates com realizadoras e realizadores 
+          da mostra Cine-Escrituras Pretas. A abertura do festival contará com um debate dedicado a nossa homenageada Maria José Novais de Oliveira.
+          </p>
+          <p id="en">
+          The talks and Q&A were planned to extend the thought surrounding the films. 
+          We will have conversations with international guests and debates with filmmakers 
+          from the Black Film-Writing section. The festival opening will feature a talk dedicated to our honored person Maria José Novais de Oliveira.
           </p>
         </div>
         <div class="mainIllus">

@@ -23,20 +23,44 @@
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
-            <h1>Catálogo</h1>
+            <h1 id="pt">Catálogo</h1>
+            <h1 id="en">Catalog</h1>
           </div>
-          <p>
+          <p id="pt">
           Baixe aqui a versão em PDF do catálogo da Semana de Cinema Negro de Belo Horizonte.
-Como memória permanente, o festival contará com a publicação de um catálogo com aproximadamente 250 páginas. Nele apresentaremos informações sobre os filmes, textos e ensaios que complementam e ampliam  as discussões  em torno dos filmes. Contamos com o apoio da revista The New Inquiry que liberou a publicação do texto Woman With a Weapon-Camera, de Yasmine Price. Também publicaremos um conjunto composto por quatro textos originalmente publicados na revista  Black Camera, v. 12, Number 1, 2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), publicada pela Indiana University Press. Teremos o texto “Descolonizando telas: o FESPACO e os primeiros tempos do cinema africano” escrito por Janaína Oliveira.
+          Como memória permanente, o festival contará com a publicação de um catálogo com aproximadamente 250 páginas. 
+          Nele apresentaremos informações sobre os filmes, textos e ensaios que complementam e ampliam  as discussões  em torno dos filmes. 
+          Contamos com o apoio da revista The New Inquiry que liberou a publicação do texto Woman With a Weapon-Camera, de Yasmine Price. T
+          ambém publicaremos um conjunto composto por quatro textos originalmente publicados na revista  Black Camera, v. 12, Number 1, 
+          2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), publicada pela Indiana University Press. 
+          Teremos o texto “Descolonizando telas: o FESPACO e os primeiros tempos do cinema africano” escrito por Janaína Oliveira.
           </p>
-          <p>
-          O catálogo também trará um pouco da memória do FAN - Festival de Arte Negra, que na sua primeira edição trouxe realizadores e filmes do continente africano para Belo Horizonte/ MG, em  texto  escrito por Adyr Assumpção, que fazia parte da produção do festival.
+          <p id="en">
+          Click here to download the PDF version of the Belo Horizonte Black Film Week catalog.
+          As an instrument of permanent memory, the festival will publish a catalog with approximately 250 pages 
+          that will feature information on the films, texts and essays that complement and extend the discussions concerning 
+          the films. We have had  the support of The New Inquiry magazine that allowed us to publish Yasmine Price’s text 
+          “Woman With a Weapon-Camera”. We will also publish a collection of four texts originally published at the Black Camera
+           magazine, v. 12, Number 1, 2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), issued by Indiana 
+           University Press. It will also feature the text “Descolonizando telas: o FESPACO e os primeiros tempos do cinema africano” 
+           [Decolonizing screens: the FESPACO and the early times of African cinema] written by Janaína Oliveira.
+          </p>  
+          <p id="pt">
+          O catálogo também trará um pouco da memória do FAN - Festival de Arte Negra, que na sua primeira edição trouxe realizadores 
+          e filmes do continente africano para Belo Horizonte/ MG, em  texto  escrito por Adyr Assumpção, que fazia parte da produção do festival.
           </p>
-          <p>Contaremos também com um conjunto de ensaios sobre curadoria escritos por Heitor Augusto, Janaína Oliveira, Layla Braz, Natalie Matos, Tatiana Carvalho Costa e Vanessa Santos</p>
+          <p id="en">
+           The catalog will also revive the memory of the FAN – Festival de Arte Negra that,
+           in its first edition, brought some filmmakers and films of the African continent to 
+           Belo Horizonte/MG in a text written by Adyr Assumpção, who was a member of the festival’s production team.
+          </p>
+          <p id="pt">Contaremos também com um conjunto de ensaios sobre curadoria escritos por Heitor Augusto, Janaína Oliveira, Layla Braz, Natalie Matos, Tatiana Carvalho Costa e Vanessa Santos.</p>
+          <p id="en">We will also have a set of essays on the practice of curatorship written by Heitor Augusto, Janaína Oliveira Layla Braz, Natalie Matos, Tatiana Carvalho Costa, and Vanessa Santos.</p>
         </div>
         <div class="mainIllus dowloadContainer">
           <div class="pdfCover"></div>
-          <p>Confira o catálogo do Festival.</p>
+          <p id="pt">Confira o catálogo do Festival.</p>
+          <p id="en">Check out the Festival catalog.</p>
           <a href="/" class="btn">DOWNLOAD PDF</a>
         </div>
       </div>
