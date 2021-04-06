@@ -536,6 +536,10 @@ div.debateContainer {
   max-width: 100%;
   column-count: 3;
   column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
   padding: var(--padding-padrao);
 }
 
@@ -635,17 +639,28 @@ div.debateInfo {
   align-items: baseline;
   justify-content: flex-start;
   flex-wrap: wrap;
+  padding: 0 2em;
 }
 .teamContainer > .teamSing {
-  width: 200px;
+  width: 390px;
   padding: 0 2em 3em 2em;
 }
-.teamSing > h1 {
+ul.teamSing {
+  list-style: none;
+}
+.teamSing > li h1,
+.teamSing > li h2 {
   font-size: 1.2em;
 }
-.teamSing > h2 {
-  font-size: 0.8em;
-  font-weight: 500;
+.teamSing > li h2 {
+  font-size: 1em;
+  color: var(--cor-cinza-menu);
+}
+
+.teamSing > li h3 {
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0.2em 0 0 0;
 }
 
 /* página > início*/
@@ -868,8 +883,8 @@ footer {
   color: #fff;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
   position: relative;
-  margin-top: 4px;
-  margin-left: 6px;
+  margin-bottom: 10px;
+  margin-left: 35px;
   -webkit-transition: color 0.5s ease;
   -moz-transition: color 0.5s ease;
   -ms-transition: color 0.5s ease;
