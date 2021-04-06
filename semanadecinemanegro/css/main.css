@@ -525,12 +525,7 @@ div.minInfo {
 }
 .minCurr > p:first-child {
   padding-bottom: 15px;
-  border-bottom: 1px solid #fff;
 }
-.postInfo > p:last-child {
-  font-weight: 300;
-}
-
 /* bloco: debates */
 div.debateContainer {
   max-width: 100%;

@@ -19,20 +19,24 @@ async function loadData() {
       var postBox = document.createElement('div');
       postBox.className = 'postBoxOficina postBox';
       postBox.innerHTML = `
-    <div class="postInfo"><h1>${boxContent[i].tituloPt}</h1>
-    <h3>${boxContent[i].tituloEng}</h3>
-    <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2>
-    <p>${boxContent[i].descricaoPt}</p>
-    <p>${boxContent[i].descricaoEng}</p></div>
+    <div class="postInfo">
+      <h1 id="pt">${boxContent[i].tituloPt}</h1>
+      <h1 id="en">${boxContent[i].tituloEng}</h>
+      <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2>
+      <p id="pt">${boxContent[i].descricaoPt}</p>
+      <p id="en">${boxContent[i].descricaoEng}</p>
+    </div>
     <div class="minInfo">
-    <div class="postImg minInfoImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
+      <div class="postImg minInfoImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
     <div class="minCurr">
-    <p>${boxContent[i].curriculoPt}</p>
-    <p>${boxContent[i].curriculoEng}</p>
-    </div></div></div>`;
+      <p id="pt">${boxContent[i].curriculoPt}</p>
+      <p id="en">${boxContent[i].curriculoEng}</p>
+    </div>
+    </div></div>`;
       container.appendChild(postBox);
     }
   }
   createData();
+  translate();
 }
 loadData();
