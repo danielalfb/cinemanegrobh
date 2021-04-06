@@ -84,3 +84,15 @@ body {
 .Modern-Slider .item .info .text p {
   margin-bottom: 0 !important;
 }
+
+@media screen and (max-width:650px) {
+  .Modern-Slider .button-page {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .Modern-Slider .button-page button {
+    margin-bottom: 50px;
+    margin-left: -25px;
+  }
+}
