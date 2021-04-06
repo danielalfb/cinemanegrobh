@@ -654,7 +654,7 @@ ul.teamSing {
 }
 .teamSing > li h2 {
   font-size: 1em;
-  color: var(--cor-cinza-menu);
+  color: #7a7a7a;
 }
 
 .teamSing > li h3 {
