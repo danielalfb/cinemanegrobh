@@ -58,16 +58,16 @@ const displayResults = (results) => {
   const htmlString = results
     .map((result) => {
       return `        
-        <section>
-        <div class="containerResults">
+        <li>
         <a href="${result.homepage}"><div class="resultBox">          
           <h2>${result.tituloPt}</h2>
           <p>${result.sinopsePt ? result.sinopsePt : result.descricaoPt}</p>
-        
-        </div></a></div></section>`;
+        </div></a>
+        </li>`;
     })
     .join('');
-  page.innerHTML = header + htmlString;
+  page.innerHTML = `${header} <section>
+  <div class="containerResults"><ul>${htmlString}</ul></div></section>`;
 };
 
 const displayEmpty = () => {
