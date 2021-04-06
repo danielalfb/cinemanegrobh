@@ -38,7 +38,7 @@ getHeader();
       <div class="debateContainer"></div>
     </section></div>
 <?php
-  getFooter();
+  getFooterOpen();
 ?>
     <script src="js/search.js"></script>
 <script src="js/debates.js"></script>

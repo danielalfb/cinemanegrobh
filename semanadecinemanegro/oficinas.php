@@ -37,7 +37,7 @@ getHeader();
     </section>
   </div>
 <?php
-getFooter();
+getFooterOpen();
 ?>
 <script src="js/search.js"></script>
 <script src="js/oficinas.js"></script>
