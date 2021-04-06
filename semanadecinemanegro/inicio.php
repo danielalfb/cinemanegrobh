@@ -65,12 +65,12 @@ getHeader();
               <p id="pt">Convidamos a todas, todes e todos a acompanhar a programação.</p>       
               <p id="en">We invite all of you to keep up with the program.</p>
               <div class="btn-inicio">
-                <a id="pt"href="/" class="btn" title="Link da plataforma">Link da plataforma</a>
-                <a id="en"href="/" class="btn" title="Link da plataforma">Streaming</a>
+                <a id="pt"href="https://todesplay.com.br/" class="btn" title="Plataforma TodesPlay">TodesPlay</a>
+                <a id="en"href="https://todesplay.com.br/" class="btn" title="Plataform TodesPlay">TodesPlay</a>
                 <a id="pt"href="/programacao.php" class="btn" title="Programação">Programação</a>
-                <a id="en"href="/programacao.php" class="btn" title="Programação">Program</a>
+                <a id="en"href="/programacao.php" class="btn" title="Program">Program</a>
                 <a id="pt"href="/catalogo.php" class="btn" title="Catálogo">Catálogo</a>
-                <a id="en"href="/catalogo.php" class="btn" title="Catálogo">Catalog</a>
+                <a id="en"href="/catalogo.php" class="btn" title="Catalog">Catalog</a>
               </div>
             </div>
           </div>

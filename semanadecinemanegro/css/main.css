@@ -761,7 +761,7 @@ footer {
 .footer-distributed .footer-right {
   width: 15%;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .footer-distributed .footer-about {
@@ -792,13 +792,13 @@ footer {
 .patrocinio {
   background-color: var(--cor-cinza-padrao);
   width: 100%;
-  height: 30%;
+  height: 50%;
   display: flex;
   align-items: center;
-  padding: 20px 0;
+  justify-content: center;
 }
 .patrocinio img {
-  width: 100%;
+  max-width: 100%;
   height: 95%;
 }
 
