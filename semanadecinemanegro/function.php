@@ -12,6 +12,14 @@ function getHeader() {
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link rel="stylesheet" type="text/css" href="./css/screen.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VJ3G4HQSX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1VJ3G4HQSX');
+    </script>
   </head>
   <body>
   <!-- HEADER -->
