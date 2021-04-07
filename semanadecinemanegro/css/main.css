@@ -368,12 +368,12 @@ div.postInfo {
   margin-bottom: 1rem;
 }
 .postInfo > h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--cor-cinza-escuro);
 }
 .postInfo > p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   margin: 10px 15px 0 0;
   text-transform: none;
