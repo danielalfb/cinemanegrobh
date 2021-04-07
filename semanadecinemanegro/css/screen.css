@@ -197,6 +197,7 @@
   .footer-distributed .footer-left {
     flex-direction: column;
     width: 100% !important;
+    align-items: initial;
   }
   .footer-distributed .footer-left ul li a,
   .footer-distributed .footer-center ul li a {
