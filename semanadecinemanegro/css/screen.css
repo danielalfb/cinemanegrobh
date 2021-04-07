@@ -36,7 +36,21 @@
     margin-top: 20px;
   }
   .search-container {
-    display: none;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .container-header .navbar .menu__links ul {
+    margin-right: 0;
+    width: 100%;
+  } 
+  .search-container input {
+    top: unset;
+    bottom: 30px;
+  }
+  .language ul {
+    margin-right: 10px;
   }
 
   .container-header .navbar .dropdown:hover .dropdown-content {

@@ -44,7 +44,7 @@ getHeader();
           <div class="pdfCover"></div>
           <p id="pt">Confira a programação completa do Festival.</p>
           <p id="en">Check the complete program of the Festival.</p>
-          <a href="/" class="btn">DOWNLOAD PDF</a>
+          <a href="/" class="btn download">DOWNLOAD PDF</a>
         </div>
       </div>
     </section>
