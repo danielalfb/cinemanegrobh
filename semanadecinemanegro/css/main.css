@@ -179,6 +179,9 @@ p {
   left: 175px;
   bottom: 10px;
 }
+.search-container button:hover {
+  cursor: pointer;
+}
 
 .conteudo {
   display: none;
@@ -317,6 +320,10 @@ a.btn:hover {
 }
 .containerResults {
   margin-top: 0;
+  padding: 0;
+  min-height: 150px;
+}
+.containerResults ul {
   padding: var(--lmargin-padrao);
 }
 

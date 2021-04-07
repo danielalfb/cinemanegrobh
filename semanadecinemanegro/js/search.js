@@ -39,8 +39,10 @@ async function render() {
     });
     if (filteredResult.length === 0) {
       displayEmpty();
+      translate();
     } else {
       displayResults(filteredResult);
+      translate();
     }
   });
 }
@@ -50,7 +52,8 @@ const displayResults = (results) => {
   <div class="mainBanner">
     <div class="mainInfo">
       <div class="title creditos">
-        <h1>Resultados da busca:</h1>
+        <h1 id="pt">Resultados da busca:</h1>
+        <h1 id="en">Search results:</h1>
       </div>
     </div>
   </div>
@@ -60,8 +63,16 @@ const displayResults = (results) => {
       return `        
         <li>
         <a href="${result.homepage}"><div class="resultBox">          
-          <h2>${result.tituloPt}</h2>
-          <p>${result.sinopsePt ? result.sinopsePt : result.descricaoPt}</p>
+          <h2 id="pt">${result.tituloPt}</h2>
+          <h2 id="en">${
+            result.tituloEng ? result.tituloEng : result.tituloPt
+          }</h2>
+          <p id="pt">${
+            result.sinopsePt ? result.sinopsePt : result.descricaoPt
+          }</p>
+          <p id="en">${
+            result.sinopseEng ? result.sinopseEng : result.descricaoEng
+          }</p>
         </div></a>
         </li>`;
     })
@@ -76,14 +87,16 @@ const displayEmpty = () => {
     <div class="mainBanner">
       <div class="mainInfo">
         <div class="title creditos">
-          <h1>Resultados da busca:</h1>
+        <h1 id="pt">Resultados da busca:</h1>
+        <h1 id="en">Search results:</h1>
         </div>
       </div>
     </div>
   </section>
   <section>
     <div class="containerResults">
-      <h2>Sem resultados para esta busca.</h2>        
+      <h2 id="pt">Sem resultados para esta busca.</h2>
+      <h2 id="en">No results found.</h2>
     </div>
   </section>`);
 };
