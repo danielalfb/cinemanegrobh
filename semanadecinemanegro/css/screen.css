@@ -3,8 +3,7 @@
     margin-left: 10px;
   }
   .banner-header img {
-    height: 12px;
-    margin-right: 0;
+    display: none;
   }
   .subtitle {
     margin-left: 0;
@@ -14,7 +13,8 @@
     margin-right: 25px;
   }
   .banner-header p {
-    font-size: 11.5px;
+    font-size: 12px;
+    margin-left: 10px;
   }
   .menu__icon {
     display: inline-block;
@@ -44,7 +44,7 @@
   .container-header .navbar .menu__links ul {
     margin-right: 0;
     width: 100%;
-  } 
+  }
   .search-container input {
     top: unset;
     bottom: 30px;
@@ -197,6 +197,7 @@
   .footer-distributed .footer-left {
     flex-direction: column;
     width: 100% !important;
+    align-items: initial;
   }
   .footer-distributed .footer-left ul li a,
   .footer-distributed .footer-center ul li a {
@@ -208,6 +209,8 @@
     justify-content: center;
   }
   .patrocinio-img {
+    width: 100%;
+    height: 85%;
     background-image: url(../img/logomarcas_mobile.png);
   }
   #button {

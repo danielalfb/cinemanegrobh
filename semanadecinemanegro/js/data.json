@@ -9,8 +9,8 @@
       "sinopseEng": "An elderly woman films what she does not want to forget.",
       "img": "DZ_ALZHEIMER.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": "/cinemanegrobh/semanadecinemanegro/sessao_de_abertura.php"
+      "link": "/error_400",
+      "homepage": "/sessao_de_abertura"
     },
     {
       "tituloPt": "QUINTAL",
@@ -21,8 +21,8 @@
       "sinopseEng": "Another day in the life of an elderly couple in the outskirts.",
       "img": "DZ_QUINTAL.jpg",
       "imgDir": "maybe",
-      "link": "/cinemanegrobh/semanadecinemanegro/error_404.php",
-      "homepage": ""
+      "link": "/error_404",
+      "homepage": "/sessao_de_abertura"
     },
     {
       "tituloPt": "RUA ATALÉIA",
@@ -33,203 +33,221 @@
       "sinopseEng": "In 2011, during a blackout in an outskirt neighborhood’s street, a family – surrounded by candles that light conversations and thoughts – awaits the return of electricity. Now, ten years later, the light tries to impose its place towards the shadows of memory.",
       "img": "DZ_RUAATALEIA.jpeg",
       "imgDir": "maybe",
-      "link": "/cinemanegrobh/semanadecinemanegro/error_400.php",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/sessao_de_abertura"
     }
   ],
   "fespaco": [
     {
       "tituloPt": "CABASCABO",
-      "tituloEng": "",
+      "tituloEng": "CABASCABO",
       "localDuracao": "NÍGER, 1969, 45´",
+      "localDuracaoEng": "NiGER, 1969, 45´",
       "fichaTecnica": "<li>direção director Oumarou Ganda</li><li>roteiro script Oumarou Ganda</li><li>fotografia cinematography Gérard de Battista</li><li>montagem editing Danièle Tessier</li><li>som sound Moussa Hamidou</li><li>trilha sonora original original soundtrack Kaka e Dan Baba Ali</li><li>elenco principal main cast Oumarou Ganda, Zalika Souley, Issa Gombokoye</li><li>contato contact  Argos Films - Cécile Meyer-Cases c.meyer@argosfilms.fr</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Um atirador africano da força expedicionária francesa na Indochina retorna ao Níger, desmobilizado e rico. Ele está cercado, comemorado. Generoso, ele desperdiçará seu pecúlio e logo será abandonado por todos os seus amigos. O filme é uma resposta de Oumarou Ganda ao filme Eu, um Negro, de Jean Rouch, em que desempenhou o seu próprio \"papel\", o de um \"atirador senegalês\" alistado na guerra da Indochina. \r\n\r\n\r\nRestaurado em 2K em 2019. \r\nParceiros de restauração: Orange Studio, Cinémathèque Afrique, Argos Films.",
       "sinopseEng": "An African shooter from the French Expeditionary Corps in Indochina returns to Niger, demobilized and wealthy. People surround and celebrate him. For his generosity, he will waste his savings and will soon be abandoned by all his friends. The film is an answer by Oumarou Ganda to the film I, a Negro, by Jean Rouch, in which he played a “Senegalese shooter” enlisted in the Indochina war. \r\n\r\n\r\nRestored in 2K in 2019. \r\nRestoration partners: Orange Studio, Cinémathèque Afrique, Argos Films. \r\n",
-      "data": "15/04 às 13h até às 13h do dia seguinte | Available: 04/15 from 1 pm to 1 pm on the next day*",
+      "dataPt": "15/04 às 13h até às 13h do dia seguinte.",
+      "dataEng": "04/15 from 1 pm to 1 pm on the next day*.",
       "img": "MF_CABASCABO.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_fespaco"
     },
     {
       "tituloPt": "MUNA MOTO",
-      "tituloEng": "",
+      "tituloEng": "MUNA MOTO",
       "localDuracao": "Camarões, 1975 , 85’",
+      "localDuracaoEng": "Cameroon, 1975 , 85’",
       "fichaTecnica": "<li>direção director JeanPierre Dikongué Pipa</li><li>roteiro script Jean-Pierre Dikongué-Pipa</li><li>fotografia cinematography J-P. Delazay, J-L. Léon, M. Tagny</li><li>montagem editing Andrée Davanture, Dominique Saint, Jules Takam[LB2]</li><li>arte e figurino art and costume design Jean-Pierre Dikongué Pipa, Anne Bebe</li><li>som sound Ambroise Ayongo, Joseph Betare, Henry Humbert</li><li> trilha sonora original original soundtrack</li><li>elenco principal main cast David Endéné, Arlette Din Bell, Jeanne Mvondo, Philippe Abia, Jeacky Kingue, Gisèle Dikongué-Pipa, Esther Mwembe, Catherine Biboum, Justine Sengue, Samuel Baongla</li><li>contato contact carmen.accaputo@cineteca.bologna.it</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Ngando e Ndomé estão apaixonados e querem se casar, mas a família de Ndomé só aceita a união mediante o pagamento de um dote, como manda a tradição. Sem dinheiro, o jovem Ngando recorre ao tio para ajudá-lo, mas é traído pelo mesmo, que está disposto a tomar Ndomé como sua quinta esposa na esperança de ter um filho. \r\n\r\nRestaurado em 2019 pela Cineteca di Bologna/L’Immagine Ritrovata e The Film Foundation’s World Cinema Project. Financiado pela Hobson/Lucas Family Foundation. \r\n\r\n\r\nEssa restauração é parte do African Film Heritage Project, criado pela The Film Foundation, FEPACI e UNESCO – em colaboração com a Cineteca di Bologna – para ajudar a localizar, restaurar e propagar o cinema africano. \r\n\r\n",
       "sinopseEng": "Ngando and Ndomé are in love and want to get married, but Ndomé’s family will only accept the union if Ndomé pays the dowry, as per tradition. Since he has no money, Ngando asks his uncle to help him; however, his uncle betrays him for he is willing to take Ndomé as his fifth wife so he could have a child. \r\n\r\nRestored in 2019 by Cineteca di Bologna/L’Immagine Ritrovata and The Film Foundation’s World Cinema Project. Funding provided by the Hobson/Lucas Family Foundation. \r\n\r\n\r\nThis restoration is part of the African Film Heritage Project, created by The Film Foundation, FEPACI and UNESCO – in collaboration with Cineteca di Bologna – to help locate, restore, and disseminate African cinema.",
-      "data": "15/04 às 17h até às 17h do dia seguinte | Available: 04/15 from 5 pm to 5 pm on the next day*",
+      "dataPt": "15/04 às 17h até às 17h do dia seguinte.",
+      "dataEng": "04/15 from 5 pm to 5 pm on the next day*.",
       "img": "MF_MUNAMOTO.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_fespaco"
     },
     {
-      "tituloPt": "OUAGA, CAPITALE DU CINÉMA",
-      "tituloEng": "OUAGA, CAPITAL DO CINEMA",
+      "tituloPt": "OUAGA, CAPITAL DO CINEMA",
+      "tituloEng": "OUAGA, CAPITALE DU CINÉMA",
       "localDuracao": "TUNÍSIA, BURKINA FASO, ITÁLIA, 2000, 60’",
+      "localDuracaoEng": "Tunisia, BURKINA FASO, Italy, 2000, 60’",
       "fichaTecnica": "<li>direção director Mohamed Challouf</li><li>roteiro script  Mohamed Challouf</li>\r\n<li>produção production Mohamed Challouf</li>\r\n<li>fotografia cinematography Nara Keo Kosal</li>\r\n<li>montagem editing Dario Kavalleri, Mirka Fanti</li>\r\n<li>som sound Issa Traore, Frederic Kabore</li>\r\n<li>trilha sonora original original soundtrack Alpha Blondy, Les Petits Chanteurs au Poing Leve, Black so Man, Les Colombes de la Revolutions, Bakary Dembele, Oger Kabore</li>\r\n<li>elenco principal main cast Alimata Salembere, Sembene Ousmane, Abderrahmane Sissako, Ola Balogun, Souleymane Cisse, Idrissa Ouedraogo,  Naky Sy Savane, Ai Keita.</li>\r\n<li>empresa produtora production company Caravanes Productions</li><li>contato contact caravanes_challouf@yahoo.fr</li>\r\n<li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Ouagadougou é a capital de Burkina Faso, um dos países mais pobres do mundo. Também é a cidade onde ocorre o FESPACO, o festival mais importante de cinema pan-africano. Entre 1983 e 1987, a cidade também serviu de cenário para uma das utopias cinematográficas mais empolgantes.",
       "sinopseEng": "Ouagadougou, the capital of Burkina Faso, one of the poorest countries in the world. It is also the city of FESPACO, the most important pan-African film festival. Between 1983 and 1987 the city was also the scene of one of the most exciting cinema utopias.",
-      "data": "11/04 às 14h até às 14h do dia seguinte | Available: 04/11 from 2 pm to 2 pm on the next day*",
+      "dataPt": "11/04 às 14h até às 14h do dia seguinte.",
+      "dataEng": "04/11 from 2 pm to 2 pm on the next day*.",
       "img": "MF_OUAGACAPITALEDUCINEMA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_fespaco"
     },
     {
-      "tituloPt": "SISTERS OF THE SCREEN – AFRICAN WOMEN IN CINEMA",
-      "tituloEng": "IRMÃS DA TELA - MULHERES AFRICANAS NO CINEMA",
+      "tituloPt": "IRMÃS DA TELA - MULHERES AFRICANAS NO CINEMA",
+      "tituloEng": "SISTERS OF THE SCREEN – AFRICAN WOMEN IN CINEMA",
       "localDuracao": "ESTADOS UNIDOS, 2002, 61'",
+      "localDuracaoEng": "usa, 2002, 61'",
       "fichaTecnica": "<li>direção director Betti Ellerson</li><li>roteiro script  Betti Ellerson</li><li>produção production  Betti Ellerson</li><li>fotografia cinematography  Christophe Poulenc</li><li>montagem editing Betti Ellerson and Christophe Poulenc</li><li>elenco principal main cast Betti Ellerson, Safi Faye, Sarah Maldoror, Anne Mungai, Fanta Régina Nacro, Ngozi Onwurah, Monique Mbeka Phoba</li><li>contato contact coshea@wmm.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Explorando as extraordinárias contribuições de realizadoras da África e da diáspora, a estreia engajada de Beti Ellerson's intercala entrevistas com as aclamadas diretoras Safi Faye, Sarah Maldoror, AnneMungai, Fanta Régina Nacro e Ngozi Onwurah com trechos de suas obras mais influentes. Com poder e nuance, Ellerson também enfrenta a espinhosa questão da autenticidade cultural, revisitando o lendário FESPACO (Festival PanAfricano de Cinema e Televisão de Ouagadougou) de 1991, no qual as mulheres da diáspora foram convidadas a deixar uma reunião destinada apenas à mulher africana. Este filme é, ao mesmo tempo, uma valiosa antologia e uma homenagem apropriada ao pioneirismo e aos novos talentos do cinema africano.",
       "sinopseEng": "Exploring the extraordinary contributions of women filmmakers from Africa and the diaspora, Beti Ellerson’s engaging debut intersperses interviews with acclaimed women directors such as Safi Faye, Sarah Maldoror, Anne Mungai, Fanta Régina Nacro, and Ngozi Onwurah with footage from their seminal works. With power and nuance, Ellerson also confronts the thorny question of cultural authenticity by revisiting the legendary 1991 FESPACO (Pan-African Festival of Cinema and Television of Ouagadougou), in which diasporic women were asked to leave a meeting intended for African women only. This film is both a valuable anthology and a fitting homage to the pioneers and to the new talents of African cinema.",
-      "data": "12/04 às 21h até às 21h do dia seguinte | Available: 04/12 from 9 pm to 9 pm on the next day*",
+      "dataPt": "12/04 às 21h até às 21h do dia seguinte.",
+      "dataEng": "04/12 from 9 pm to 9 pm on the next day*.",
       "img": "MF_SISTERSOFTHESCREENAFRICANWOMENINCINEMA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_fespaco"
     },
     {
-      "tituloPt": "TAHAR CHÈRIAA, À L'OMBRE DU BAOBAB",
-      "tituloEng": "TAHAR CHÈRIAA, À SOMBRA DO BAOBÁ",
+      "tituloPt": "TAHAR CHÈRIAA, À SOMBRA DO BAOBÁ",
+      "tituloEng": "TAHAR CHÈRIAA, À L'OMBRE DU BAOBAB",
       "localDuracao": "TUNÍSIA, 2015, 71’",
+      "localDuracaoEng": "Tunisia, 2015, 71’",
       "fichaTecnica": "<li>direção director Mohamed Challouf</li><li>produção production Mohamed Challouf</li><li>fotografia cinematography Hatem Nechi, Cristina Bocchialini, Kamel Régaya, Mohamed Challouf</li><li>montagem editing Kahena Attia</li><li>trilha sonora original original soundtrack Mouna Amari, Pierre Akendengué</li><li>empresa produtora production company Caravanes Productions</li><li>contato contact caravanes_challouf@yahoo.fr</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Este filme é o retrato de Tahar Chèriaa, indiscutivelmente o pai do cinema pan-africano e o fundador do JCC Carthage Film Festival, o primeiro festival de cinema na África e no mundo árabe, criado em 1966. \r\nTambém é a história de sua amizade com os pioneiros do cinema africano, como Ousmane Sembène, Tewfik Saleh, Youssef Chahine, Timité Bassori, Moustapha Alassane, dentre muitos outros. \r\nO filme é uma homenagem ao cinema árabe e africano pelo 50º aniversário do festival JOURNÉES CINÉMATOGRAPHIQUES DE CARTHAGE na Tunísia.",
       "sinopseEng": "This film is the portrait of Tahar Chèriaa the undisputed father of pan africanism cinema and founder of JCC Carthage Film Festival , the first film festival in Africa and The Arab World (1966). \r\nIt is also the story of his friendship with the pioneers of African cinema as Ousmane Sembène, Tewfik Salah, Youssef Chahine, Timite Bassori, Moustapha Alassane and so many others. \r\nFilm homage to arab and african cinema in occasion of The 50th anniversary of JOURNÉES CINÉMATOGRAPHIQUES DE CARTHAGE IN TUNISIA.",
-      "data": "11/04 às 19h até às 19h do dia seguinte | Available: 04/11 from 7 pm to 7 pm on the next day*",
+      "dataPt": "11/04 às 19h até às 19h do dia seguinte.",
+      "dataEng": "04/11 from 7 pm to 7 pm on the next day*.",
       "img": "MF_TAHARCHERIAAALOMBREDUBAOBAB.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_fespaco"
     }
   ],
   "surreal16": [
     {
-      "tituloPt": "HELLO, RAIN",
-      "tituloEng": "OLÁ, RAIN",
+      "tituloPt": "OLÁ, RAIN",
+      "tituloEng": "HELLO, RAIN",
       "localDuracao": "NIGERIA, 2018, 30’",
+      "localDuracaoEng": "NiGER, 2018, 30’",
       "fichaTecnica": "<li>direção diretor C.J. “Fiery” Obassi </li><li>roteiro script C.J. “Fiery” Obassi </li><li>fotografia cinematography Kagho Crowther Idhebor</li><li>arte e figurino art and costume design The Fiery One, Tunji Afolayan, Obijie “Byge” Oru </li><li>som sound Sunday Adesugba, Michael “Truth” Ogunlade</li><li>elenco principal main cast Keira Hewatch, Tunde Aladese, Ogee Nelson</li><li>empresa produtora production company Fiery Film, Igodo Films, Matanya Films</li><li>contato contact www.afieryfilm.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Uma bruxa cientista, por meio de uma combinação alquímica de juju – um poder sobrenatural atribuído a um objeto – e tecnologia, cria perucas que concedem a ela e a seus amigos poderes sobrenaturais. Mas quando esses poderes se tornam incontroláveis, ela deve detê-los custe o que custar. O curta foi baseado no conto “Hello, Moto”, de Nnedi Okorafor, vencedora dos prêmios World Fantasy, Hugo e Nebula pela mesma obra.",
       "sinopseEng": "A Scientist-Witch through an alchemical combination of juju and technology creates wigs which grants her and her friends supernatural powers. But when their powers grow uncontrollable, she must stop them by any means. Based on “Hello, Moto” by World Fantasy, Hugo and Nebula award winning author Nnedi Okorafor.",
       "img": "MN_HELLORAIN.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_surreal16"
     },
     {
-      "tituloPt": "DIGITAL LOVE",
-      "tituloEng": "AMOR DIGITAL",
+      "tituloPt": "AMOR DIGITAL",
+      "tituloEng": "DIGITAL LOVE",
       "localDuracao": "NIGERIA, 2018, 5’",
+      "localDuracaoEng": "NiGER, 2018, 5’",
       "fichaTecnica": "<li>direção diretor Michael Omonua </li><li>roteiro script Michael Omonua </li><li>fotografia cinematography Michael Omonua</li><li>arte e figurino art and costume design Ganiyu Halimat</li><li>som sound Tolulope Adesoji Emmanuel</li><li>elenco principal main cast Amanda Iriekpen, Raymonda Aluede, Favour Onwka, Julie Ako, Rilwan Adebule </li><li>contato contact s16collective@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Uma jovem vislumbra uma vida transumana controlada digitalmente.",
       "sinopseEng": "A young lady envisions a transhuman, digitally controlled life.",
       "img": "MN_DIGITALLOVE.jpeg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_surreal16"
     },
     {
       "tituloPt": "BROOD",
-      "tituloEng": "      ",
+      "tituloEng": "BROOD",
       "localDuracao": "NIGÉRIA, 2017, 4’",
+      "localDuracaoEng": "NiGER, 2017, 4’",
       "fichaTecnica": "<li>direção director Michael Omonua </li><li>roteiro script Michael Omonua </li><li>fotografia cinematography Baba Agba</li><li>arte e figurino art and costume design Lyaobo Solanke </li><li>som sound Adesoji Tolulope Emmanuel </li><li>elenco principal main cast Valerie Dish, Eric Nwanso </li><li>contato contact omstarmedia@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Um homem repassa uma conversa que teve com uma garota.",
       "sinopseEng": "A man replays a conversation he had with a girl.",
       "img": "MN_BROOD.jpeg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_surreal16"
     },
     {
-      "tituloPt": "REHEARSAL",
-      "tituloEng": "ENSAIOS",
+      "tituloPt": "ENSAIOS",
+      "tituloEng": "REHEARSAL",
       "localDuracao": "NIGERIA, 2021, 14’",
+      "localDuracaoEng": "NiGER, 2021, 14’",
       "fichaTecnica": "<li>direção diretor Michael Omonua </li><li>roteiro script Michael Omonua </li><li>fotografia cinematography Kc Obiajulu, Emmanuel Izuoba </li><li>arte e figurino art and costume design Ogbeyemi Sunday</li><li>som sound Tolulope Emmanuel Adesoji, Lyabo Solanke</li><li>elenco principal main cast Ruby Akubueze, Brutus Richard, Amanda Oruh, Chimezie Imo </li><li>empresa produtora production company CINE9JA ENT LTD </li><li>contato contact cine9ja@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Uma peça está sendo ensaiada no Teatro Nacional Iganmu Lagos, na Nigéria. Os atores assumem o papel de um grupo religioso que está ensaiando para uma apresentação. Um ensaio para uma peça sobre um ensaio para o culto de domingo, entre outras coisas. No decorrer do ensaio, fica claro que a igreja não é bem o que parece ser.",
       "sinopseEng": "A play is being rehearsed in Nigeria’s National Theatre. The actors take on the roles of a church group rehearsing a performative piece. A rehearsal for a play about a rehearsal for Sunday Service amongst other things. In the course of their Rehearsal it becomes clear that the church isn't quite what it seems.",
       "img": "MN_REHEARSAL.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_surreal16"
     },
     {
-      "tituloPt": "VISIONS",
-      "tituloEng": "VISÕES",
+      "tituloPt": "VISÕES",
+      "tituloEng": "VISIONS",
       "localDuracao": "NIGÉRIA, 2017, 19’",
+      "localDuracaoEng": "NiGER, 2017, 19’",
       "fichaTecnica": "<li>direção director Abba Makama & C.J. Obasi & Michael Omonua (Surreal16) </li><li>roteiro script Abba Makama & C.J. Obasi & Michael Omonua </li><li>fotografia cinematography Baba Agba, Michael Omonua </li><li>montagem editing Abba Makama & C.J. Obasi & Michael Omonua </li><li>arte e figurino art and costume design Obijie Oru </li><li>som sound Ava Momoh, Valentino Igwe </li><li>elenco principal main cast Sunara Begum, Valerie Dish, Bolaji Eleyele, Yvonne Enakhena, Ebele Enebeli, Phoenix Ifeoma, Sandra Mohammed, Eric Nwanso, Goodness Usman, Paul Utomi</li><li>empresa produtora production company Surreal16 Collective </li><li>contato contacts s16collective@gmail.com </li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Este filme antológico, composto por três curtas-metragens inspirados por sonhos e visões, explora a identidade, o relacionamento e a espiritualidade de uma jovem. Cada curta foi dirigido por um membro do coletivo Surreal16: “Shaitan”, por Abba Makama; “Brood”, por Michael Omonua; e “Bruja”, por CJ “Fiery” Obasi.",
       "sinopseEng": "This anthology film, made up of three shorts inspired by dreams and visions, explores a young woman’s identity, relationship, and spirituality. Each short is directed by a member of the collective, Surreal 16: Shaitan by Abba Makama, Brood by Michael Omonua, and Bruja by CJ “Fiery” Obasi.",
       "img": "MN_VISIONS.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_surreal16"
     }
   ],
   "sarahMaldoror": [
     {
-      "tituloPt": "ET LES CHIENS SE TAISAIENT, D'AIMÉ CÉSAIRE | AND THE DOGS WERE QUIET, BY AIMÉ CÉSAIRE\r\n",
-      "tituloEng": "E OS CACHORROS CALAVAM-SE, DE AIMÉ CÉSAIRE",
+      "tituloPt": "E OS CACHORROS CALAVAM-SE, DE AIMÉ CÉSAIRE",
+      "tituloEng": "ET LES CHIENS SE TAISAIENT, D'AIMÉ CÉSAIRE | AND THE DOGS WERE QUIET, BY AIMÉ CÉSAIRE\r\n",
       "localDuracao": "FRANÇA, 1978, 13’",
+      "localDuracaoEng": "FRANCE, 1978, 13’",
       "fichaTecnica": "<li>direção director Sarah Maldoror </li><li>fotografia cinematography Daniel Cavillon, Maurice Perimont, Vincent Blanchet </li><li>montagem editing Simoen Jousse, Bernard Favre </li><li>som sound Henri Roux </li><li>contato contact annouchka.deandrade@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Uma peça teatral sobre a revolta colonial encenada na reserva do Museu do Homem (Paris), dirigida por Michel Leiris, com atuações de Gabriel Glissant e Sarah Maldoror.",
       "sinopseEng": "A theater play on the colonial revolt inside the anthropological museum of the Museum of Mankind, directed by Michel Leiris, with performances by Gabriel Glissant and Sarah Maldoror.",
       "img": "SM_ETLESCHIENSSETAISAIENTDAIMECESAIRE.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_homenagem"
     },
     {
-      "tituloPt": "AIMÉ CÉSAIRE, LE MASQUE DE MOTS",
-      "tituloEng": "AIMÉ CÉSAIRE, MÁSCARA DAS PALAVRAS",
+      "tituloPt": "AIMÉ CÉSAIRE, MÁSCARA DAS PALAVRAS",
+      "tituloEng": "AIMÉ CÉSAIRE, LE MASQUE DE MOTS",
       "localDuracao": "MARTINICA, 1987, 46’",
+      "localDuracaoEng": "Martinique, 1987, 46’",
       "fichaTecnica": "<li>direção director Sarah Maldoror </li><li>elenco principal main cast Sarah Maldoror, Jean-Pierre Caussidery, Danielle Anezin. Mus Henri Rou, Aimé Cesaire, Leopold Sedar Senghor, Carlos Moore, Alex Halley, Maya Angelou. </li><li>contato contact annouchka.deandrade@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Sarah Maldoror nos convida para um encontro com Aimé Césaire. Este documentário, composto principalmente de entrevistas, evoca a personalidade e as escolhas essenciais de sua vida.",
       "sinopseEng": "Sarah Maldoror invites us to a meeting with Aimé Césaire. This document, mainly composed of interviews, evokes the personality and essential choices of his life.",
       "img": "SM_AIMECESAIRELEMASQUEDEMOTS.jpeg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_homenagem"
     },
     {
       "tituloPt": "LÉON G. DAMAS",
-      "tituloEng": "   ",
+      "tituloEng": "LÉON G. DAMAS",
       "localDuracao": "FRANÇA, 1994, 26’",
+      "localDuracaoEng": "FRANCE, 1994, 26’",
       "fichaTecnica": "<li>direção director Sarah Maldoror </li><li>roteiro script Djamila Olivesi</li><li>fotografia cinematography Pierre Bouchacourt </li><li>montagem editing Catherine Bachollet </li><li>som sound Jean Umansky </li><li>elenco principal main cast Léopold Sédar Senghor, Aimé Césaire, Georges Othily, Idriss Makward, Léon-Gontran Damas, Mariann Mathéus </li><li>contato contact annouchka.deandrade@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Enquanto Aimé Césaire foi o responsável por cunhar o termo négritude, foi o poeta Léon G. Damas que primeiro vivenciou a négritude, segundo Léopold Senghor. Um documentário sobre os poetas, as paisagens e as histórias envolvendo este importante poeta, um dos pilares do movimento cultural da négritude.",
       "sinopseEng": "While Aimé Césaire was the one who coined the term négritude, it was the poet Léon G. Damas who first experienced négritude, says Leopold Senghor. A documentary about the poets, landscapes and stories surrounding this important poet, one of the pillars in the négritude cultural movement.",
       "img": "SM_LEONGDAMAS.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/mostra_homenagem"
     }
   ],
   "sessaoEspecial": [
     {
       "tituloPt": "ATÉ O FIM",
-      "tituloEng": "  ",
+      "tituloEng": "ATÉ O FIM",
       "localDuracao": "BAHIA, 2020, 93’",
       "fichaTecnica": "<li>direção director Ary Rosa, Glenda Nicácio</li><li>roteiro script Ary Rosa</li> <li>fotografia cinematography Augusto Bortolini, Poliana Costa, Thacle de Souza</li><li>arte e figurino art and costume design Glenda Nicácio</li><li>som sound Napoleão Cunha</li><li>elenco principal main cast Maíra Azevedo, Arlete Dias, Wal Diaz, Jenny Muler</li><li>empresa produtora production company Rosza Filmes Produções</li><li>contato contact roszafilmesproducoes@gmail.com</li><li>Classificação Indicativa 14 anos</li>",
       "sinopsePt": "Geralda está trabalhando em seu quiosque à beira de uma praia no Recôncavo da  Bahia, ela recebe um telefonema do hospital dizendo que seu pai pode morrer a qualquer momento.  Ela avisa suas irmãs Rose, Bel e Vilmar. O encontro promovido pela espera da morte se torna um  momento de desabafo e reconhecimentos das quatro irmãs que não se reúnem desde a morte da  mãe, há 15 anos.",
       "sinopseEng": "Geralda is working at her stand by the beach in Reconcavo da Bahia; she receives a call from the hospital saying that her father might die at any moment. She gives the news to her sisters: Rose, Bel, and Vilmar. The reunion caused by the wait for death becomes a moment for getting things off their chests and acknowledgements for the four sisters who are meeting for the first time since the death of their mother, 15 years ago. ",
       "img": "CEP_ATEOFIM.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     }
   ],
   "sessaoVivencias": [
     {
       "tituloPt": "A MORTE BRANCA DO FEITICEIRO NEGRO",
       "tituloEng": "THE WHITE DEATH OF THE BLACK WIZARD",
-      "localDuracao": "\r\nSANTA CATARINA, 2020, 10’\r\n",
+      "localDuracao": "ANTA CATARINA, 2020, 10’",
       "fichaTecnica": "<li>direção director Rodrigo Ribeiro</li><li>roteiro script Rodrigo Ribeiro, Timóteo</li><li>produção production  Julia Faraco, Rodrigo Ribeiro, Luiz Gustavo Laurindo</li><li>fotografia cinematography Carlos Adelino, Rodrigo Ribeiro</li><li>montagem editing Rodrigo Ribeiro, Carlos Eduardo Ceccon, Julia Faraco</li><li>som sound Juçara Marçal, Cadu Tenório</li><li>edição de som sound edition Rodrigo Ribeiro, Leandro Cordeiro</li><li>empresa produtora production company Gata Maior Filmes</li><li>contato contact contato@gatamaior.com.br</li><li>Classificação Indicativa 16 anos</li>",
       "sinopsePt": "Memórias do passado escravista brasileiro transbordam em paisagens etéreas e ruídos angustiantes. Através de um poético ensaio visual, uma reflexão sobre silenciamento e invisibilização do povo preto em diáspora, numa jornada íntima e sensorial.",
       "sinopseEng": "Memories from the Brazilian enslavement past overflow in ethereal landscapes and anguishing noises. Told through a poetic visual essay, a reflection on silencing and effacement of black diasporic people, in an intimate and sensorial journey.",
       "img": "CEP_AMORTEBRANCADOFEITICEIRONEGRO.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "DE UM LADO DO ATLÂNTICO",
@@ -240,8 +258,8 @@
       "sinopseEng": "On one side of the Atlantic is about the first of a series of movies where a dialogue is proposed between the filmmaker Milena Manfredini and her artistic and affective references. These are movies where the director spears on the sea letters in an attempt to blur geographical, earthly finite and temporal barriers. This release is also destined towards the filmmaker Christopher Harris.",
       "img": "CEP_DEUMLADODOATLANTICO.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "EGUM",
@@ -252,32 +270,32 @@
       "sinopseEng": "after years of distancing due to the violent death of his brother, a renowned journalist returns to his family’s home to take care of his mother, who suffers from a serious and unknown disease. a certain night, the journalist receives a visit from two unknown people who have unknown businesses with his father. this encounter, together with events that make him suspicious that something supernatural happened to his mother, make him afraid of a new tragedy.",
       "img": "CEP_EGUM.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "IRUN ORÍ",
-      "tituloEng": " ",
+      "tituloEng": "IRUN ORÍ",
       "localDuracao": "BAHIA, 2020, 8’",
       "fichaTecnica": "<li>direção director Juh Almeida </li><li>roteiro script Juh Almeida</li><li>produção production Juh Almeida</li><li>fotografia cinematography Rafa Ramos, Juh Almeida</li><li>montagem editing Luan Luiz</li><li>som sound Gabriela Palha</li><li>arte e figurino art and costume design Juliana Pina</li><li>trilha sonora original original soundtrack Lucas Carvalho</li><li>personagens  characters Alice Braz, Emira Sophia, Ana Meireles, Mariana Desterro, Gabriela Cabral, Tai Grecco, Dora</li><li>contato contact  juh.fotografia@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Irun Orí é uma narrativa visual, documental e experimental que se apoia na poesia para trazer à luz um movimento de conexão diaspórica entre Brasil e Moçambique, buscando investigar o ato de trançar enquanto transmissão e preservação de valores ancestrais, geracionais e de afeto, e como importante instrumento de consciência política de espaço, corpo e cabelo, apontando novas dimensões para se pensar identidade negra e memória pelas vias da resistência e para além da estética.",
       "sinopseEng": "Irun Orí is a visual, documental and experimental narrative that is based on poetry to bring light to a movement of diasporic connection between Brazil and Mozambique, aiming to investigate hair braiding as an act of transmission and preservation of ancestral, generational, and affective values. It is also an important instrument for raising political consciousness of space, body, and hair while pointing to new dimensions as a way of thinking about black identity and memory by means of resilience and going beyond aesthetics.",
       "img": "CEP_IRUNORI.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "JAÍZA",
-      "tituloEng": " ",
+      "tituloEng": "JAÍZA",
       "localDuracao": "MINAS GERAIS, 2019, 23’",
       "fichaTecnica": "<li>direção director João Paulo de Freitas Alves, Ana Clara Gonçalves França</li><li>produção production Ibria Lopez, Gabriella Carvalho</li><li>fotografia cinematography Dalila Merêncio</li><li>montagem editing João Paulo de Freitas Alves, Yago Guedes Monteiro</li><li>som sound Yago Guedes Monteiro, João Paulo de Freitas Alves, Antônio Guimarães</li><li>elenco principal main cast Beatriz Magalhães Fernandes, Anna Campos, Meibe F. Rodrigues</li><li>contato contact jpfreitas.contato@gmail.com</li><li>Classificação Indicativa 12 anos</li>",
       "sinopsePt": "Duas mulheres, uma jovem de dezesseis anos, quase dezessete, e outra de idade mais avançada se encontram em uma sala de espera.",
       "sinopseEng": "Two women, a young one of sixteen years-old, almost seventeen, and another one of more mature age, meet in a waiting room.",
       "img": "CEP_JAIZA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "NOVO MUNDO",
@@ -288,32 +306,32 @@
       "sinopseEng": "A paradise for the eyes defines the character's destination place, A Terra Sem Males. After walking through forests and ruins, she realizes that the territory was built on the blood of many people. This insight could paralyze her, create fear, but it inspires acts of courage.",
       "img": "CEP_NOVOMUNDO.jpeg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "OBATALA FILM",
-      "tituloEng": " ",
+      "tituloEng": "OBATALA FILM",
       "localDuracao": "MINAS GERAIS, 2019, 7’",
       "fichaTecnica": "<li>direção director Sebastian Wiedemann</li><li>roteiro script Sebastian Wiedemann</li><li>produção production Sebastian Wiedemann</li><li>fotografia cinematography Sebastian Wiedemann</li><li>montagem editing Sebastian Wiedemann</li><li>som sound Sebastian Wiedemann</li><li>elenco principal main cast Oba Ojele Obatala</li><li>contato contact wiedemann.sebastian@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "O corpo re-existe e insiste, pois nunca é um envoltório fechado, mas sim canal de passagem e transe entre as mais diversas dimensões espirituais (Obatala Film). Filme-devoção, filme-oferenda. Filmado na mítica Ile-Ife, cidade sagrada do povo Yoruba e fundada pelos próprios Orixás, este filme procura afirmar de modo sensorial a vertigem de entrar em relação com Obatala, orixá criador do mundo, da luz. Transe de faíscas de luz, de corpos em conexão espiritual.",
       "sinopseEng": "The body re-exists and insists because it’s never a closed wrap, but a channel of passage and trance between the most diverse spiritual dimensions. Film-devotion, film-offering. Filmed at the mythic Ile-Ife, sacred city to Yoruba people and founded by the Orishas, this movie seeks to affirm in a sensorial way the vertigo of relating to Obatala, orisha that is the creator of the world and light. Trance of sparks of light, of bodies in spiritual connection.",
       "img": "CEP_OBATALAFILM.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "PATTAKI",
-      "tituloEng": " ",
+      "tituloEng": "PATTAKI",
       "localDuracao": "SERGIPE, 2019, 21’",
       "fichaTecnica": "<li>direção director Everlane Moraes Santos</li><li>roteiro script Tatiana Mongue</li><li>produção production Gregorio Rodrigues</li><li>fotografia cinematography Flávio Rebouças</li><li>montagem editing Keily J. Estrada</li><li>som sound Vitor Coroa</li><li>trilha sonora original original soundtrack</li><li>elenco principal main cast Amparo Molina, Rodolfo Ofarril, Alexander Quiala, Lazara Isis, Mauria Herrera</li><li>empresa produtora production company EICTV</li><li>contato contact everlanemoraes@gmail.com</li><li>Classificação Indicativa 12 anos</li>",
       "sinopsePt": "Os peixes agonizam à beira-mar à medida que a água invade a cidade e forma espelhos que distorcem sua imagem. Na noite densa, quando a lua sobe a maré, esses seres, que vivem em cotidiano monótono e sem água, são hipnotizados pelos poderes de Iemanjá, a deusa do mar.",
       "sinopseEng": "Fishes agonize at the seashore while the water invades the city creating mirrors that distort its image. In the dense night, when the moon rises the tide, these beings, trapped in the daily life of water scarcity, are hypnotized by the power of Yemaya, the goddess of the sea.",
       "img": "CEP_PATTAKI.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "RAÍZES",
@@ -324,20 +342,20 @@
       "sinopseEng": "In search of his roots, Kelton recovers the ancestry of his family and faces the erasure of Brazilian black people’s history.",
       "img": "CEP_RAIZES.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "THINYA",
-      "tituloEng": " ",
+      "tituloEng": "THINYA",
       "localDuracao": "PERNAMBUCO, 2019, 16’",
       "fichaTecnica": "<li>direção director Lia Letícia</li><li>roteiro script Lia Letícia</li><li>produção production Clarice Hoffmann</li><li>fotografia cinematography Francisco Baccaro</li><li>montagem editing André Sampaio</li><li>som sound Nicolau Domingues</li><li>trilha sonora original original soundtrack Claudio N</li><li>elenco principal main cast Thinya Fulni-ô (Maria Pastora)</li><li>empresa produtora production company Cinecão</li><li>contato contact lia.leticia@gmail.com </li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Minha primeira viagem ao Velho Mundo. Minha fantasia aventureira pós colonial. \r\n[Um discurso muda uma imagem?] \r\n",
       "sinopseEng": "My first trip to the Old World. My post-colonial adventurous fantasy. \r\n[A discourse changes an image?] \r\n",
       "img": "CEP_THINYA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     }
   ],
   "sessaoAfetos": [
@@ -350,20 +368,20 @@
       "sinopseEng": "Through images of a personal archive and reflections on the ambivalences that sometimes become attached to relationships full of love, “To the Planets Edge Mama’s Breath Sent Us” shows passages of affection between two lesbians and their mothers.",
       "img": "CEP_ABEIRADOPLANETAMAINHASOPROUAGENTE.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "BONDE",
-      "tituloEng": " ",
+      "tituloEng": "BONDE",
       "localDuracao": "SÃO PAULO, 2019, 18’",
       "fichaTecnica": "<li>direção director Asaph Luccas</li><li>roteiro script Gleba do Pêssego</li><li>produção production Leo Domingos, Carol Santos</li><li>animação animation Ivano</li><li>fotografia cinematography Tatiane Ursulino</li><li>montagem editing Gabriel Soares, Guilherme Candido</li><li>arte e figurino art and costume design Gabriel Soares, Oliv Barros</li><li>som sound Isadora Torres</li><li>trilha sonora original original soundtrack enzo</li><li>elenco principal main cast Eric Oliveira, Alice Marcone, Joyce Brito</li><li>empresa produtora production company Gleba do Pêssego</li><li>contato contact  distribuicaogleba@gmail.com</li><li>Classificação Indicativa 14 anos</li>",
       "sinopsePt": "Três jovens negros da favela de Heliópolis saem em busca de refúgio na vida noturna LGBT+ do centro da cidade de São Paulo.",
       "sinopseEng": "Three young blacks from the Heliópolis suburb go out seeking refuge in the LGBT+ nightlife of downtown São Paulo.",
       "img": "CEP_BONDE.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "CANDOMBE DO AÇUDE: O PASSADO CONTADO PELO CANTO. EP. 1: PANDEMIA - ISOLAMENTO OU RESPIRO?",
@@ -374,8 +392,8 @@
       "sinopseEng": "“CANDOMBE DO AÇUDE: the past told through singing” is a series of three documentaries on quilombo do Açude. The first episode “PANDEMIC – ISOLATION OR RELIEF” presents how the Candombe ritual took place during the 2020 pandemic and shows how the new generation experienced and felt the manifestation of their traditions, which, for the first time in 20 years, were practiced without the influence of visitors.",
       "img": "CEP_CAMDOMBEDOACUDE.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "ENTRE NÓS, UM SEGREDO",
@@ -386,20 +404,20 @@
       "sinopseEng": "Toumani Kouyaté, alongside other 40 Malian citizens who lived abroad, was summoned back by his grandfather to urgently return to Mali in order to hear him tell a final story. Feeling the death getting closer, his grandfather needed to pass on the secrets of the nation to the younger lineage of Djélis. The oral culture, capable of protecting them from wars and crisis, is also an important social and political element that needed to be maintained. In this real adventure, we find out about a universe never seen before by the world.",
       "img": "CEP_ENTRENOSUMSEGREDO.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "FILHAS DE LAVADEIRA",
-      "tituloEng": " ",
+      "tituloEng": "FILHAS DE LAVADEIRA",
       "localDuracao": "BRASÍLIA, 2019, 22",
       "fichaTecnica": "<li>direção director  Edileuza Penha de Souza</li><li>produção production Ruth Maranhão, Marcus Azevedo</li><li>fotografia cinematography   Waldir Pina e Ana Carolina Matias</li><li>montagem editing  Ádon Bicalho</li><li>arte e figurino art and costume design  Lia Maria dos Santos</li><li>som sound  Nathália Mendes Trindade, Juciele Fonseca Correia</li><li>coloração  e mixagem de som  color grading and sound mixing Diego Cajueiro</li><li>direção e arranjo musical  musical director and arrangement  Edson Arcanjo</li><li>trilha sonora original original soundtrack  Layla Jorge, Marcelo Café</li><li>contato contact edileuzapenhadesouza@gmail.com</li><li>elenco principal main cast  Neide Rafael, Benedita da Silva, Ruth de Souza, Neusa das Dores Pereira, Elisabete Martins da Silva Gonçalves, Maria José de Souza, Hellen Rodrigues Batista, Rosangela Rodrigues Batista, Iris Marques Patricio de Oliveira, Magna Marques de Jesus Oliveira, Conceição Evaristo, Mary France de Deus, Angela Donizete Batista de Deus, Maria Goretti dos Santos, Ivonete Nunes Rodrigues dos Santos</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "O documentário: Filhas de Lavadeira apresenta histórias de Mulheres Negras que graças ao trabalho árduo de suas mães puderam ir para escola e refazer os caminhos trilhados pelas suas antecessoras. Suas memórias, alegrias e tristezas, dores e poesias se fazem presente como possibilidades de um novo destino. Transformando o duro trabalho das lavadeiras em um espetáculo de vida e plenitude.",
       "sinopseEng": "The documentary: Filhas de Lavadeira presents stories of Black Women who, thanks to the hard work of their mothers, were able to go to school and retrace the paths trailed by their ancestors. Their memories, joys and sorrows, pains and poetries become present as possibilities of a new fate turning the hard work of lavadeiras [washerwomen] into a spectacle of life and fullness.",
       "img": "CEP_FILHASDELAVADEIRA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "5 FITAS",
@@ -410,20 +428,20 @@
       "sinopseEng": "In Salvador (Brazil), the magnificent and traditional celebration in honor of Senhor do Bonfim takes place every year. Devotees, tourists, and revelers go on a pilgrimage to this famous church to tie their ribbons and make wishes. Two brothers, Pedro and Gabriel, since an early age, heard the stories and prayers of their grandmother to Senhor do Bonfim. They decided to run away on the day of the washing of the stairways of Bonfim, venturing into the crowd, in an attempt to make a wish for a soccer ball, since they grew up without a father figure. When they arrive at the church, they have to confront their grandmother’s narrative against the current stairways washing, raising questions on religiousness, syncretism, popular demonstration, and the importance of family.",
       "img": "CEP_5FITAS.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "LOOPING",
-      "tituloEng": " ",
+      "tituloEng": "LOOPING",
       "localDuracao": "MINAS GERAIS, 2019, 12’",
       "fichaTecnica": "<li>direção director Maick Hannder</li><li>roteiro script Maick Hannder</li><li>produção production Jacon Dias, Bruno Greco</li><li>fotografia cinematography Maick Hannder</li><li>montagem editing Maick Hannder</li> <li>arte e figurino art and costume design Dayane Tropicaos</li><li>som sound Maick Hannder, Pedro Mancini, Yara Tôrres</li><li>trilha sonora original original soundtrack </li><li>elenco principal main cast Arthur Diniz, João Victor</li><li>empresa produtora production company Ponta de Anzol Filmes</li><li>contato contact producao@pontadeanzol.com.br</li><li>Classificação Indicativa 16 anos</li>",
       "sinopsePt": "Vi um rapaz atravessando a rua hoje.",
       "sinopseEng": "I saw a young man crossing the street today.",
       "img": "CEP_LOOPING.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "MOVIMENTO",
@@ -434,8 +452,8 @@
       "sinopseEng": "Tereza is born during the 2020 Coronavirus pandemic; she is taken care of by her parents Rimenna and Gabriel.",
       "img": "CEP_MOVIMENTO.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "NASCENTE",
@@ -446,8 +464,8 @@
       "sinopseEng": "A river and its tributaries.",
       "img": "CEP_NASCENTE.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "OLHOS DE ERÊ",
@@ -458,32 +476,32 @@
       "sinopseEng": "Luan Manzo is six years-old and he is the great-grandson of Mametu Muiande matriarch of the Quilombo Manzo N’gunzo Kaiango, one of the most renowned quilombos across the city of Belo Horizonte. Established in 1970 by a Preto Velho, father Benedito, the Manzo quilombo is a king’s palace, governed by a queen. There, seeds and children are sprouted in an educational process – the afroliteracy – that affirms the organization, the collective, the ancestry, and the circularity of the black people. The children in the quilombo grow up knowing that they are respected; therefore, here Luan moves along the sacred space, describing it to us with safety, knowledge, rigor, and infantile eyes. It is he who, with a cellphone in hands, offers us this film.",
       "img": "CEP_OLHOSDEERE.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "PERIFERICU",
-      "tituloEng": " ",
+      "tituloEng": "PERIFERICU",
       "localDuracao": "SÃO PAULO, 2020, 20’",
       "fichaTecnica": "<li>direção director Nay Mendl, Rosa Caldeira, Stheffany Fernanda, Vita Pereira</li><li>roteiro script Winnie Carolina, Nay Mendl, Rosa Caldeira, Stheffany Fernanda, Vita Pereira</li><li>produção production Nayana Ferreira, Wellington Amorin</li><li>fotografia cinematography Nay Mendl, Rosa Caldeira, Wellington Amorin</li><li>montagem editing Samya Carvalho, Rosa Caldeira</li><li>arte e figurino art and costume design Bruna Lima, Nayla Tebas, Victor Maximiliano, Bea Gerolim</li><li>som sound Evelyn Santos</li><li>elenco principal main cast Ingrid Martins, Vita Pereira</li><li>empresa produtora production company Maloka Filmes</li><li>contato contact  babadopericoofilme@gmail.com</li><li>Classificação Indicativa 14 anos</li>",
       "sinopsePt": "Luz e Denise cresceram em meio às adversidades de ser LGBT no extremo sul da cidade de São Paulo. Entre o vogue e as poesias, do louvor ao acesso à cidade. Os sonhos e incertezas da juventude inundam suas existências.",
       "sinopseEng": "Luz and Denise grew up amongst the hardships of being LGBT at the extreme south of the city of São Paulo. Between the vogue and the poetries, from praises to the access to the city, the dreams and uncertainties of youth flood their existence.",
       "img": "CEP_PERIFERICU.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "RÃ",
-      "tituloEng": " ",
+      "tituloEng": "RÃ",
       "localDuracao": "SÃO PAULO, 2019, 15",
       "fichaTecnica": "<li>direção director Ana Flavia Cavalcanti, Julia Zakia</li><li>roteiro script Ana Flavia Cavalcanti, Julia Zakia</li><li>produção production Guilherme Cesar, Julia Zakia, Thais Morresi</li><li>fotografia cinematography Alice Drummond</li><li>montagem editing Julia Zakia, Paula Mercedes</li><li>arte e figurino art and costume design Coca Latini, Luana Castilho</li><li>elenco principal main cast Ana Flavia Cavalcanti, Lucas Andrade, Maysa Cavalcanti, Tarsila Oliveira</li><li>empresa produtora production company Gato do Parque</li><li>contato contact  juliazakia@gmail.com, gatodoparque@gmail.com</li><li>Classificação Indicativa Livre</li>",
       "sinopsePt": "Val e suas duas filhas vivem numa casa de 16 metros quadrados. Certa madrugada, mãe e filhas são subitamente acordadas com palmas e alguém chamando por Val no portão. A voz é de Neném Preto, amigo de Val e dono do mercadinho.",
       "sinopseEng": "Val and her two daughters live in a 170 square feet house. Early one morning, mother and daughters are rudely awakened by somebody clapping and calling Val at the front gate. The voice belongs to Neném Preto, Val’s friend and owner of the local grocery store.",
       "img": "CEP_RA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     }
   ],
   "sessaoGritos": [
@@ -496,8 +514,8 @@
       "sinopseEng": "A group of young friends find in music the strength to resist in face of the job market and the social adversities.",
       "img": "CEP_23MINUTOS.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "CALMARIA",
@@ -508,8 +526,8 @@
       "sinopseEng": "Streets are deserted, they run away in search of peace, but peace is our enemy.",
       "img": "CEP_CALMARIA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "FILHA NATURAL",
@@ -520,8 +538,8 @@
       "sinopseEng": "Departing from an unprecedented historical and iconographic analysis and oral reports from her own family, the visual artist Aline Motta puts forward possible hypotheses on the origins of her great-great grandmother. There is evidence that she was born around 1855 in a coffee farm in Vassouras, in the rural zone of Rio de Janeiro, which is considered the epicenter of Brazilian slavery in the 19th century.",
       "img": "CEP_FILHANATURAL.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "INTERVENÇÃO JAH",
@@ -532,8 +550,8 @@
       "sinopseEng": "The intervention is a symbolic walk to exhaustion. The intervention proposes the pre-liminary warm-up that precedes a fight of titans in a boxing ring. The intervention consists of the movement of the performer sensing the sudden fall when affected by perforations by bullets of semi-automatic weapons. \r\n\r\nBlack people in Brazil are still more than half of the population of the country. Between 2005 and 2015 the number of black people murdered increased by 18% and this also made us the majority of homicide victims, accounting for 71% of all registered bodies. - in Brazilian Forum of Public Security (2017).",
       "img": "CEP_INTERVENCAOJAH.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "MORDE & ASSOPRA",
@@ -544,32 +562,32 @@
       "sinopseEng": "I was awarded with a program of damage reduction of the bourgeoisie: a weekend in a mansion that my grandfather had worked before! After several years of hard work … the black queer here wants to become a film artist. Did I mess up your film?",
       "img": "CEP_MORDEASSOPRA.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "PIETÀ",
-      "tituloEng": " ",
+      "tituloEng": "PIETÀ",
       "localDuracao": "MINAS GERAIS, 2020, 5’",
       "fichaTecnica": "<li>direção director As Talavistas</li><li>produção production As Talavistas, Ela S/A</li><li>fotografia cinematography  Gabriela Luíza</li><li>montagem editing Gabriela Luíza</li><li>arte e figurino art and costume design  Pink Molotov, Marli Ferreira</li><li>trilha sonora original original soundtrack Gabriela Luíza, André Baumecker</li><li>elenco principal main cast Darlene Valentim como Marília, Cafézin como Jerusa </li><li>empresa produtora production company  Ela S/A, As Talavistas</li><li>contato contact:  eladegabriela@gmail.com</li><li>Classificação Indicativa 14 anos</li>",
       "sinopsePt": "Jesus recebe uma chuva de benção após ser batizado nas águas sagradas da piscina mil litros. Com isso ele recebe suficiente força para combater o mal. A justiça divina, no entanto, falha, e o herói acaba morto no colo da senhora, sua mãe.",
       "sinopseEng": "Jesus receives a shower of blessings after being baptised in the sacred waters of an inflatable swimming pool. With the blessings, He has sufficient strength to fight evil. The divine justice, however, fails and our hero ends up dead in the arms of our lady, His mother.",
       "img": "CEP_PIETA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "REBU",
-      "tituloEng": "   ",
+      "tituloEng": "REBU",
       "localDuracao": "PERNAMBUCO, 2020, 21’",
       "fichaTecnica": "<li>direção director Mayara Santana</li><li>produção production Mayara Santana</li><li>fotografia cinematography Mayara Santana</li><li>montagem editing Roberta Cardoso</li><li>contato contact  mayara.santana.mas@gmail.com</li><li>Classificação Indicativa 16 anos</li>",
       "sinopsePt": "Rebu é um documentário em primeira pessoa que se propõe a investigar dentro da minha vivência sapatão as diversas performances de masculinidade, levando em conta meus três últimos relacionamentos e também entrevistas com o homem com o qual eu cresci, meu pai. O filme pretende abordar com descontração, temáticas como o talento paquerador, flexibilidade com a verdade, relacionamento abusivo, irresponsabilidade afetiva, reprodução de machismo, impulsividade e romance. Temas que permeiam a vida dos dois personagens, mesmo que separados por um recorte geracional, cultural e de gênero.",
       "sinopseEng": "Rebu is a first-person documentary that aims to look into my lesbian life experience and the various masculinity performances, taking into account my last three relationships as well as interviews with the man with whom I grew up, my father. The film intends to approach, in a casual way, themes such as the flirting talent, truth flexibility, abusive relationships, affective irresponsibility, sexism reproduction, impulsiveness, and romance. Themes that permeate the life of both characters, even if they are separate by different generational, cultural, and gender cutouts.",
       "img": "CEP_REBU.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "SER FELIZ NO VÃO",
@@ -580,8 +598,8 @@
       "sinopseEng": "A black essay on trains, beaches, and space occupation.",
       "img": "CEP_SERFELIZNOVAO.jpeg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "UMA NOITE SEM LUA",
@@ -592,8 +610,8 @@
       "sinopseEng": "For the limit of languages used to describe our transfigurations is… the word. The word Travesti is a limitation, an invitation, and a reminder. And my darkness pre-exists race and gender. The community is, at the same time, poisonous and sweet. I am bantu. I am the messenger that announces the transmutation that we name Travesti.",
       "img": "CEP_UMANOITESEMLUA.jpg",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     },
     {
       "tituloPt": "VOCÊ TEM OLHOS TRISTES",
@@ -604,8 +622,8 @@
       "sinopseEng": "Luan works delivering food on a bicycle while having to face dilemmas and discrimination on his journey in a big city. Without hesitating he dreams of a better future.",
       "img": "CEP_VOCETEMOLHOSTRISTES.png",
       "imgDir": "maybe",
-      "link": "/",
-      "homepage": ""
+      "link": "/error_400",
+      "homepage": "/cine_escrituras_pretas"
     }
   ],
 
@@ -615,6 +633,7 @@
       "data": "10/04/2021",
       "horario": "19H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "André Novais Oliveira",
       "funcao1": "Direção",
       "img": "AB_ANDRENOVAIS.jpg",
@@ -642,6 +661,7 @@
       "data": "11/04/2021",
       "horario": "17H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Mohamed Challouf | Ouaga Capita du Cinéma & Tahar Cheriaa, à l'ombre du baobab",
       "funcao1": "Convidade",
       "img": "FESPACO1_MOHAMMEDCHALLOUF.jpg",
@@ -657,6 +677,7 @@
       "data": "11/04/2021",
       "horario": "19H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Ary Rosa e Glenda Nicácio | Até o fim",
       "funcao1": "Direção",
       "img": "CEP_ATEOFIM_ARYROSAEGLENDANICACIO.jpg",
@@ -675,6 +696,7 @@
       "data": "12/04/2021",
       "horario": "19H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Milena Manfredini | De um lado do Atlântico\r\n",
       "funcao1": "Direção",
       "img": "CEP_DEUMLADODOATLANTICO_MILENAMANFREDINI.png",
@@ -702,6 +724,7 @@
       "data": "13/04/2021",
       "horario": "21H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Juh Almeida | Irun Orí",
       "funcao1": "Direção",
       "img": "CEP_IRUNORI_JUHALMEIDA.jpg",
@@ -729,6 +752,7 @@
       "data": "14/04/2021",
       "horario": "15H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Annouchka de Andrade",
       "funcao1": "Convidade",
       "img": "SM_ANNOUCHKADEANDRADE.jpg",
@@ -747,6 +771,7 @@
       "data": "14/04/2021",
       "horario": "17H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Asaph Luccas | Bonde",
       "funcao1": "Direção",
       "img": "CEP_BONDE_ASAPHLUCCAS.png",
@@ -771,6 +796,7 @@
       "data": "14/04/2021",
       "horario": "19H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Beatriz Seigner | Entre Nós, Um Segredo",
       "funcao1": "Direção",
       "img": "CEP_ENTRENOSUMSEGREDO_BREATRIZSEIGNER.jpg",
@@ -795,6 +821,7 @@
       "data": "14/04/2021",
       "horario": "21H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Heraldo de Deus e Vilma Martins | 5 fitas",
       "funcao1": "Direção",
       "img": "CEP_5FITAS_HERALDODEDEUSVILMAMARTINS.jpeg",
@@ -819,6 +846,7 @@
       "data": "15/04/2021",
       "horario": "15H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Mbye Cham",
       "funcao1": "Convidade",
       "img": "FESPACO2_MBYECHAM.jpg",
@@ -834,6 +862,7 @@
       "data": "15/04/2021",
       "horario": "19H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Diogo Leite | Você Tem Olhos Tristes",
       "funcao1": "Direção",
       "img": "CEP_VOCETEMOLHOSTRISTES_DIOGOLEITE.png",
@@ -858,6 +887,7 @@
       "data": "15/04/2021",
       "horario": "21H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Lucas H. Rossi dos Santos | Ser Feliz no Vão",
       "funcao1": "Direção",
       "img": "CEP_SERFELIZNOVAO_LUCASHROSSIDOSSANTOS.jpg",
@@ -888,6 +918,7 @@
       "data": "16/04/2021",
       "horario": "18H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Michael Omonua | Surreal16",
       "funcao1": "Diretor",
       "img": "S16_MICHAELOMONUA.jpg",
@@ -906,6 +937,7 @@
       "data": "16/04/2021",
       "horario": "20H",
       "descricaoPt": "Debate e conversas",
+      "descricaoEng": "Talks and Q&A's",
       "direcao1": "Heitor Augusto",
       "funcao1": "Curadoria",
       "img": "CC_HEITORAUGUSTO.jpg",
