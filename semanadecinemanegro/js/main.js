@@ -29,5 +29,14 @@ function translate() {
           localStorage.setItem('lang', 'pt');
       }
   });
+  var btnContainer = document.getElementById("language");
+  var btns = btnContainer.getElementsByClassName("button_lang");
+  for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("current_lang");
+    current[0].className = current[0].className.replace("current_lang", "");
+    this.className += " current_lang";
+  })
+  }
 }
 translate();
