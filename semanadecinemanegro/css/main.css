@@ -1066,9 +1066,9 @@ div.errorContainer {
   display: flex;
   align-items: center;
 }
-.language .fa-globe {
-  font-size: 25px;
-  color: #444;
+.language img {
+  width: 30px;
+  margin-right: 10px;
 }
 .language ul {
   display: flex;
@@ -1077,6 +1077,10 @@ div.errorContainer {
 .language ul li {
   display: inline;
   margin-left: 15px;
+}
+.language ul li a {
+  display: flex;
+  align-items: center;
 }
 .button_lang {
  

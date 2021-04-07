@@ -92,15 +92,8 @@ function getHeader() {
       </div>
       <div id="language" class="language">
         <ul>
-        <div>
-        <img lang="pt" src="https://img.icons8.com/color/48/000000/brazil-circular.png" alt="Brasil"/>
-        <li lang="pt" id="pt_click" class="button_lang">Brazil | Português</li>
-        </div>
-          <div>
-          <img lang="en"src="https://img.icons8.com/color/48/000000/usa-circular.png" alt="USA"/>
-          <li lang="en" id="en_click" class="button_lang">United States | English</li>
-          </div>
-
+        <li lang="pt" id="pt_click" class="button_lang"><a><img lang="pt" src="./img/brazil.svg" alt="Brasil"/>Brazil | Português</a></li>
+        <li lang="en" id="en_click" class="button_lang"><a><img lang="en" src="./img/usa.svg" alt="USA"/>USA | English</a></li>
         </ul>
       </div>
       </div>
