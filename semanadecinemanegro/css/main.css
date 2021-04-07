@@ -627,6 +627,10 @@ div.debateInfo {
   border-radius: 5px;
   margin: 20px;
 }
+.dowloadContainer a.disable {
+    pointer-events: none;
+    cursor: default;
+}
 .dowloadContainer > p {
   font-size: 18px;
   font-weight: 500;
@@ -1076,7 +1080,6 @@ div.errorContainer {
 }
 .language ul li {
   display: inline;
-  margin-left: 15px;
 }
 .language ul li a {
   display: flex;

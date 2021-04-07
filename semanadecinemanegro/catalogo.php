@@ -61,7 +61,8 @@
           <div class="pdfCover"></div>
           <p lang="pt">Confira o catálogo do Festival.</p>
           <p lang="en">Check out the Festival catalog.</p>
-          <a href="./docs/aMeninaDoLeite.pdf" download="Catálogo" class="btn download" title="Download">DOWNLOAD PDF</a>
+          <a lang="pt" href="./docs/aMeninaDoLeite.pdf" download="Catálogo" class="btn download disable" title="Download">EM BREVE</a>
+          <a lang="en" href="./docs/aMeninaDoLeite.pdf" download="Catálogo" class="btn download disable" title="Download">COMING SOON</a>
         </div>
       </div>
     </section>
