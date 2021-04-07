@@ -6,12 +6,12 @@ getHeader();
   <section>
       <div class="errorContainer">
         <div class="errorInfo">
-          <h1 id="pt">Ops!</h1>
-          <h1 id="en">Ops!</h1>
-          <h1 id="pt">O link está indisponível!</h1>
-          <h1 id="en">The link is unavailable!</h1>
-          <h2 id="pt">O filme ainda não foi disponibilizado.</h2>
-          <h2 id="en">The movie is not yet available.</h2>
+          <h1 lang="pt">Ops!</h1>
+          <h1 lang="en">Ops!</h1>
+          <h1 lang="pt">O link está indisponível!</h1>
+          <h1 lang="en">The link is unavailable!</h1>
+          <h2 lang="pt">O filme ainda não foi disponibilizado.</h2>
+          <h2 lang="en">The movie is not yet available.</h2>
         </div>
         <div class="errorIllus"><img src="img/error-future.png" alt="" /></div>
       </div>

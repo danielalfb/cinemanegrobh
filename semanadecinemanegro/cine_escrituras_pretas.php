@@ -24,10 +24,10 @@ getHeader();
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
             
-            <h1 id="pt">Cine-Escrituras Pretas</h1>
-            <h1 id="en">BLACK CINE-WRITING</h1>
+            <h1 lang="pt">Cine-Escrituras Pretas</h1>
+            <h1 lang="en">BLACK CINE-WRITING</h1>
           </div>
-          <p id="pt">
+          <p lang="pt">
             A Mostra Cine-Escrituras Pretas, sob curadoria de Natalie Matos, 
             Tatiana Carvalho Costa e Vanessa Santos, traz uma série de filmes, 
             realizados entre 2019 e 2020, que abordam e afirmam múltiplas identidades e 
@@ -39,7 +39,7 @@ getHeader();
             Os filmes não seguem uma ordem pré-definida. Com isso, 
             espera-se que espectadores e espectadoras possam escolher livremente o seu percurso e encontro com as obras. 
           </p>
-          <p id="en">
+          <p lang="en">
           The Black Film-Writings section, curated by Natalie Matos, Tatiana Carvalho Costa, and 
           Vanessa Santos, presents a selection of films, produced between 2019 and 2020, that 
           discuss and assert multiple identities and negritude issues. Suggesting a parallel 

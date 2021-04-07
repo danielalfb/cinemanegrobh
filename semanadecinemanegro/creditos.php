@@ -24,8 +24,8 @@ getHeader();
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
-            <h1 id="pt">Créditos</h1>
-            <h1 id="en">Credits</h1>
+            <h1 lang="pt">Créditos</h1>
+            <h1 lang="en">Credits</h1>
           </div>
         </div>
       </div>

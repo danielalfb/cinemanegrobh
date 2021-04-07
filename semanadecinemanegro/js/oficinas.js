@@ -20,17 +20,17 @@ async function loadData() {
       postBox.className = 'postBoxOficina postBox';
       postBox.innerHTML = `
     <div class="postInfo">
-      <h1 id="pt">${boxContent[i].tituloPt}</h1>
-      <h1 id="en">${boxContent[i].tituloEng}</h>
+      <h1 lang="pt">${boxContent[i].tituloPt}</h1>
+      <h1 lang="en">${boxContent[i].tituloEng}</h>
       <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2>
-      <p id="pt">${boxContent[i].descricaoPt}</p>
-      <p id="en">${boxContent[i].descricaoEng}</p>
+      <p lang="pt">${boxContent[i].descricaoPt}</p>
+      <p lang="en">${boxContent[i].descricaoEng}</p>
     </div>
     <div class="minInfo">
       <div class="postImg minInfoImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
     <div class="minCurr">
-      <p id="pt">${boxContent[i].curriculoPt}</p>
-      <p id="en">${boxContent[i].curriculoEng}</p>
+      <p lang="pt">${boxContent[i].curriculoPt}</p>
+      <p lang="en">${boxContent[i].curriculoEng}</p>
     </div>
     </div></div>`;
       container.appendChild(postBox);

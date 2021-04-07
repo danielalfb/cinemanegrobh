@@ -23,10 +23,10 @@
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
-            <h1 id="pt">Cinemas Africanos em revista:</br> as origens do FESPACO</h1>
-            <h1 id="en">African Films Revisited: the origins of FESPACO</h1>
+            <h1 lang="pt">Cinemas Africanos em revista:</br> as origens do FESPACO</h1>
+            <h1 lang="en">African Films Revisited: the origins of FESPACO</h1>
           </div>
-          <p id="pt">
+          <p lang="pt">
           Sob curadoria de Janaína Oliveira, "Cinemas Africanos em revista: as origens do FESPACO" rende homenagem ao Festival 
           Panafricano de Cinema e Televisão de Ouagadougou, que acontece em Burkina Faso e completou 51 anos de existência em 2021. 
           O Festival segue sendo, com todas as suas idiossincrasias, o mais tradicional do continente africano. Buscamos com a mostra
@@ -39,7 +39,7 @@
           estudiosas/os de cinemas africanos para falar sobre os filmes e as  linguagens cinematográficas construídas no continente, 
           além de uma reunião de textos fundamentais sobre o FESPACO, alguns deles inéditos em língua portuguesa.
           </p>
-            <p id="en">
+            <p lang="en">
             Curated by Janaína Oliveira, “African Films Revisited: the origins of FESPACO” pays tribute to the Pan-African 
             Film and Television Festival of Ouagadougou, which takes place in Burkina Faso and celebrates 51 years of existence
              in 2021. The festival still is, with all its idiosyncrasies, the most traditional one of the African continent. 

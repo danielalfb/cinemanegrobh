@@ -56,10 +56,10 @@ async function loadData() {
       postBox.innerHTML = `
     <div class="postImg filmeImg" style="background-image: url('${src}${sessaoEspecial[i].img}')"></div>
     <div class="postInfo"><h1>${sessaoEspecial[i].tituloPt}</h1><h2>${sessaoEspecial[i].tituloEng}</h2><h3>${sessaoEspecial[i].localDuracao}</h3>
-    <p id="pt">${sessaoEspecial[i].sinopsePt}</p><p id="en">${sessaoEspecial[i].sinopseEng}</p>
-    <div class="btn-filmes"><div class="info"><button type="button" class="collapsible" id="pt"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+    <p lang="pt">${sessaoEspecial[i].sinopsePt}</p><p lang="en">${sessaoEspecial[i].sinopseEng}</p>
+    <div class="btn-filmes"><div class="info"><button type="button" class="collapsible" lang="pt"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
     <div class="content"><ul>${sessaoEspecial[i].fichaTecnica}</ul></div></div>
-    <a href="${sessaoEspecial[i].link}" class="btn" target="_blank" id="pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
+    <a href="${sessaoEspecial[i].link}" class="btn" target="_blank" lang="pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -151,8 +151,8 @@ async function loadData() {
   createDataSession2();
   createDataSession3();
   createDataSession4();
+  sessionCollapsible();
   collapsible();
   translate();
-  sessionCollapsible();
 }
 loadData();

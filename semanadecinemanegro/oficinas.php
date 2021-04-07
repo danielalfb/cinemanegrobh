@@ -23,14 +23,14 @@ getHeader();
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg>
-            <h1 id="pt">Oficinas</h1>
-            <h1 id="en">Workshops</h1>
+            <h1 lang="pt">Oficinas</h1>
+            <h1 lang="en">Workshops</h1>
           </div>
-          <p id="pt">
+          <p lang="pt">
           Buscando se configurar também como espaço  de formação, a Semana contará com a realização de duas oficinas que trarão 
           discussões ao redor do trabalho de curadoria e de programação. Além de uma discussão sobre cultura fílmica numa perspectiva decolonial e enegrecida.
           </p>
-          <p id="en">
+          <p lang="en">
           In an attempt to also be established as a formation space, the Film Week will also hold two workshops that will raise 
           discussions surrounding the practice of film programming and curatorship. There will also be a talk on filmic culture from a decolonial and black perspective.
           </p>

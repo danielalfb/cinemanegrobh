@@ -4,7 +4,7 @@ function sessionCollapsible() {
     if (sessaoGritos.length == 10 || sessaoVivencias.length == 10) {
       $(this).nextAll('.postBox').slice(0, 10).toggle();
       return false;
-    } else if (sessaoAfetos.length == 12) {
+    } else if (sessaoAfetos.length != 12) {
       $(this).nextAll('.postBox').slice(0, 12).toggle();
       return false;
     }
