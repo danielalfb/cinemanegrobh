@@ -17,8 +17,8 @@ function translate() {
           $('[lang="pt"]').hide();
       }
   } else {
-      $('[lang="pt"]').hide();
-      localStorage.setItem('lang', 'en');
+      $('[lang="en"]').hide();
+      localStorage.setItem('lang', 'pt');
   };
   $('.language').click(function() {
       $('[lang="pt"]').toggle();

@@ -92,8 +92,8 @@ function getHeader() {
       </div>
       <div class="language">
         <ul>
-          <li id="pt_click" lang="pt" class="button_lang current_lang">PT</li>
-          <li id="en_click" lang="en" class="button_lang current_lang">EN</li>
+          <li id="pt_click" class="button_lang current_lang">PT</li>
+          <li id="en_click" class="button_lang">EN</li>
         </ul>
       </div>
       </div>
