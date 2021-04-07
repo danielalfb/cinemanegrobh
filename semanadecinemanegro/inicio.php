@@ -65,7 +65,7 @@ getHeader();
               <p lang="pt">Convidamos a todas, todes e todos a acompanhar a programação.</p>       
               <p lang="en">We invite all of you to keep up with the program.</p>
               <div class="btn-inicio">
-                <a lang="pt"href="https://todesplay.com.br/" class="btn" title="Plataforma TodesPlay">Link da Plataforma</a>
+                <a lang="pt"href="https://todesplay.com.br/" class="btn" title="Plataforma TodesPlay">TodesPlay</a>
                 <a lang="en"href="https://todesplay.com.br/" class="btn" title="Plataform TodesPlay">TodesPlay</a>
                 <a lang="pt"href="/programacao.php" class="btn" title="Programação">Programação</a>
                 <a lang="en"href="/programacao.php" class="btn" title="Program">Program</a>
@@ -81,7 +81,7 @@ getHeader();
       <div id = "lightbox">
         <em id = "close-btn" class="fa fa-times"></em>
         <div id = "video-wrapper">
-          <iframe class="youtube-video" title="Video Inicial" id = "video" width="960" height="540" src = "https://www.youtube.com/embed/lJfqK9bgIng" allowfullscreen></iframe>
+          <iframe class="youtube-video" title="Video Inicial" id = "video" width="960" height="540" src = "https://www.youtube.com/embed/2BC7rhrY-zY" allowfullscreen></iframe>
         </div>
       </div>
     </div>

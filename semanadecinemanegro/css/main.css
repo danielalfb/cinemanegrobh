@@ -1062,6 +1062,14 @@ div.errorContainer {
 #en {
   display: none;
 }
+.language {
+  display: flex;
+  align-items: center;
+}
+.language .fa-globe {
+  font-size: 25px;
+  color: #444;
+}
 .language ul {
   display: flex;
   margin-right: 50px;
@@ -1071,8 +1079,8 @@ div.errorContainer {
   margin-left: 15px;
 }
 .button_lang {
-  background-color: #777;
-  color: #fff;
+ 
+  color: #000;
   padding: 8px 20px;
   border-radius: 5px;
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -1084,7 +1092,7 @@ div.errorContainer {
 }
 .button_lang:hover,
 .current_lang {
-  background-color: #444;
+  color: #444;
   -webkit-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
