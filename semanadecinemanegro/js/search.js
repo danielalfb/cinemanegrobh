@@ -52,8 +52,8 @@ const displayResults = (results) => {
   <div class="mainBanner">
     <div class="mainInfo">
       <div class="title creditos">
-        <h1 id="pt">Resultados da busca:</h1>
-        <h1 id="en">Search results:</h1>
+        <h1 lang="pt">Resultados da busca:</h1>
+        <h1 lang="en">Search results:</h1>
       </div>
     </div>
   </div>
@@ -63,14 +63,14 @@ const displayResults = (results) => {
       return `        
         <li>
         <a href="${result.homepage}"><div class="resultBox">          
-          <h2 id="pt">${result.tituloPt}</h2>
-          <h2 id="en">${
+          <h2 lang="pt">${result.tituloPt}</h2>
+          <h2 lang="en">${
             result.tituloEng ? result.tituloEng : result.tituloPt
           }</h2>
-          <p id="pt">${
+          <p lang="pt">${
             result.sinopsePt ? result.sinopsePt : result.descricaoPt
           }</p>
-          <p id="en">${
+          <p lang="en">${
             result.sinopseEng ? result.sinopseEng : result.descricaoEng
           }</p>
         </div></a>
@@ -87,16 +87,16 @@ const displayEmpty = () => {
     <div class="mainBanner">
       <div class="mainInfo">
         <div class="title creditos">
-        <h1 id="pt">Resultados da busca:</h1>
-        <h1 id="en">Search results:</h1>
+        <h1 lang="pt">Resultados da busca:</h1>
+        <h1 lang="en">Search results:</h1>
         </div>
       </div>
     </div>
   </section>
   <section>
     <div class="containerResults">
-      <h2 id="pt">Sem resultados para esta busca.</h2>
-      <h2 id="en">No results found.</h2>
+      <h2 lang="pt">Sem resultados para esta busca.</h2>
+      <h2 lang="en">No results found.</h2>
     </div>
   </section>`);
 };
