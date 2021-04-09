@@ -82,8 +82,8 @@ function getHeader() {
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
             <div class="search-container">
            <form>
-           <input  lang="pt" type="text" name="search" class="searchBar" placeholder="Pesquisa">
-           <input  lang="en" type="text" name="search" class="searchBar" placeholder="Search">
+           <input  lang="pt" type="text" name="search" class="searchBarPT" placeholder="Pesquisa">
+           <input  lang="en" type="text" name="search" class="searchBarEN" placeholder="Search">
            <button type="submit" id="searchButton"><em class="fa fa-search"></em></button>
            </form>
            </div>
