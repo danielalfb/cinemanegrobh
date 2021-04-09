@@ -653,7 +653,7 @@
       "funcao6": "Mediadora",
       "img6": "AB_ALESSANDRABRITO.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 6
     },
     {
@@ -669,7 +669,7 @@
       "funcao2": "Mediadora",
       "img2": "M_JANAINAOLIVEIRA.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 2
     },
     {
@@ -688,7 +688,7 @@
       "funcao3": "Mediadora",
       "img3": "M_SORAYAMARTINS.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 3
     },
     {
@@ -716,7 +716,7 @@
       "funcao6": "Mediadora",
       "img6": "M_VANESSASANTOS.jpeg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 6
     },
     {
@@ -744,7 +744,7 @@
       "funcao6": "Mediadora",
       "img6": "M_TATIANACARVALHOCOSTA.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 6
     },
     {
@@ -763,7 +763,7 @@
       "funcao3": "Mediadora",
       "img3": "M_JANAINAOLIVEIRA.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 3
     },
     {
@@ -788,7 +788,7 @@
       "funcao5": "Mediadora",
       "img5": "M_TATIANACARVALHOCOSTA.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 5
     },
     {
@@ -813,7 +813,7 @@
       "funcao5": "Mediadora",
       "img5": "M_NATALIEMATOS.jpeg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 5
     },
     {
@@ -838,7 +838,7 @@
       "funcao5": "Mediadora",
       "img5": "M_NATALIEMATOS.jpeg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 5
     },
     {
@@ -854,7 +854,7 @@
       "funcao2": "Mediadora",
       "img2": "M_JANAINAOLIVEIRA.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 2
     },
     {
@@ -879,7 +879,7 @@
       "funcao5": "Mediadora",
       "img5": "M_TATIANACARVALHOCOSTA.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 5
     },
     {
@@ -910,7 +910,7 @@
       "funcao7": "Mediadora",
       "img7": "M_VANESSASANTOS.jpeg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 7
     },
     {
@@ -929,7 +929,7 @@
       "funcao3": "Mediadora",
       "img3": "M_JANAINAOLIVEIRA.jpg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 3
     },
     {
@@ -957,7 +957,7 @@
       "funcao6": "Mediadora",
       "img6": "CC_LAYLABRAZ.jpeg",
       "link": "/",
-      "homepage": "",
+      "homepage": "/debates",
       "participantes": 6
     }
   ],
@@ -971,7 +971,8 @@
       "descricaoEng": "Film programming is an arena where we can dispute the gaze, reshape the collective imaginary, heal the shattered subjectivities, as well as forge futures. “The Power in Film Programing and Reshaping the Collective Imaginary” is a short-term class taught by curator, film critic and researcher Heitor Augusto. In this workshop we invite the participants to engage in conversations around the work of curatorship from the perspectives of the subaltern subjects. \r\n\r\nReflecting on what scholar Grada Kilomba refers to as the dynamics in which “Blackness signifies not only ‘inferiority’ but also ‘being out of place’”, we ask: what can Black programmers aspire to? Is it enough to guide one’s curatorial practice by the struggle between staying the margins versus re-centering the marginalized? How can we navigate the unspoken expectations placed on a Black person working within the realm of curatorship? What space can be allowed to an individual when he or she is preceded by a collectivity? \r\n\r\nEmbarking on an online journey of four meetings, the participants will both discuss philosophical and sensitive matters, as well as become familiar with behind-the-scenes aspects that come with the work and share survival strategies. Stimulated by texts and in-class conversations, this workshop also includes an exercise where theoretical topics can be translated into curatorial practices. \r\n\r\n",
       "curriculoPt": "Heitor Augusto atua como curador, crítico de cinema, pesquisador e tradutor. Programou filmes para museus, festivais, centros culturais e cineclubes. Integrante do Programmers of Colour Collective, rede internacional de curadores não-brancos. Cofundador e programador-chefe do NICHO 54, instituto que atua na formação e estruturação das carreiras de pessoas negras no cinema. Em contínuo diálogo com a diáspora, suas pesquisas recentes têm priorizado as expressões queer e negras brasileiras, além de uma permanente escavação das imagens pretas contraditórias. \r\n\r\n",
       "curriculoEng": "Based in São Paulo, Brazil, Heitor Augusto works as a film programmer, critic, researcher, and translator. A member of the Programmers of Colour Collective, he has programmed films for museums, festivals, community centers and film clubs. Augusto is a co-founder and the Head Programmer for NICHO 54, an institute working for the promotion and enhancement of Afro-Brazilians in the film industry. As part of the African Diaspora, with which he’s constantly engaged, Augusto’s most recent curatorial investigations have been around queer and Black Brazilian artistic expressions. He’s also invested in excavating contradictory renderings of Black lives by filmmakers from the community.\r\n",
-      "img": "OF_HEITOR AUGUSTO.jpg"
+      "img": "OF_HEITOR AUGUSTO.jpg",
+      "homepage": "/oficinas"
     },
     {
       "tituloPt": "Quilombocinema",
@@ -982,7 +983,8 @@
       "descricaoEng": "This short course proposes a debate on film and audiovisual culture from a decolonial and blackened outlook. It will cover short, medium, and feature films, and works in research, critique, curatorship, and other fields of reflection by the thinking of Afro-diasporic intellectuals who stress the place of the “universal subject,” and point to the possibility of decolonization in Brazilian culture, in an appropriation of this thought for practices in the fields of film and audiovisual.",
       "curriculoPt": "Doutoranda em Comunicação Social pela UFMG. Docente no Centro Universitário UNA, em Belo Horizonte, nos cursos de Cinema e de Jornalismo e coordenadora, esta instituição, do projeto de extensão universitária PRETANÇA. Na UFMG, integra os grupos de estudos/pesquisa CORAGEM – Comunicação, Raça e Gênero – e Poéticas da Experiência, além de ser colaboradora do NUH - Núcleo de Direitos Humanos e Cidadania LGBT. Participa do movimento de artes cênicas segundaPRETA e colabora em festivais de cinema e cineclubes como curadora, programadora e júri. É integrante do FICINE – Fórum Itinerante do Cinema Negro – e é conselheira da APAN – Associação de Profissionais do Audiovisual Negro. Desde 2018, integra a equipe de curadoria de curtas-metragens da Mostra de Cinema de Tiradentes. Em 2020, participou das equipes de curadoria do Festival Interamericano de Cinema Universitário LUMIAR e da Semana de Cinema Negro de Belo Horizonte . Atua como consultora de roteiros de filmes, narrativas seriadas e outros produtos audiovisuais. É co-autora dos livros “Olhares Contemporâneos” (2011), “Mulheres Comunicam: Mediações, Sociedade e Feminismos” (2016), entre outros.",
       "curriculoEng": "Tatiana Carvalho Costa is a doctorate student in Social Communication at UFMG, and part of the faculty at Centro Universitário UNA, in Belo Horizonte, where she teaches in the courses of Film and Journalism and coordinates an extension project called PRETANÇA. At UFMG, she integrates the study/research groups CORAGEM – Comunicação, Raça e Gênero, and Poetics of Experience, and is a collaborator of the NUH – Center for Lesbian, Gay, Bisexual and Transgender Human Rights and Citizenship. She is part of the segundaPRETA scenic arts movement and collaborates in film festivals and film clubs as a curator, programmer, and jury. She integrates the FICINE – Itinerant Forum of Black Cinema and is a counselor of the APAN – Association of Black Audiovisual Professionals. Since 2018, she has been part of the short film selection committee in the Tiradentes Film Festival. In 2020, she participated in the selection committee of the LUMIAR Inter-American University Film Festival and the Belo Horizonte Black Film Week. She works as a screenplay, serial narrative, and other audiovisual products consultant. She is also the co-author of the books “Olhares Contemporâneos” (2011,) “Mulheres Comunicam: Mediações, Sociedade e Feminismos” (2016,) among others.",
-      "img": "OF_TATIANACARVALHO.jpg"
+      "img": "OF_TATIANACARVALHO.jpg",
+      "homepage": "/oficinas"
     }
   ]
 }
