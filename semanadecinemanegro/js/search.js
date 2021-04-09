@@ -28,14 +28,25 @@ async function render() {
     ...data.oficinas,
   ];
   // displayResults(resultTotal);
-  // console.log(resultTotal);
-
+   // console.log(resultTotal);
   searchButton.addEventListener('click', (e) => {
     e.preventDefault();
-    const searchBar = document.querySelector('.searchBar').value.toUpperCase();
-    const searchString = searchBar;
+    const searchBarPT = document.querySelector('.searchBarPT').value.toUpperCase();
+    const searchBarEN = document.querySelector('.searchBarEN').value.toUpperCase();
+    const searchStringPT = searchBarPT;
+    const searchStringEN = searchBarEN;
+    const lang = localStorage.getItem('lang');
     const filteredResult = resultTotal.filter((result) => {
-      return result.tituloPt.toUpperCase().includes(searchString);
+      if(lang ===  'pt') {
+	      return result.tituloPt.toUpperCase().includes(searchStringPT);
+	    }
+      else {
+        if(!!result.tituloEng) {
+          return String(result.tituloEng).toUpperCase().includes(searchStringEN.toUpperCase());
+      } else {
+          return String(result.tituloPt).toUpperCase().includes(searchStringEN.toUpperCase());
+      }
+       }    
     });
     if (filteredResult.length === 0) {
       displayEmpty();
@@ -44,6 +55,7 @@ async function render() {
       displayResults(filteredResult);
       translate();
     }
+    translate();
   });
 }
 
