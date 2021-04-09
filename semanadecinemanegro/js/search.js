@@ -29,7 +29,6 @@ async function render() {
   ];
   // displayResults(resultTotal);
    // console.log(resultTotal);
-
   searchButton.addEventListener('click', (e) => {
     e.preventDefault();
     const searchBarPT = document.querySelector('.searchBarPT').value.toUpperCase();
@@ -56,6 +55,7 @@ async function render() {
       displayResults(filteredResult);
       translate();
     }
+    translate();
   });
 }
 
