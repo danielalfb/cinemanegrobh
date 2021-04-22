@@ -106,7 +106,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   height: 60px;
-  width: 250px;
+  width: 150px;
 }
 
 .container-header .logo-menu a img {
@@ -310,7 +310,7 @@ a.btn:hover {
 }
 
 .container-inicio {
-  margin-top: 140px;
+  margin-top: 170px;
 }
 
 .containerColumn,
@@ -328,6 +328,7 @@ a.btn:hover {
 }
 
 a.sessionTitle,
+a.sessionTitleAfetos,
 a.sessionTitle1 {
   display: flex;
   width: 91%;
@@ -337,6 +338,7 @@ a.sessionTitle1 {
   margin-bottom: 40px;
 }
 .sessionTitle,
+.sessionTitleAfetos,
 .sessionTitle1 {
   display: flex;
   justify-content: start;
@@ -350,6 +352,8 @@ p.descriptionSession {
 }
 
 div.postBox,
+div.postBoxAfetos,
+div.postBox1,
 div.postBoxSession {
   display: flex;
   align-items: center;
@@ -432,6 +436,8 @@ div.containerResults a {
 
 /* bloco: filmes */
 .postBox > div.filmeImg,
+.postBoxAfetos > div.filmeImg,
+.postBox1 > div.filmeImg,
 .postBoxSession > div.filmeImg {
   width: 600px;
   align-self: stretch;
@@ -478,6 +484,9 @@ div.btn-filmes {
   background-color: var(--cor-cinza-padrao);
   margin-top: 5px;
 }
+.content ul {
+  padding: 0.5em;
+}
 .content > ul li {
   font-size: 16px;
   font-weight: 300;
@@ -509,7 +518,7 @@ i.fas {
   margin-bottom: -50px;
   border-radius: 50%;
   border: 5px solid var(--cor-salmao);
-  backdrop-filter: blur(2px);
+  position: relative;
 }
 div.minCurr {
   width: 92%;
@@ -536,19 +545,15 @@ div.minInfo {
 /* bloco: debates */
 div.debateContainer {
   max-width: 100%;
-  column-count: 3;
-  column-gap: 1em;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 1em;
-  -moz-column-count: 3;
-  -moz-column-gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
   padding: var(--padding-padrao);
 }
 
 .debateBox {
-  display: inline-block;
   margin: 0 1em 3em 1em;
-  width: 90%;
+  width: 30%;
+  height: 100%;
   flex-direction: column;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 5%);
@@ -576,12 +581,14 @@ div.debateInfo {
   background-color: #fff;
   border-radius: 0 0 10px 10px;
 }
-
+.debateInfo ul {
+  padding: 0;
+}
 .debateInfo ul li {
   display: flex;
   align-items: center;
   list-style: none;
-  margin: 0.5rem;
+  margin: 0.5em;
 }
 
 .debateInfo ul li p {
@@ -617,24 +624,32 @@ div.debateInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3em 10em;
+  margin: 3em 8em;
 }
 
 .pdfCover {
   width: 270px;
   height: 350px;
-  background-color: var(--cor-laranja);
   border-radius: 5px;
   margin: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .dowloadContainer a.disable {
-    pointer-events: none;
-    cursor: default;
+  pointer-events: none;
+  cursor: default;
 }
 .dowloadContainer > p {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
+}
+.program-cover {
+  background-image: url(../img/capa-program.png);
+}
+.catalog-cover {
+  background-image: url(../img/capa-catalog.png);
 }
 
 /*bloco: creditos*/
@@ -647,7 +662,7 @@ div.debateInfo {
   padding: 0 2em;
 }
 .teamContainer > .teamSing {
-  width: 390px;
+  width: 25%;
   padding: 0 2em 3em 2em;
 }
 ul.teamSing {
@@ -670,11 +685,11 @@ ul.teamSing {
 
 /* página > início*/
 img.inicio {
-  width: 650px;
+  width: 45%;
   margin-right: var(--rmargin-padrao);
 }
 div.paragrafo-inicio {
-  width: 700px;
+  width: 50%;
 }
 div.paragrafo-inicio h3 {
   text-transform: uppercase;
@@ -809,22 +824,27 @@ footer {
   justify-content: center;
 }
 .patrocinio-img {
-  width: 80%;
+  width: 100%;
   height: 100%;
-  background-image: url(../img/logomarcas.png);
+  background-image: url(../img/logomarcas.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /*  VIDEO    */
+.video,
+.video-footer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .video {
-  background-color: #3d604c;
+  background-image: url(../img/capa-vinheta.png);
   width: 100%;
   height: 700px;
   max-height: 100%;
   position: relative;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 .div-video {
   display: flex;
@@ -837,8 +857,8 @@ footer {
   justify-content: center;
 }
 .video-footer {
-  background-color: #ff8b1a;
-  width: 50%;
+  background-image: url(../img/capa-equipe.png);
+  width: 45%;
   max-height: 100%;
   position: relative;
   margin: 50px;
@@ -946,7 +966,7 @@ footer {
   position: fixed;
   top: 3%;
   right: 3%;
-  z-index: 2;
+  z-index: 3;
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -1039,7 +1059,7 @@ footer {
 }
 
 /* PAGINAS DE ERRO */
-div.errorContainer {
+.errorContainer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -1086,7 +1106,6 @@ div.errorContainer {
   align-items: center;
 }
 .button_lang {
- 
   color: #000;
   padding: 8px 20px;
   border-radius: 5px;
