@@ -12,9 +12,7 @@ function fetchJson(url) {
 }
 
 async function loadData() {
-  var data = await fetchJson(
-    'http://localhost/cinemanegrobh/semanadecinemanegro/js/data.json'
-  );
+  var data = await fetchJson('/js/data.json');
   sessaoEspecial = data.sessaoEspecial;
   sessaoVivencias = data.sessaoVivencias;
   sessaoAfetos = data.sessaoAfetos;
@@ -47,7 +45,7 @@ async function loadData() {
     container.appendChild(descriptionEN);
     for (let i = 0; i < sessaoEspecial.length; i++) {
       var postBox = document.createElement('div');
-      postBox.className = 'postBox';
+      postBox.className = 'postBox1 hidden';
       postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoEspecial[i].img}')"></div>
       <div class="postInfo"><h1 lang="pt">${sessaoEspecial[i].tituloPt}</h1>
@@ -59,14 +57,14 @@ async function loadData() {
             <button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
             <div class="content"><ul>${sessaoEspecial[i].fichaTecnica}</ul></div>
           </div>
-          <a href="${sessaoEspecial[i].link}" class="btn pt" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a>
+          <a href="${sessaoEspecial[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a>
         </div>
         <div lang="en" class="btn-filmes">
           <div class="info">
             <button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
             <div class="content"><ul>${sessaoEspecial[i].fichaTecnica}</ul></div>
           </div>
-          <a href="${sessaoEspecial[i].link}" class="btn en" target="_blank">Watch <i class="fas fa-external-link-alt"></i></a>
+          <a href="${sessaoEspecial[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a>
         </div>
       </div>`;
       container.appendChild(postBox);
@@ -104,9 +102,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoVivencias[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoVivencias[i].tituloPt}</h1>
       <h1 lang="en">${sessaoVivencias[i].tituloEng}</h1><h3>${sessaoVivencias[i].localDuracao}</h3><p lang="pt">${sessaoVivencias[i].sinopsePt}</p><p lang="en">${sessaoVivencias[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div> </div><a href="${sessaoVivencias[i].link}" class="btn pt" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div> </div><a href="${sessaoVivencias[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div></div><a href="${sessaoVivencias[i].link}" class="btn en" target="_blank">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div></div><a href="${sessaoVivencias[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -115,8 +113,8 @@ async function loadData() {
     var sesTitleEN = document.createElement('a');
     var descriptionPT = document.createElement('p');
     var descriptionEN = document.createElement('p');
-    sesTitlePT.className = 'sessionTitle';
-    sesTitleEN.className = 'sessionTitle';
+    sesTitlePT.className = 'sessionTitleAfetos';
+    sesTitleEN.className = 'sessionTitleAfetos';
     sesTitlePT.setAttribute('lang', 'pt');
     sesTitleEN.setAttribute('lang', 'en');
     sesTitlePT.innerHTML =
@@ -137,14 +135,14 @@ async function loadData() {
     container.appendChild(descriptionEN);
     for (let i = 0; i < sessaoAfetos.length; i++) {
       var postBox = document.createElement('div');
-      postBox.className = 'postBox hidden';
+      postBox.className = 'postBoxAfetos hidden';
       postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAfetos[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoAfetos[i].tituloPt}</h1>
       <h1 lang="en">${sessaoAfetos[i].tituloEng}</h1><h3>${sessaoAfetos[i].localDuracao}</h3><p lang="pt">${sessaoAfetos[i].sinopsePt}</p><p lang="en">${sessaoAfetos[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div> </div><a href="${sessaoAfetos[i].link}" class="btn pt" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div> </div><a href="${sessaoAfetos[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div></div><a href="${sessaoAfetos[i].link}" class="btn en" target="_blank">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div></div><a href="${sessaoAfetos[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -180,9 +178,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoGritos[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoGritos[i].tituloPt}</h1>
       <h1 lang="en">${sessaoGritos[i].tituloEng}</h1><h3>${sessaoGritos[i].localDuracao}</h3><p lang="pt">${sessaoGritos[i].sinopsePt}</p><p lang="en">${sessaoGritos[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div> </div><a href="${sessaoGritos[i].link}" class="btn pt" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div> </div><a href="${sessaoGritos[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div></div><a href="${sessaoGritos[i].link}" class="btn en" target="_blank">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div></div><a href="${sessaoGritos[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -192,7 +190,6 @@ async function loadData() {
   createDataSession4();
   sessionCollapsible();
   collapsible();
-  sessionCollapsible();
   translate();
 }
 loadData();

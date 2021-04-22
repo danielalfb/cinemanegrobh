@@ -1,13 +1,13 @@
 function sessionCollapsible() {
   $('.hidden').hide();
   $('.sessionTitle').click(function () {
-    if (sessaoAfetos.length == 12) {
-      $(this).nextAll('.postBox').slice(0, 12).toggle();
-      return false;
-    } else if (sessaoGritos.length == 10 || sessaoVivencias.length == 10) {
-      $(this).nextAll('.postBox').slice(0, 10).toggle();
-      return false;
-    }
+    $(this).nextAll('.postBox').slice(0, 10).toggle();
+  });
+  $('.sessionTitleAfetos').click(function () {
+    $(this).nextAll('.postBoxAfetos').slice(0, 12).toggle();
+  });
+  $('.sessionTitle1').click(function () {
+    $(this).nextAll('.postBox1').slice(0, 1).toggle();
   });
 }
 

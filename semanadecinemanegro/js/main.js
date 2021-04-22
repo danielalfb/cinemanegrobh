@@ -1,11 +1,3 @@
-(function ($) {
-  $(function () {
-    $('.menu__icon').on('click', function () {
-      $(this).closest('.navbar').toggleClass('menu_state_open');
-    });
-  });
-})(jQuery);
-
 function translate() {
   var lang = localStorage.getItem('lang');
   if (lang) {
@@ -30,4 +22,12 @@ function translate() {
     }
   });
 }
-translate();
+// translate();
+
+(function ($) {
+  $(function () {
+    $('.menu__icon').on('click', function () {
+      $(this).closest('.navbar').toggleClass('menu_state_open');
+    });
+  });
+})(jQuery);

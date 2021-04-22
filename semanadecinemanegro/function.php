@@ -7,7 +7,11 @@ function getHeader() {
     <head>
     <meta charset="pt-BR" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site que abriga o festival Semana de Cinema Negro de Belo Horizonte, que promove exibições fílmicas de cineatas negros brasileiros, africanos e daa diáspora. Promovemos debates, seminários e oficinas." />
+    <meta name="keywords" content="scnegrobh, cinema negro, cinema negro bh, cinema bh, cinema nacional, filmes brasileiros,festival de cinema, cinema, belo horizonte" />
+    <meta name="author" content="" />
     <title>Semana de Cinema Negro de Belo Horizonte</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png"/>
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link rel="stylesheet" type="text/css" href="./css/screen.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -35,7 +39,7 @@ function getHeader() {
     </div>
     <div class="container-header header">
         <div class="logo-menu">
-          <a href="./inicio.php"><img src="./img/logo.svg" class="logo" alt="Logo Menu" title="Início"/></a>
+          <a href="/index"><img src="./img/logo.svg" class="logo" alt="Logo Menu" title="Início"/></a>
         </div>
         <div class="navbar">
         <div class="menu__icon">
@@ -46,43 +50,43 @@ function getHeader() {
         </div> 
         <div class="menu__links">
           <ul id="nav-list">
-            <li lang="pt"><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Início</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'inicio') ? 'active':''; ?>" href="./inicio.php">Home</a></li>
-            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Program</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Início</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Home</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="/programacao">Programação</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="/programacao">Program</a></li>
            <div class="dropdown">
                <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Our Actress</a></li>
-                  <li lang="pt"><a href="./mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
-                  <li lang="en"><a href="./mostra_fespaco.php">African Films Revisited: The Origins of FESPACO</a></li>
-                  <li lang="pt"><a href="./mostra_surreal16.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
-                  <li lang="en"><a href="./mostra_surreal16.php">Surreal16 Collective, a new look at nigerian cinema</a></li>
-                  <li lang="pt"><a href="./mostra_homenagem.php">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
-                  <li lang="en"><a href="./mostra_homenagem.php">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
-                  <li lang="pt"><a href="./cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
-                  <li lang="en"><a href="./cine_escrituras_pretas.php">Black Film-Writings</a></li>
+                  <li lang="pt"><a href="/sessao_de_abertura">Maria José Novais Oliveira - Nossa atriz</a></li>
+                  <li lang="en"><a href="/sessao_de_abertura">Maria José Novais Oliveira - Our Actress</a></li>
+                  <li lang="pt"><a href="/mostra_fespaco">Cinemas Africanos em revista: as origens do FESPACO</a></li>
+                  <li lang="en"><a href="/mostra_fespaco">African Films Revisited: The Origins of FESPACO</a></li>
+                  <li lang="pt"><a href="/mostra_surreal16">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
+                  <li lang="en"><a href="/mostra_surreal16">Surreal16 Collective, a new look at nigerian cinema</a></li>
+                  <li lang="pt"><a href="/mostra_homenagem">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
+                  <li lang="en"><a href="/mostra_homenagem">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
+                  <li lang="pt"><a href="/cine_escrituras_pretas">Cine-Escrituras Pretas</a></li>
+                  <li lang="en"><a href="/cine_escrituras_pretas">Black Film-Writings</a></li>
                </div>
            </div>
            <div class="dropdown">
                <li lang="pt"><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Activities <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="./oficinas.php">Oficinas</a></li>
-                  <li lang="en"><a href="./oficinas.php">Workshops</a></li>
-                  <li lang="pt"><a href="./debates.php">Conversas e Debates</a></li>                  
-                  <li lang="en"><a href="./debates.php">Talks and Q&A's</a></li>                  
+                  <li lang="pt"><a href="/oficinas">Oficinas</a></li>
+                  <li lang="en"><a href="/oficinas">Workshops</a></li>
+                  <li lang="pt"><a href="/debates">Conversas e Debates</a></li>                  
+                  <li lang="en"><a href="/debates">Talks and Q&A's</a></li>                  
                </div>
            </div>
-            <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catálogo</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catalog</a></li>
-            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a></li>
+            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a></li>
             <div class="search-container">
            <form>
-           <input  lang="pt" type="text" name="search" class="searchBarPT" placeholder="Pesquisa">
+            <input  lang="pt" type="text" name="search" class="searchBarPT" placeholder="Pesquisa">
            <input  lang="en" type="text" name="search" class="searchBarEN" placeholder="Search">
            <button type="submit" id="searchButton"><em class="fa fa-search"></em></button>
            </form>
@@ -105,44 +109,46 @@ function getFooterOpen() { ?>
 <footer class="footer-distributed">
 
 <div class="footer-left">
-  <a href="./inicio.php"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
+  <a href="/inicio"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
   <div>
           <ul>
-          <li lang="pt"><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="./sessao_de_abertura.php">Maria José Novais Oliveira - Our Actress</a></li>
-                  <li lang="pt"><a href="./mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
-                  <li lang="en"><a href="./mostra_fespaco.php">African Films Revisited: The Origins of FESPACO</a></li>
-                  <li lang="pt"><a href="./mostra_surreal16.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
-                  <li lang="en"><a href="./mostra_surreal16.php">Surreal16 Collective, a new look at nigerian cinema</a></li>
-                  <li lang="pt"><a href="./mostra_homenagem.php">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
-                  <li lang="en"><a href="./mostra_homenagem.php">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
-                  <li lang="pt"><a href="./cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
-                  <li lang="en"><a href="./cine_escrituras_pretas.php">Black Film-Writings</a></li>
+          <li lang="pt"><a href="/sessao_de_abertura">Maria José Novais Oliveira - Nossa atriz</a></li>
+                  <li lang="en"><a href="/sessao_de_abertura">Maria José Novais Oliveira - Our Actress</a></li>
+                  <li lang="pt"><a href="/mostra_fespaco">Cinemas Africanos em revista: as origens do FESPACO</a></li>
+                  <li lang="en"><a href="/mostra_fespaco">African Films Revisited: The Origins of FESPACO</a></li>
+                  <li lang="pt"><a href="/mostra_surreal16">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
+                  <li lang="en"><a href="/mostra_surreal16">Surreal16 Collective, a new look at nigerian cinema</a></li>
+                  <li lang="pt"><a href="/mostra_homenagem">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
+                  <li lang="en"><a href="/mostra_homenagem">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
+                  <li lang="pt"><a href="/cine_escrituras_pretas">Cine-Escrituras Pretas</a></li>
+                  <li lang="en"><a href="/cine_escrituras_pretas">Black Film-Writings</a></li>
         </ul>
     </div>
 </div>
 
 <div class="footer-center">
       <ul>
-            <li lang="pt"><a href="./oficinas.php">Oficinas</a></li>
-            <li lang="en"><a href="./oficinas.php">Workshops</a></li>
-            <li lang="pt"><a href="./debates.php"> Conversas e Debates</a></li>
-            <li lang="en"><a href="./debates.php"> Talks and Q&A's</a></li>
-            <li lang="pt"><a href="./programacao.php">Programação</a></li>
-            <li lang="en"><a href="./programacao.php">Program</a></li>
-            <li lang="pt"><a href="./catalogo.php">Catálogo</a></li>
-            <li lang="en"><a href="./catalogo.php">Catalog</a></li>
-            <li lang="pt"><a href="./creditos.php">Créditos</a></li>
-            <li lang="en"><a href="./creditos.php">Credits</a></li>
+            <li lang="pt"><a href="/oficinas">Oficinas</a></li>
+            <li lang="en"><a href="/oficinas">Workshops</a></li>
+            <li lang="pt"><a href="/debates"> Conversas e Debates</a></li>
+            <li lang="en"><a href="/debates"> Talks and Q&A's</a></li>
+            <li lang="pt"><a href="/programacao">Programação</a></li>
+            <li lang="en"><a href="/programacao">Program</a></li>
+            <li lang="pt"><a href="/catalogo">Catálogo</a></li>
+            <li lang="en"><a href="/catalogo">Catalog</a></li>
+            <li lang="pt"><a href="/creditos">Créditos</a></li>
+            <li lang="en"><a href="/creditos">Credits</a></li>
           </ul>
 </div>
 <div class="footer-right">
-  <p class="footer-about">
+  <p lang ="pt" class="footer-about">
     Semana de Cinema Negro de Belo Horizonte</br>
     <strong>scnegrobh@gmail.com</strong>
-
-
-</p>
+    </p>
+  <p lang ="en" class="footer-about">
+    Belo Horizonte Black Film Week</br>
+    <strong>scnegrobh@gmail.com</strong>
+    </p>
 </div>
 <div class="border"></div>
 <div class="footer-icons">
@@ -154,5 +160,5 @@ function getFooterOpen() { ?>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="js/main.js"></script>
+
 <?php }

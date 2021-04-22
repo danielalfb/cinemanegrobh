@@ -12,9 +12,7 @@ function fetchJson(url) {
 render();
 
 async function render() {
-  var data = await fetchJson(
-    'http://localhost/cinemanegrobh/semanadecinemanegro/js/data.json'
-  );
+  var data = await fetchJson('/js/data.json');
   resultTotal = [
     ...data.donaZeze,
     ...data.fespaco,
@@ -27,26 +25,32 @@ async function render() {
     ...data.debates,
     ...data.oficinas,
   ];
-  // displayResults(resultTotal);
-   // console.log(resultTotal);
+
   searchButton.addEventListener('click', (e) => {
     e.preventDefault();
-    const searchBarPT = document.querySelector('.searchBarPT').value.toUpperCase();
-    const searchBarEN = document.querySelector('.searchBarEN').value.toUpperCase();
+    const searchBarPT = document
+      .querySelector('.searchBarPT')
+      .value.toUpperCase();
+    const searchBarEN = document
+      .querySelector('.searchBarEN')
+      .value.toUpperCase();
     const searchStringPT = searchBarPT;
     const searchStringEN = searchBarEN;
     const lang = localStorage.getItem('lang');
     const filteredResult = resultTotal.filter((result) => {
-      if(lang ===  'pt') {
-	      return result.tituloPt.toUpperCase().includes(searchStringPT);
-	    }
-      else {
-        if(!!result.tituloEng) {
-          return String(result.tituloEng).toUpperCase().includes(searchStringEN.toUpperCase());
+      if (lang === 'pt') {
+        return result.tituloPt.toUpperCase().includes(searchStringPT);
       } else {
-          return String(result.tituloPt).toUpperCase().includes(searchStringEN.toUpperCase());
+        if (!!result.tituloEng) {
+          return String(result.tituloEng)
+            .toUpperCase()
+            .includes(searchStringEN.toUpperCase());
+        } else {
+          return String(result.tituloPt)
+            .toUpperCase()
+            .includes(searchStringEN.toUpperCase());
+        }
       }
-       }    
     });
     if (filteredResult.length === 0) {
       displayEmpty();
@@ -112,28 +116,3 @@ const displayEmpty = () => {
     </div>
   </section>`);
 };
-
-/* <section>
-        <div class="mainBanner">
-          <div class="mainInfo">
-            <div class="title creditos">
-              <h1>Resultados da busca:</h1>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-      <div class="container containerColumn"></div> 
-    
-    
-    const mainBanner = document.createElement('div').className='mainBanner';
-    const mainInfo = document.createElement('div').className='mainBanner';
-    const title = document.createElement('div').className='title creditos';
-    const container = document.createElement('div').className='container containerColumn';
-    const h1 = document.createElement('h1');
-    h1.textContent = 'Resultados da busca:'
-    title.appendChild(h1);
-    mainInfo.appendChild(title);
-    mainBanner.appendChild(mainInfo);
-    
-    page.appendChild(container);*/

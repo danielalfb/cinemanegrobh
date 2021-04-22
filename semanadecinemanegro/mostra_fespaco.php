@@ -1,5 +1,5 @@
 <?php
-  require_once __DIR__ . './function.php';
+  require_once __DIR__ . '/function.php';
   getHeader();
 ?>
   <div class="page">
@@ -67,5 +67,6 @@
 <script src="js/search.js"></script>
 <script src="js/fespaco.js"></script>
 <script src="js/collapse.js"></script>
+<script src="js/main.js"></script>
   </body>
 </html>

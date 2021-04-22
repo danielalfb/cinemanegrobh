@@ -9,9 +9,7 @@ function fetchJson(url) {
 }
 
 async function loadData() {
-  var data = await fetchJson(
-    'http://localhost/cinemanegrobh/semanadecinemanegro/js/data.json'
-  );
+  var data = await fetchJson('/js/data.json');
   boxContent = data.sarahMaldoror;
 
   function createData() {
@@ -31,14 +29,14 @@ async function loadData() {
             <button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
             <div class="content"><ul>${boxContent[i].fichaTecnica}</ul></div>
           </div>
-          <a href="${boxContent[i].link}" class="btn pt" target="_blank">Assista o filme <i class="fas fa-external-link-alt"></i></a>
+          <a href="${boxContent[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a>
         </div>
         <div lang="en" class="btn-filmes">
           <div class="info">
             <button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
             <div class="content"><ul>${boxContent[i].fichaTecnica}</ul></div>
           </div>
-          <a href="${boxContent[i].link}" class="btn en" target="_blank">Watch <i class="fas fa-external-link-alt"></i></a>
+          <a href="${boxContent[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a>
         </div>
       </div>`;
       container.appendChild(postBox);

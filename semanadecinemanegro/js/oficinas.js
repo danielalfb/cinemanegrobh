@@ -9,9 +9,7 @@ function fetchJson(url) {
 }
 
 async function loadData() {
-  var data = await fetchJson(
-    'http://localhost/cinemanegrobh/semanadecinemanegro/js/data.json'
-  );
+  var data = await fetchJson('/js/data.json');
   boxContent = data.oficinas;
 
   function createData() {

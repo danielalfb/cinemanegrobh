@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . './function.php';
+require_once __DIR__ . '/function.php';
 getHeader();
 ?>
   <div class="page">
@@ -10,8 +10,8 @@ getHeader();
           <h1 lang="en">Ops!</h1>
           <h1 lang="pt">O link está indisponível!</h1>
           <h1 lang="en">The link is unavailable!</h1>
-          <h2 lang="pt">O filme ainda não foi disponibilizado.</h2>
-          <h2 lang="en">The movie is not yet available.</h2>
+          <h2 lang="pt">O conteúdo será disponibilizado em breve.</h2>
+          <h2 lang="en">The content is not yet available.</h2>
         </div>
         <div class="errorIllus"><img src="img/error-future.png" alt="" /></div>
       </div>
@@ -21,4 +21,7 @@ getHeader();
 getFooterOpen(); 
 ?>
     <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+    <script>translate();</script>
+</body>
 </html>

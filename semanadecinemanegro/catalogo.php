@@ -1,5 +1,5 @@
 <?php
-  require_once __DIR__ . './function.php';
+  require_once __DIR__ . '/function.php';
   getHeader();
 ?>
     <div class="page">
@@ -18,7 +18,7 @@
             >
             <style type="text/css">
                 .st0 {
-                  fill: var(--cor-laranja);
+                  fill: var(--cor-rosinha);
                 }
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
@@ -27,42 +27,19 @@
             <h1 lang="en">Catalog</h1>
           </div>
           <p lang="pt">
-          Baixe aqui a versão em PDF do catálogo da Semana de Cinema Negro de Belo Horizonte.
-          Como memória permanente, o festival contará com a publicação de um catálogo com aproximadamente 250 páginas. 
-          Nele apresentaremos informações sobre os filmes, textos e ensaios que complementam e ampliam  as discussões  em torno dos filmes. 
-          Contamos com o apoio da revista The New Inquiry que liberou a publicação do texto Woman With a Weapon-Camera, de Yasmine Price. T
-          ambém publicaremos um conjunto composto por quatro textos originalmente publicados na revista  Black Camera, v. 12, Number 1, 
-          2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), publicada pela Indiana University Press. 
-          Teremos o texto “Descolonizando telas: o FESPACO e os primeiros tempos do cinema africano” escrito por Janaína Oliveira.
+          Baixe aqui a versão em PDF do catálogo da Semana de Cinema Negro de Belo Horizonte. Como memória permanente, o festival conta com a publicação de um catálogo bilíngue com aproximadamente 322 páginas. O volume contém informações sobre os filmes, textos e ensaios que ampliam as discussões em torno das mostras: Maria José Novais Oliveira: Nossa atriz; Cine-Escrituras Pretas; Cinemas Africanos em revista: as origens do FESPACO; Cinema, negritude e poesia: uma homenagem a Sarah Maldoror; e  Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano. Contamos com o apoio da revista The New Inquiry que autorizou a publicação do texto “Woman With a Weapon-Camera”, de Yasmine Price. Contamos, ainda, com um conjunto composto por quatro textos da revista Black Camera, v. 12, Number 1, 2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), publicada pela Indiana University Press, e uma série de reflexões sobre curadoria. Autoras e autores que compõem esta publicação: Adyr Assumpção, Alessandra Brito, André Novais Oliveira, Annouchka de Andrade, Beti Ellerson, Claire Andrade-Watkins, Heitor Augusto, Janaína Oliveira, June Givanni, Layla Braz, Mbye Cham, Natalie Matos, Tatiana Carvalho Costa, Vanessa Santos e Yasmina Price.
           </p>
           <p lang="en">
-          Click here to download the PDF version of the Belo Horizonte Black Film Week catalog.
-          As an instrument of permanent memory, the festival will publish a catalog with approximately 250 pages 
-          that will feature information on the films, texts and essays that complement and extend the discussions concerning 
-          the films. We have had  the support of The New Inquiry magazine that allowed us to publish Yasmine Price’s text 
-          “Woman With a Weapon-Camera”. We will also publish a collection of four texts originally published at the Black Camera
-           magazine, v. 12, Number 1, 2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), issued by Indiana 
-           University Press. It will also feature the text “Descolonizando telas: o FESPACO e os primeiros tempos do cinema africano” 
-           [Decolonizing screens: the FESPACO and the early times of African cinema] written by Janaína Oliveira.
+          Click here to download the PDF version of the Belo Horizonte Black Film Week catalog.</p>
+<p lang="en">As an instrument of permanent memory, the festival features a bilingual catalog with approximately 322 pages. The volume contains information on the films, as well as texts and essays that complement and extend the discussions concerning the sections: Maria José Novais Oliveira: Our Actress; Black Film-Writings; African Films Revisited: The Origins of FESPACO; Film, Negritude and Poetry: A Tribute to Sarah Maldoror; and Surreal16 Collective, A New Look at Nigerian Cinema. We have had  the support of The New Inquiry magazine that allowed us to publish Yasmine Price’s text “Woman With a Weapon-Camera”. In addition, we included a collection of four texts originally published at the Black Camera magazine v. 12, Number 1, 2020 (African Cinema: Manifesto & Practice for Cultural Decolonization), issued by Indiana University Press and a series of reflections on curatorship. The authors who write for this publication are:  Adyr Assumpção, Alessandra Brito, André Novais Oliveira, Annouchka de Andrade, Beti Ellerson, Claire Andrade-Watkins, Heitor Augusto, Janaína Oliveira, June Givanni, Layla Braz, Mbye Cham, Natalie Matos, Tatiana Carvalho Costa, Vanessa Santos and Yasmina Price.
           </p>  
-          <p lang="pt">
-          O catálogo também trará um pouco da memória do FAN - Festival de Arte Negra, que na sua primeira edição trouxe realizadores 
-          e filmes do continente africano para Belo Horizonte/ MG, em  texto  escrito por Adyr Assumpção, que fazia parte da produção do festival.
-          </p>
-          <p lang="en">
-           The catalog will also revive the memory of the FAN – Festival de Arte Negra that,
-           in its first edition, brought some filmmakers and films of the African continent to 
-           Belo Horizonte/MG in a text written by Adyr Assumpção, who was a member of the festival’s production team.
-          </p>
-          <p lang="pt">Contaremos também com um conjunto de ensaios sobre curadoria escritos por Heitor Augusto, Janaína Oliveira, Layla Braz, Natalie Matos, Tatiana Carvalho Costa e Vanessa Santos.</p>
-          <p lang="en">We will also have a set of essays on the practice of curatorship written by Heitor Augusto, Janaína Oliveira Layla Braz, Natalie Matos, Tatiana Carvalho Costa, and Vanessa Santos.</p>
         </div>
         <div class="mainIllus dowloadContainer">
-          <div class="pdfCover"></div>
+          <div class="pdfCover catalog-cover"></div>
           <p lang="pt">Confira o catálogo do Festival.</p>
           <p lang="en">Check out the Festival catalog.</p>
-          <a lang="pt" href="./docs/aMeninaDoLeite.pdf" download="Catálogo" class="btn download disable" title="Download">EM BREVE</a>
-          <a lang="en" href="./docs/aMeninaDoLeite.pdf" download="Catálogo" class="btn download disable" title="Download">COMING SOON</a>
+          <a lang="pt" href="./docs/Catalogo_Semana_Cinema_Ngero_BH.pdf" download="Catálogo Semana de Cinema Negro BH" class="btn download" title="Download">DOWNLOAD PDF</a>
+          <a lang="en" href="./docs/Catalogo_Semana_Cinema_Ngero_BH.pdf" download="Belo Horizonte Black Film Week_Catalog" class="btn download" title="Download">DOWNLOAD PDF</a>
         </div>
       </div>
     </section>
@@ -71,4 +48,6 @@
   getFooterOpen(); 
 ?>
   <script src="js/search.js"></script>
+  <script src="js/main.js"></script>
+  <script>translate();</script>
 </html>

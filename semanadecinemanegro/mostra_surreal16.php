@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . './function.php';
+require_once __DIR__ . '/function.php';
 getHeader();
 ?>
   <div class="page">
@@ -69,5 +69,6 @@ getHeader();
     <script src="js/search.js"></script>
     <script src="js/surreal16.js"></script>
     <script src="js/collapse.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

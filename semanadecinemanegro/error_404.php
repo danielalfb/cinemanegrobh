@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . './function.php';
+require_once __DIR__ . '/function.php';
 getHeader();
 ?>
   <div class="page">
@@ -21,4 +21,7 @@ getHeader();
 getFooterOpen(); 
 ?>
     <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+    <script>translate();</script>
+</body>
 </html>

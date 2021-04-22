@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . './function.php';
+require_once __DIR__ . '/function.php';
 getHeader();
 ?>
   <div class="page">
@@ -41,10 +41,10 @@ getHeader();
           </p>
         </div>
         <div class="mainIllus dowloadContainer">
-          <div class="pdfCover"></div>
+          <div class="pdfCover program-cover"></div>
           <p lang="pt">Confira a programação completa do Festival.</p>
           <p lang="en">Check the complete program of the Festival.</p>
-          <a href="./docs/aMeninaDoLeite.pdf" download="Programação" class="btn download" title="Download">DOWNLOAD PDF</a>
+          <a href="./docs/PROGRAMACAO_SEMANADECINEMANEGRODEBELOHORIZONTE.pdf" download="Programação" class="btn download" title="Download">DOWNLOAD PDF</a>
         </div>
       </div>
     </section>
@@ -52,6 +52,8 @@ getHeader();
   <?php
   getFooterOpen(); 
 ?>
-  <script src="js/search.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+    <script>translate();</script>
 </body>
 </html>
